@@ -2,12 +2,12 @@
 
 1. iCalendar Topics
   1. [[History]]
-  2. Data Model
+  2. [[Data Model]]
     1. Simple Event
     2. Detailed Data Model Description
   3. Handling Dates and Times
-  4. Recurrences
-  5. Time zones
+  4. [[Recurrences]]
+  5. [[Time Zones]]
   6. Scheduling (iTip)
   7. Best Practices
   8. Putting it all together
