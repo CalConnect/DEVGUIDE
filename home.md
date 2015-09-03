@@ -8,6 +8,7 @@
   3. Handling Dates and Times
   4. [[Recurrences]]
   5. [[Time Zones]]
+  	1. [[What are Time Zones|Time Zones#what-are-time-zones]]
   6. Scheduling (iTip)
   7. Best Practices
   8. Putting it all together
