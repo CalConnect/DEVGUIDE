@@ -3,7 +3,7 @@
 1. iCalendar Topics
   1. [[History]]
   2. [[Data Model]]
-    1. Simple Event
+    1. [[Simple Event]]
     2. Detailed Data Model Description
   3. Handling Dates and Times
   4. [[Recurrences]]
