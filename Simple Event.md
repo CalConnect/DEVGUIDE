@@ -50,10 +50,12 @@ Note that the order of properties within a component is irrelevent.
 
 ### SUMMARY
 **`SUMMARY:Lunchtime meeting`**
+
 The summary property provides a title for the event. It should be brief but descriptive.
 
 ### UID
 **`UID:ff808181-1fd7389e-011f-d7389ef9-00000003`**
+
 This is a **globally unique** identifier for the event. It
 must not change if the event is altered or republished. This property
 is used by clients to identify the event. Events with a different **`UID`** are
@@ -83,6 +85,7 @@ time is hours minutes seconds in numeric form with no delimiters
 
 ### DURATION
 **`DURATION:PT1H`**
+
 The duration property takes a value which has the form
 ```
 [days] T [hours][minutes]
