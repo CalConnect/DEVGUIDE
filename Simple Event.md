@@ -16,11 +16,11 @@ PRODID:-//ABC Corporation//NONSGML My Product//EN
 END:VCALENDAR
 ```
 
-Then BEGIN and END of the VCALENDAR object are required and there should be
-only one VCALENDAR object per file.
+Then `BEGIN` and `END` of the `VCALENDAR` object are required and there should be
+only one `VCALENDAR` object per file.
 
-The VERSION property is required and currently always has the value "2.0".
-The PRODID should have a value that identifies your organization.
+The `VERSION` property is required and currently always has the value `2.0`.
+The `PRODID` should have a value that identifies your organization.
 
 As an  example we will create an event describing a period in time -
 a 1 hour lunch meeting. This event has the following properties:
