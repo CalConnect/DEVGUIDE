@@ -5,7 +5,7 @@ show the contents of an ics file that represents the event. An ics file is
 a representation of calendar events in the standard format with a filename
 that ends with ".ics".
 
-An ics file contains a **`VCALENDAR`** object which contains one or more
+An ics file contains a `VCALENDAR` object which contains one or more
 events.
 
 ```
@@ -16,11 +16,11 @@ PRODID:-//ABC Corporation//NONSGML My Product//EN
 END:VCALENDAR
 ```
 
-Then **`BEGIN`** and **`END`** of the **`VCALENDAR`** object are required and there should be
-only one **`VCALENDAR`** object per file.
+Then `BEGIN` and `END` of the `VCALENDAR` object are required and there should be
+only one `VCALENDAR` object per file.
 
-The **`VERSION`** property is required and currently always has the value **`2.0`**.
-The **`PRODID`** should have a value that identifies your organization.
+The `VERSION` property is required and currently always has the value `2.0`.
+The `PRODID` should have a value that identifies your organization.
 
 As an  example we will create an event describing a period in time -
 a 1 hour lunch meeting. This event has the following properties:
@@ -49,23 +49,23 @@ END:VCALENDAR
 Note that the order of properties within a component is irrelevent.
 
 ### SUMMARY
-**`SUMMARY:Lunchtime meeting`**
+`SUMMARY:Lunchtime meeting`
 
 The summary property provides a title for the event. It should be brief but descriptive.
 
 ### UID
-**`UID:ff808181-1fd7389e-011f-d7389ef9-00000003`**
+`UID:ff808181-1fd7389e-011f-d7389ef9-00000003`
 
 This is a **globally unique** identifier for the event. It
 must not change if the event is altered or republished. This property
-is used by clients to identify the event. Events with a different **`UID`** are
+is used by clients to identify the event. Events with a different `UID` are
 different events - even if they are at the same time.
 
 The value should be guaranteed to be unique. A uuid generator can do this.
 (Some reference to a UID generator?)
 
 ### DTSTART
-**`DTSTART;TZID=America/New_York:20160420T120000`**
+`DTSTART;TZID=America/New_York:20160420T120000`
 
 This defines the start of the event. In this case it is shown as a local
 time of 12:00:00, that is midday. Additionally there is a timezone parameter
@@ -84,7 +84,7 @@ time is hours minutes seconds in numeric form with no delimiters
 ```
 
 ### DURATION
-**`DURATION:PT1H`**
+`DURATION:PT1H`
 
 The duration property takes a value which has the form
 ```
@@ -99,7 +99,7 @@ minutes is a number followed by "M"
 
 ## Going further - where?
 While the above is sufficient for many cases it may not be enough.
-Where are we having our lunch meeting? For this we have the **`LOCATION`** property.
+Where are we having our lunch meeting? For this we have the `LOCATION` property.
 
 This property has a simple text value - make sure the value has enough
 information for all users of the event. For example, the value
@@ -128,7 +128,7 @@ END:VCALENDAR
 
 ## Going further - why?
 We know when the meeting takes place, and now we know where. But why
-are we meeting. For this we have the **`DESCRIPTION`** property. This
+are we meeting. For this we have the `DESCRIPTION` property. This
 property can take a (very) long description of the event. There are some
 rules that must be followed.
 * Line feeds MUST be represented as "\n"
