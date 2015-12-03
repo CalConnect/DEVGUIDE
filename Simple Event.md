@@ -88,7 +88,7 @@ time is hours minutes seconds in numeric form with no delimiters
 
 The duration property takes a value which has the form
 ```
-[days] T [hours][minutes]
+P [days] [T [hours][minutes]]
 
 where
 
@@ -120,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
-DURATION:T1H
+DURATION:PT1H
 LOCATION:Mo's bar - back room
 END:VEVENT
 END:VCALENDAR
@@ -155,7 +155,7 @@ BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
-DURATION:T1H
+DURATION:PT1H
 DESCRIPTION: We'll continue with the unfinshed business from last time,\n
  in particular:\n
    Can names start wih a number?\n
