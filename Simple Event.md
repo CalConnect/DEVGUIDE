@@ -5,7 +5,7 @@ show the contents of an ics file that represents the event. An ics file is
 a representation of calendar events in the standard format witha  filename
 that ends with ".ics".
 
-An ics file contains a VCALENDAR object which contains one or more
+An ics file contains a **`VCALENDAR`** object which contains one or more
 events.
 
 ```
@@ -14,8 +14,8 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
  events go here
 END:VCALENDAR
-
 ```
+
 Then BEGIN and END of the VCALENDAR object are required and there should be
 only one VCALENDAR object per file.
 
