@@ -41,17 +41,19 @@ BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
-DURATION:T1H
+DURATION:PT1H
 END:VEVENT
 END:VCALENDAR
 ```
 
 Note that the order of properties within a component is irrelevent.
 
-### **`SUMMARY`**
+### SUMMARY
+**`SUMMARY:Lunchtime meeting`**
 The summary property provides a title for the event. It should be brief but descriptive.
 
-### **`UID`**
+### UID
+**`UID:ff808181-1fd7389e-011f-d7389ef9-00000003`**
 This is a **globally unique** identifier for the event. It
 must not change if the event is altered or republished. This property
 is used by clients to identify the event. Events with a different **`UID`** are
@@ -60,7 +62,9 @@ different events - even if they are at the same time.
 The value should be guaranteed to be unique. A uuid generator can do this.
 (Some reference to a UID generator?)
 
-### **`DTSTART`**
+### DTSTART
+**`DTSTART;TZID=America/New_York:20160420T120000`**
+
 This defines the start of the event. In this case it is shown as a local
 time of 12:00:00, that is midday. Additionally there is a timezone parameter
 which shows that the time must be interpreted as being in that timezone.
@@ -77,7 +81,8 @@ date is year month day in numeric form with no delimiters
 time is hours minutes seconds in numeric form with no delimiters
 ```
 
-### **`DURATION`**
+### DURATION
+**`DURATION:PT1H`**
 The duration property takes a value which has the form
 ```
 [days] T [hours][minutes]
