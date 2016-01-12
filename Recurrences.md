@@ -57,11 +57,11 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
-UID:ff808181-1fd7389e-011f-d7389ef9-00000003
-DTSTART;TZID=America/New_York:20160420T120000@example.com
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com
+DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 LOCATION:Mo's bar - back room
-RRULE:FREQ=WEEKLY;COUNT=4
+RRULE:FREQ=WEEKLY;COUNT=3
 END:VEVENT
 END:VCALENDAR
 ```
@@ -97,15 +97,32 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
-UID:ff808181-1fd7389e-011f-d7389ef9-00000003
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 LOCATION:Mo's bar - back room
-RRULE:FREQ=WEEKLY;COUNT=4
+RRULE:FREQ=WEEKLY;COUNT=3
+DTSTART;TZID=America/New_York:20160427T120000
 END:VEVENT
 END:VCALENDAR
 ```
 
+@startuml
+title Example: Simple recurrent event
+
+object "Recurrence 1" as r1
+object "--Recurrence-- --2--" as r2
+object "Recurrence 3“ as r3
+
+r1 : Lunchtime meeting
+r1 : week 1
+r3 : Lunchtime meeting
+r3 : week 3
+
+r1 -right-> r2
+r2 -right-> r3 
+
+@enduml
 
 The **`EXDATE`** property is used to remove instances from a recurrence set defined by an **`RRULE`**. For example, a weekly meeting might occur on a public holiday, and thus won't take place so needs to be removed from the recurrence set.
 
