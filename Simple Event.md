@@ -118,8 +118,8 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
-UID:ff808181-1fd7389e-011f-d7389ef9-00000003
-DTSTART;TZID=America/New_York:20160420T120000@example.com
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com
+DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 LOCATION:Mo's bar - back room
 END:VEVENT
@@ -153,8 +153,8 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
-UID:ff808181-1fd7389e-011f-d7389ef9-00000003
-DTSTART;TZID=America/New_York:20160420T120000@example.com
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com
+DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 DESCRIPTION: We'll continue with the unfinished business from last time,\n
  in particular:\n
