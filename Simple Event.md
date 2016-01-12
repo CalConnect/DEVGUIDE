@@ -39,7 +39,7 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
-UID:ff808181-1fd7389e-011f-d7389ef9-00000003
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 END:VEVENT
@@ -54,7 +54,7 @@ Note that the order of properties within a component is irrelevent.
 The summary property provides a title for the event. It should be brief but descriptive.
 
 ### UID
-`UID:ff808181-1fd7389e-011f-d7389ef9-00000003`
+`UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com`
 
 This is a **globally unique** identifier for the event. It
 must not change if the event is altered or republished. This property
@@ -62,7 +62,7 @@ is used by clients to identify the event. Events with a different `UID` are
 different events - even if they are at the same time.
 
 The value should be guaranteed to be unique. A uuid generator can do this.
-(Some reference to a UID generator?)
+(Some reference to a UID generator?) Adding your domain to that makes it even better.
 
 ### DTSTART
 `DTSTART;TZID=America/New_York:20160420T120000`
@@ -119,7 +119,7 @@ PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
-DTSTART;TZID=America/New_York:20160420T120000
+DTSTART;TZID=America/New_York:20160420T120000@example.com
 DURATION:PT1H
 LOCATION:Mo's bar - back room
 END:VEVENT
@@ -154,7 +154,7 @@ PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
-DTSTART;TZID=America/New_York:20160420T120000
+DTSTART;TZID=America/New_York:20160420T120000@example.com
 DURATION:PT1H
 DESCRIPTION: We'll continue with the unfinshed business from last time,\n
  in particular:\n
