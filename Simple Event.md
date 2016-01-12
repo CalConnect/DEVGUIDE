@@ -46,7 +46,7 @@ END:VEVENT
 END:VCALENDAR
 ```
 
-Note that the order of properties within a component is irrelevent.
+Note that the order of properties within a component is irrelevant.
 
 ### SUMMARY
 `SUMMARY:Lunchtime meeting`
@@ -70,7 +70,7 @@ The value should be guaranteed to be unique. A uuid generator can do this.
 This defines the start of the event. In this case it is shown as a local
 time of 12:00:00, that is midday. Additionally there is a timezone parameter
 which shows that the time must be interpreted as being in that timezone.
-(Need a reference to a place ot identify timezone)
+(Need a reference to a place of identify timezone)
 
 The date and time part has the form
 
@@ -137,9 +137,9 @@ rules that must be followed.
 So the description might be something like:
 
 ```
-DESCRIPTION: We'll continue with the unfinshed business from last time,\n
+DESCRIPTION: We'll continue with the unfinished business from last time,\n
  in particular:\n
-   Can names start wih a number?\n
+   Can names start with a number?\n
    What if they are all numeric?\n
    Reuse of names - is it valid\n
  I remind the attendees we have spent 3 months on these subjects. We need
@@ -156,9 +156,9 @@ SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000@example.com
 DURATION:PT1H
-DESCRIPTION: We'll continue with the unfinshed business from last time,\n
+DESCRIPTION: We'll continue with the unfinished business from last time,\n
  in particular:\n
-   Can names start wih a number?\n
+   Can names start with a number?\n
    What if they are all numeric?\n
    Reuse of names - is it valid\n
  I remind the attendees we have spent 3 months on these subjects. We need
