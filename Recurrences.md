@@ -90,6 +90,8 @@ To fully understand all the possible variations of **`RRULE`** values, and possi
 
 The **`RDATE`** property is used to specify one-off instances in a recurrence set. This is useful for cases where a "regular" pattern cannot be defined, or one off "exceptions" to a regular pattern. e.g., a weekly occurring event needs one additional event in one particular week to follow-up on items discussed in the previous meeting. The value of the **`RDATE`** determines the start (and possibly duration) of the one-off instance. The recurrence instance specified by the **`RDATE`** can also be overridden if some other aspect of the event differs from the master component.
 
+The **`EXDATE`** property is used to remove instances from a recurrence set defined by an **`RRULE`**. For example, a weekly meeting might occur on a public holiday, and thus won't take place so needs to be removed from the recurrence set.
+
 The full ics file for this example with three occurrences without the second one now looks like:
 ```
 BEGIN:VCALENDAR
@@ -97,12 +99,12 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
-UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 LOCATION:Mo's bar - back room
 RRULE:FREQ=WEEKLY;COUNT=3
-DTSTART;TZID=America/New_York:20160427T120000
+EXDATE;TZID=America/New_York:20160427T120000
 END:VEVENT
 END:VCALENDAR
 ```
@@ -124,7 +126,6 @@ r2 -right-> r3
 
 @enduml
 
-The **`EXDATE`** property is used to remove instances from a recurrence set defined by an **`RRULE`**. For example, a weekly meeting might occur on a public holiday, and thus won't take place so needs to be removed from the recurrence set.
 
 ### *Overridden Instances*
 

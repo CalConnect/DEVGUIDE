@@ -39,7 +39,7 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
-UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 END:VEVENT
@@ -54,7 +54,7 @@ Note that the order of properties within a component is irrelevant.
 The summary property provides a title for the event. It should be brief but descriptive.
 
 ### UID
-`UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com`
+`UID:ff808181-1fd7389e-011f-d7389ef9-00000003`
 
 This is a **globally unique** identifier for the event. It
 must not change if the event is altered or republished. This property
@@ -118,7 +118,7 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
-UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 LOCATION:Mo's bar - back room
@@ -153,7 +153,7 @@ VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
-UID:ff808181-1fd7389e-011f-d7389ef9-00000003@example.com
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 DESCRIPTION: We'll continue with the unfinished business from last time,\n
