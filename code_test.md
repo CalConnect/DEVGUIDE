@@ -38,7 +38,7 @@ UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 LOCATION:Mo's bar - back room
-<font color=blue>**RRULE:FREQ=WEEKLY;COUNT=3**
+**RRULE:FREQ=WEEKLY;COUNT=3**
 END:VEVENT
 END:VCALENDAR
 }@enduml
@@ -50,5 +50,27 @@ Pro:
 Contra:
 - not the usual way of doing so
 - no background color change possible
+
+## another example with real uml
+
+@startuml
+title Example: Simple recurrent event
+
+object "Recurrence 1" as r1 {
+  Lunchtime meeting
+  week 1
+}
+
+object "--Recurrence-- --2--" as r2 {
+}
+
+object "Recurrence 3“ as r3 {
+  Lunchtime meeting
+  week 3
+}
+
+r1 -right-> r2
+r2 -right-> r3 
+@enduml
 
 
