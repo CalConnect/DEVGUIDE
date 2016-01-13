@@ -52,9 +52,3 @@ Contra:
 - no background color change possible
 
 
-## version check of plantuml
-
-@startuml
-version
-@enduml
-
