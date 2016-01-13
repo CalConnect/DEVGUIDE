@@ -76,8 +76,7 @@ r1 -right-> r2
 r2 -right-> r3 
 @enduml
 
-<pre><code>
-BEGIN:VCALENDAR
+<pre><code>BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
