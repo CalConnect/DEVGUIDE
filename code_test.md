@@ -50,6 +50,7 @@ Pro:
 Contra:
 - not the usual way of doing so
 - no background color change possible
+- no copy and paste, because it becomes an image
 
 ## another example with real uml
 
