@@ -6,6 +6,10 @@
 A recurring event is one that repeats at regular or irregular intervals. For example, a weekly lunch meeting, an anniversary, etc. These often occur in real life and thus need to be represented in digital calendars and iCalendar. Recurring events are often the source of interoperability problems with iCalendar, so deserve special attention.
 
 @startuml
+skinparam object {
+ArrowColor RoyalBlue
+BorderColor RoyalBlue
+}
 title Example: Simple recurrent event
 
 object "Recurrence 1" as r1
@@ -67,6 +71,10 @@ END:VCALENDAR
 ```
 
 @startuml
+skinparam object {
+ArrowColor RoyalBlue
+BorderColor RoyalBlue
+}
 title Example: Simple recurrent event
 
 object "Recurrence 1" as r1 {
@@ -114,6 +122,10 @@ END:VCALENDAR
 ```
 
 @startuml
+skinparam object {
+ArrowColor RoyalBlue
+BorderColor RoyalBlue
+}
 title Example: Simple recurrent event
 
 object "Recurrence 1" as r1 {
