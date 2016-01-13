@@ -28,7 +28,8 @@ Contra:
 ## using plantuml / salt
 
 @startuml
-salt{
+salt
+{
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
@@ -41,7 +42,8 @@ LOCATION:Mo's bar - back room
 **RRULE:FREQ=WEEKLY;COUNT=3**
 END:VEVENT
 END:VCALENDAR
-}@enduml
+}
+@enduml
 
 Pro:
 - still easy
