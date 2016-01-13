@@ -33,18 +33,17 @@ a 1 hour lunch meeting. This event has the following properties:
 We will add further properties later. For now this event added to the ics file
 will look like:
 
-```
-BEGIN:VCALENDAR
+<pre><code>BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
-BEGIN:VEVENT
+<strong>BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
-END:VEVENT
+END:VEVENT</strong>
 END:VCALENDAR
-```
+</code></pre>
 
 Note that the order of properties within a component is irrelevant.
 
@@ -112,8 +111,7 @@ LOCATION:Mo's bar - back room
 ```
 
 The full ics file now looks like:
-```
-BEGIN:VCALENDAR
+<pre><code>BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
@@ -121,10 +119,10 @@ SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
-LOCATION:Mo's bar - back room
+<strong>LOCATION:Mo's bar - back room</strong>
 END:VEVENT
 END:VCALENDAR
-```
+</code></pre>
 
 ## Going further - why?
 We know when the meeting takes place, and now we know where. But why
@@ -147,8 +145,8 @@ DESCRIPTION: We'll continue with the unfinished business from last time,\n
 ```
 
 So now our full ics file looks like:
-```
-BEGIN:VCALENDAR
+
+<pre><code>BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
@@ -156,14 +154,14 @@ SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
-DESCRIPTION: We'll continue with the unfinished business from last time,\n
+<strong>DESCRIPTION: We'll continue with the unfinished business from last time,\n
  in particular:\n
    Can names start with a number?\n
    What if they are all numeric?\n
    Reuse of names - is it valid\n
  I remind the attendees we have spent 3 months on these subjects. We need
- closure!!!
+ closure!!!</strong>
 LOCATION:Mo's bar - back room
 END:VEVENT
 END:VCALENDAR
-```
+</code></pre>
