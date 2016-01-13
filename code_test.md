@@ -76,4 +76,18 @@ r1 -right-> r2
 r2 -right-> r3 
 @enduml
 
+<pre><code>
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC Corporation//NONSGML My Product//EN
+BEGIN:VEVENT
+SUMMARY:Lunchtime meeting
+UID:ff808181-1fd7389e-011f-d7389ef9-00000003
+DTSTART;TZID=America/New_York:20160420T120000
+DURATION:PT1H
+LOCATION:Mo's bar - back room
+<strong>RRULE:FREQ=WEEKLY;COUNT=3</strong>
+END:VEVENT
+END:VCALENDAR
+</pre></code>
 
