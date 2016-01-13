@@ -69,16 +69,20 @@ END:VCALENDAR
 @startuml
 title Example: Simple recurrent event
 
-object "Recurrence 1" as r1
-object "Recurrence 2" as r2
-object "Recurrence 3“ as r3
+object "Recurrence 1" as r1 {
+  Lunchtime meeting
+  week 1
+}
 
-r1 : Lunchtime meeting
-r1 : week 1
-r2 : Lunchtime meeting
-r2 : week 2
-r3 : Lunchtime meeting
-r3 : week 3
+object "Recurrence 2" as r2 {
+  Lunchtime meeting
+  week 2
+}
+
+object "Recurrence 3“ as r3 {
+  Lunchtime meeting
+  week 3
+}
 
 r1 -right-> r2
 r2 -right-> r3 
@@ -112,18 +116,20 @@ END:VCALENDAR
 @startuml
 title Example: Simple recurrent event
 
-object "Recurrence 1" as r1
-object "--Recurrence-- --2--" as r2
-object "Recurrence 3“ as r3
+object "Recurrence 1" as r1 {
+  Lunchtime meeting
+  week 1
+}
 
-r1 : Lunchtime meeting
-r1 : week 1
-r3 : Lunchtime meeting
-r3 : week 3
+object "--Recurrence-- --2--" as r2 {
+}
 
-r1 -right-> r2
-r2 -right-> r3 
+object "Recurrence 3“ as r3 {
+  Lunchtime meeting
+  week 3
+}
 
+r1 -right-> r3
 @enduml
 
 
