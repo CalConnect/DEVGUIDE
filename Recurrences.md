@@ -88,7 +88,7 @@ r1 -right-> r2
 r2 -right-> r3 
 @enduml
 
-To fully understand all the possible variations of **`RRULE`** values, and possible patterns that can be generated, you need to read the iCalendar specification, in particular Sections 3.3.10 & 3.8.5.3.
+To fully understand all the possible variations of **`RRULE`** values, and possible patterns that can be generated, you need to read the iCalendar specification, in particular Sections [3.3.10](https://tools.ietf.org/html/rfc5545#section-3.3.10) & [3.8.5.3](https://tools.ietf.org/html/rfc5545#section-3.8.5.3)
 
 ### *The `RDATE` and `EXDATE` Properties*
 
