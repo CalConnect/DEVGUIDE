@@ -105,8 +105,8 @@ The **`RDATE`** property is used to specify one-off instances in a recurrence se
 The **`EXDATE`** property is used to remove instances from a recurrence set defined by an **`RRULE`**. For example, a weekly meeting might occur on a public holiday, and thus won't take place so needs to be removed from the recurrence set.
 
 The full ics file for this example with three occurrences without the second one now looks like:
-```
-BEGIN:VCALENDAR
+
+<pre><code>BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
@@ -116,10 +116,10 @@ DTSTART;TZID=America/New_York:20160420T120000
 DURATION:PT1H
 LOCATION:Mo's bar - back room
 RRULE:FREQ=WEEKLY;COUNT=3
-EXDATE;TZID=America/New_York:20160427T120000
+<strong>EXDATE;TZID=America/New_York:20160427T120000</strong>
 END:VEVENT
 END:VCALENDAR
-```
+</code></pre>
 
 @startuml
 skinparam object {
