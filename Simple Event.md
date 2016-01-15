@@ -61,7 +61,7 @@ is used by clients to identify the event. Events with a different `UID` are
 different events - even if they are at the same time.
 
 The value should be guaranteed to be unique. A uuid generator can do this.
-(Some reference to a UID generator?) Adding your domain to that makes it even better.
+(Some reference to a UID generator?)
 
 ### DTSTART
 `DTSTART;TZID=America/New_York:20160420T120000`
