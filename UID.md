@@ -45,6 +45,9 @@ In this scenario, the uniqueness will be assured by the `UID` together with the 
 An example can be seen below:
 
 <pre><code>
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC Corporation//NONSGML My Product//EN
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
 <strong>UID:ff808181-1fd7389e-011f-d7389ef9-00000003</strong>
@@ -53,9 +56,6 @@ DTEND;TZID=America/New_York:20160226T120000
 RRULE:FREQ=DAILY
 LOCATION:Mo's bar - back room
 END:VEVENT
-</code></pre>
-
-<pre><code>
 BEGIN:VEVENT
 SUMMARY:Lunchtime meeting
 <strong>UID:ff808181-1fd7389e-011f-d7389ef9-00000003
@@ -64,6 +64,7 @@ DTSTART;TZID=America/New_York:20160223T110000
 DTEND;TZID=America/New_York:20160226T120000
 LOCATION:Mo's bar - back room
 END:VEVENT
+END:VCALENDAR
 </code></pre>
 
 On the second event the uniqueness will consist on: 
