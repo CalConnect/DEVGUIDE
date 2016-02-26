@@ -52,7 +52,7 @@ Note that the order of properties within a component is irrelevant.
 
 The summary property provides a title for the event. It should be brief but descriptive.
 
-### UID
+### [[UID]]
 `UID:ff808181-1fd7389e-011f-d7389ef9-00000003`
 
 This is a **globally unique** identifier for the event. It
