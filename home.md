@@ -6,7 +6,7 @@
     1. [[Simple Event]]
     2. [[UID]]
     3. Detailed Data Model Description
-  3. Handling Dates and Times
+  3. [[Handling Dates and Times]]
   4. [[Recurrences]]
   5. [[Time Zones]]
   	1. [[What are Time Zones|Time Zones#what-are-time-zones]]
