@@ -66,14 +66,14 @@ in what time zone they are observed. For example '20160307T230000' will indicate
 Example: 20160307T230000Z.
 It is illegal to apply a 'TZID' property parameter to `DATE-TIME` properties with values in `UTC`
 
-# Using TIME ZONE values instead of `LOCAL TIME` 
+# Using `TIME ZONE` values instead of `LOCAL TIME` 
 
 Using `DATE WITH LOCAL TIME` values assigned to your properties is the easiest way of using the `DATE-TIME` value type but in the same time is the less recommended.
 Using them may cause synchronization problems for users that are in different time zones and they need to participate at a common event.
 For example, creating an event that has as Start Date Time the value '20160307T230000', means that every user, no matter in what time zone he will be at that moment, will have in his calendar an event at 11 PM, on March 7, 2016.
 This will definitely lead to synhronization issues between all users.
 
-# UTC and Time zone Handling
+# `UTC` and `TIME ZONE` Handling
 
 UTC Time and Time zone reference are two of the ways on managing the values for the `DATE-TIME` value type.
 Dates with local time and time zone reference should be preferred instead of `UTC Time`. Using Time zone information helps the Calendar components to be precise when talking about events that occur more than once when changing from daylight to standard time.
