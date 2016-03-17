@@ -26,7 +26,7 @@ This value is basically composed on the year value, month value and day value.
 Month value has 4 digits, the month and the day values contain each of them 2 digits.
 
 An example of a `DATE` value type is:
-`20160226` - February 26, 3016
+`20160226` - February 26, 2016
 
 Below there is an example of an event having the properties `DTSTART` and `DTEND` set with `DATE` value types
 <pre><code>
@@ -71,7 +71,7 @@ It is illegal to apply a 'TZID' property parameter to `DATE-TIME` properties wit
 Using `DATE WITH LOCAL TIME` values assigned to your properties is the easiest way of using the `DATE-TIME` value type but in the same time is the less recommended.
 Using them may cause synchronization problems for users that are in different time zones and they need to participate at a common event.
 For example, creating an event that has as Start Date Time the value '20160307T230000', means that every user, no matter in what time zone he will be at that moment, will have in his calendar an event at 11 PM, on March 7, 2016.
-This will definitely lead to synhronization issues between all users.
+This will definitely lead to synchronization issues between all users.
 
 # `UTC` and `TIME ZONE` Handling
 
