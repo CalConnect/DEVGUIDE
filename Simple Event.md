@@ -86,15 +86,19 @@ time is hours minutes seconds in numeric form with no delimiters
 ### DURATION
 **`DURATION:PT1H`**
 
-The duration property takes a value which has the form
+The duration property takes a value which has the (simplified) form
 ```
-[days] T [hours][minutes]
+P days
+P days T hours [minutes]
+p weeks
+
 
 where
 
-days is a number
+days is a number followed by "D" e.g. P4D
 hours is a number followed by "H"
 minutes is a number followed by "M"
+weeks is a number follwed by "W" e.g P1W
 ```
 
 ## Going further - where?
@@ -137,7 +141,7 @@ rules that must be followed.
 So the description might be something like:
 
 ```
-DESCRIPTION: We'll continue with the unfinshed business from last time,\n
+DESCRIPTION: We'll continue with the unfinished business from last time,\n
  in particular:\n
    Can names start wih a number?\n
    What if they are all numeric?\n
@@ -156,7 +160,7 @@ SUMMARY:Lunchtime meeting
 UID:ff808181-1fd7389e-011f-d7389ef9-00000003
 DTSTART;TZID=America/New_York:20160420T120000
 DURATION:T1H
-DESCRIPTION: We'll continue with the unfinshed business from last time,\n
+DESCRIPTION: We'll continue with the unfinished business from last time,\n
  in particular:\n
    Can names start wih a number?\n
    What if they are all numeric?\n
