@@ -1,1 +1,1 @@
-Copyright © 2015 The Calendaring and Scheduling Consortium. The contents of this wiki are freely available licensed via a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
+Copyright © 2016 The Calendaring and Scheduling Consortium. The contents of this wiki are freely available licensed via a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
