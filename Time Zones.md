@@ -1,7 +1,6 @@
+# iCalendar Time Zones
 
-<!-- --- title: iCalendar Time Zones -->
-
-##What are time zones?
+## What are time zones?
 
 Time zones provide a way for different geopolitical regions to define a "local" time and a set of rules for daylight saving time that is specific to that region. The "local" time is usually specified as an offset from Universal Coordinated Time (UTC) - the standard reference for time of day (which used to be Greenwich Mean Time - GMT).
 
@@ -20,15 +19,15 @@ If a floating time is specified instead of one with a timezone, then things are 
 This simple example would suggest that it is never wise to use floating time events. That is certainly true for events that involve meetings between people. However, the most common use for floating time is for events that have a specific meaning to the owner of the calendar. For example, if the calendar owner always takes a lunch break at 12 pm, no matter where they are, by specifying floating times, the 12 pm event will always occur at that time in whichever locality the user happens to be in. Of course that requires the digital calendar application to know what the correct locality and associated timezone is.
 
 
-##Sources of Time Zone Information
+## Sources of Time Zone Information
 
 TBD: Olson/IANA & Windows
 
-##Time Zone Distribution Service
+## Time Zone Distribution Service
 
 TBD
 
-##Best Practice
+## Best Practice
 
 By default always create digital calendar events or tasks using a timezone to "anchor" the start, end, due, etc times of the event or task.
 
