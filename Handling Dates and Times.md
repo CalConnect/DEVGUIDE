@@ -70,8 +70,8 @@ It is illegal to apply a 'TZID' property parameter to `DATE-TIME` properties wit
 
 Using `DATE WITH LOCAL TIME` values assigned to your properties is the easiest way of using the `DATE-TIME` value type but in the same time is the less recommended.
 Using them may cause synchronization problems for users that are in different time zones and they need to participate at a common event.
-For example, creating an event that has as Start Date Time the value '20160307T230000', means that every user, no matter in what time zone he will be at that moment, will have in his calendar an event at 11 PM, on March 7, 2016.
-This will definitely lead to synchronization issues between all users.
+For example, creating an event that has as Start Date Time the value '20160307T230000', means that every participant, no matter in what time zone he will be at that moment, will have in his calendar an event at 11 PM, on March 7, 2016.
+This will definitely lead to synchronization issues between all participants.
 
 # `UTC` and `TIME ZONE` Handling
 
