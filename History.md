@@ -1,5 +1,4 @@
-
-<!-- --- title: A History of iCalendar -->
+# A History of iCalendar
 
 The iCalendar specification was first produced by the IETF in 1998 as [RFC 2445](https://www.rfc-editor.org/rfc/rfc2445.txt). Since then it has become the dominant standard for calendar data interchange on the internet and between devices (desktop computers, mobile phones, etc). The specification was revised in 2009 as [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545.txt).
 
