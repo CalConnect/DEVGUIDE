@@ -25,6 +25,10 @@
 4. vCard Topics
 5. CardDAV Topics
 
-Appendix: [[Standards]]
-Appendix: How to contribute to this document
+
+## Appendices
+
+1. [[Standards]]
+2. [[Examples]]
+3. How to contribute to this document
 
