@@ -1,5 +1,2 @@
-# Introduction #
+# How to Contribute to this Document #
 
-## Links ##
-[[Table of Contents]]
-[[How to Contribute]]
