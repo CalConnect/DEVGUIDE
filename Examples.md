@@ -29,4 +29,9 @@ All these examples are in the form of simple C programs and are available at
 
 1. [Simple event](https://github.com/CalConnect/DEVGUIDE-EXAMPLES/blob/master/libical/SimpleEvent.c)
 
+## Ruby
+[iCalendar](https://github.com/icalendar/icalendar) is a Ruby library for dealing with iCalendar files.
+
+More Ruby calendar and scheduling libraries can be found at [Ruby Toolbox](https://www.ruby-toolbox.com/categories/calendars)
+
 ## Javascript

@@ -1,0 +1,98 @@
+
+h1#wikititle {
+  color: white;
+}
+
+
+
+code {
+  color: #101010
+}
+
+/* @control searchbar */
+#searchhead #searchbar {
+  float: right;
+  padding: 2px 0 0 0;
+  overflow: hidden;
+}
+
+#searchhead #searchbar #searchbar-fauxtext {
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  overflow: hidden;
+  height: 2.2em;
+
+  border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+}
+
+#searchhead #searchbar #searchbar-fauxtext input#search-query {
+  border: none;
+  color: #000;
+  float: left;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  height: inherit;
+  padding: 0 .5em;
+
+  -webkit-focus-ring: none;
+}
+
+.ie8 #searchhead #searchbar #searchbar-fauxtext input#search-query {
+  padding: 0.5em 0 0 0.5em;
+}
+
+#searchhead #searchbar #searchbar-fauxtext input#search-query.ph {
+  color: #999;
+}
+
+#searchhead #searchbar #searchbar-fauxtext #search-submit {
+  border: 0;
+  border-left: 1px solid #d4d4d4;
+  cursor: pointer;
+  margin: 0 !important;
+  padding: 0;
+  float: right;
+  height: inherit;
+
+  border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+}
+
+#searchhead #searchbar #searchbar-fauxtext #search-submit span {
+  background-image: url(../images/icon-sprite.png);
+  background-position: -431px -1px;
+  background-repeat: no-repeat;
+  display: block;
+  height: inherit;
+  overflow: hidden;
+  text-indent: -5000px;
+  width: 32px;
+}
+
+.ff #searchhead #searchbar #searchbar-fauxtext #search-submit span,
+.ie #searchhead #searchbar #searchbar-fauxtext #search-submit span {
+  height: 2.2em;
+}
+
+#searchhead #searchbar #searchbar-fauxtext #search-submit:hover span {
+  background-position: -431px -28px;
+  padding: 0;
+}
+
+@media all and (min-width: 940px) {
+  #searchhead #searchbar {
+    padding: 0;
+  }
+
+  #searchhead #searchbar #searchbar-fauxtext #search-submit span {
+    width: 28px;
+  }
+
+  #searchhead #searchbar #searchbar-fauxtext #search-submit:hover span {
+    background-position: -431px -28px;
+  }
+}
+
