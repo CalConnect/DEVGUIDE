@@ -126,7 +126,7 @@ END:VCALENDAR
 
 ## Going further - why?
 We know when the meeting takes place, and now we know where. But why
-are we meeting. For this we have the `DESCRIPTION` property. This
+are we meeting? For this we have the `DESCRIPTION` property. This
 property can take a (very) long description of the event. There are some
 rules that must be followed.
 * Line feeds MUST be represented as "\n"
