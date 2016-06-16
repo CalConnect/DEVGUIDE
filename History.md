@@ -1,6 +1,11 @@
 # A History of iCalendar
 
-The iCalendar specification was first produced by the IETF in 1998 as [RFC 2445](https://www.rfc-editor.org/rfc/rfc2445.txt). Since then it has become the dominant standard for calendar data interchange on the internet and between devices (desktop computers, mobile phones, etc). The specification was revised in 2009 as [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545.txt).
+The iCalendar data format provides a way to represent and
+exchange calendaring and scheduling information such as events,
+to-dos, journal entries, and free/busy information, independent of any
+particular calendar service or protocol.
+
+The iCalendar specification was first produced by the [IETF](https://ietf.org) in 1998 as [RFC 2445](https://www.rfc-editor.org/rfc/rfc2445.txt). Since then it has become the dominant standard for calendar data interchange on the internet and between devices (desktop computers, mobile phones, etc). The specification was revised in 2009 as [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545.txt).
 
 Alongside iCalendar is the iTIP specification ([RFC 2446](https://www.rfc-editor.org/rfc/rfc2446.txt) and revised as [RFC 5546](https://www.rfc-editor.org/rfc/rfc5546.txt)). iTIP defines how iCalendar is used to carry out scheduling operations (for example, how an organizer can invite attendees to a meeting and receive their replies). This forms the basis for email-based scheduling using iMIP (the specification that describes how to use iTIP with email - [RFC 2447](https://www.rfc-editor.org/rfc/rfc2447.txt) and revised as [RFC 6047](https://www.rfc-editor.org/rfc/rfc6047.txt)).
 
