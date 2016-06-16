@@ -1,7 +1,6 @@
-# [[Introduction]] #
-
 # Table of Contents #
 
+0. [[Introduction]]
 1. iCalendar Topics
   1. [[History]]
   2. [[Data Model]]
