@@ -8,6 +8,8 @@ The primary audience for this document is developers at all levels - from hobbyi
 
 The wiki is available for anyone to access. Updates, additions, and corrections are handled by an editorial team at CalConnect. Details on how to contribute to this wiki are described below.
 
+The Table of Contents shows an outline of the various topics that have been identified as key items of interest to the community. Some of these items already have content available, with the others expected to be filled by contributions from the community.
+
 ## Links ##
 [[Table of Contents]]
 
