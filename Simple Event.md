@@ -60,7 +60,7 @@ must not change if the event is altered or republished. This property
 is used by clients to identify the event. Events with a different `UID` are
 different events - even if they are at the same time.
 
-The value should be guaranteed to be unique. A uuid generator can do this.
+The value should be guaranteed to be unique and should follow the rules of [RFC 4122 A Universally Unique Identifier (UUID) URN Namespace](https://tools.ietf.org/html/rfc4122). A uuid generator can do this.
 (Some reference to a UID generator?)
 
 ### DTSTART
