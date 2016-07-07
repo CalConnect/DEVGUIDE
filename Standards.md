@@ -3,18 +3,28 @@
 Additionally see [Index to Calendaring and Scheduling Standards](https://www.calconnect.org/resources/calendaring-standards)
 
 ## Calendaring standards
+   *  [RFC 5545 Internet Calendaring and Scheduling Core Object Specification](#RFC5545) - [IETF RFC](https://tools.ietf.org/html/rfc5545)
+   *  [RFC 5546 iCalendar Transport-Independent Interoperability Protocol (iTIP)](#RFC5546)
+   *  [RFC 6047 iCalendar Message-Based Interoperability Protocol (iMIP)](#RFC6047)
+   *  [RFC 6321 xCal: The XML format for iCalendar](#RFC6321)
 
-[RFC 5545 Internet Calendaring and Scheduling Core Object Specification](https://tools.ietf.org/html/rfc5545)
+<h5 id="RFC5545">RFC 5545: Internet Calendaring and Scheduling Core Object Specification</h5>
+[RFC 5545](https://tools.ietf.org/html/rfc5545) is the base iCalendar specification which defines the data model. All calendaring properties are defined by this specification and a number of extensions. This specification also describes the iCalendar data format.
 
-This is the base iCalendar specification which defines the data model.
+Other specifications describe different formats for the data such as json and XML. All other formats MUST retain compatability with this specifications data model as iCalendar is still the main storage and transfer format. 
 
+<h5 id="RFC5546">iCalendar Transport-Independent Interoperability Protocol (iTIP)</h5>
 [RFC 5546	iCalendar Transport-Independent Interoperability Protocol (iTIP)](https://tools.ietf.org/html/rfc5546)
 Scheduling Events, BusyTime, To-dos and Journal Entries.
 Specifies the mechanisms for calendaring event interchange between calendar servers.
 
-[RFC 6047 iCalendar Message-Based Interoperability Protocol (iMIP)](https://tools.ietf.org/html/rfc6047)
-Specifies how to exchange calendaring data via e-mail.
+See [[iTip]] for a more complete description.
 
+<h5 id="RFC6047">iCalendar Message-Based Interoperability Protocol (iMIP)</h5>
+[RFC 6047 iCalendar Message-Based Interoperability Protocol (iMIP)](https://tools.ietf.org/html/rfc6047)
+Specifies how to exchange calendaring data using iTip via e-mail. 
+
+<h5 id="RFC6321">xCal: The XML format for iCalendar</h5>
 [RFC 6321 xCal: The XML format for iCalendar](https://tools.ietf.org/html/rfc6321)
 This specification defines a format for representing iCalendar data in XML. 
 More specifically, it defines an XML format that allows iCalendar data to be converted to XML, 
