@@ -11,10 +11,10 @@
   4. [[Recurrences]]
   5. [[Time Zones]]
   	1. [[What are Time Zones|Time Zones#what-are-time-zones]]
-  6. Scheduling [[Scheduling]]
-    1. iTip [[iTip]]
-    1. FreeBusy and Availability [[FreeBusyAvailability]]
-    1. [VAVAILABILITY](vavailability) 
+  6. [[Scheduling]]
+    1. [[iTip]]
+    1. [[FreeBusy and Availability|FreeBusyAvailability]]
+    1. [[VAVAILABILITY|vavailability]] 
   7. Best Practices
   8. Putting it all together
 2. CalDAV Topics
