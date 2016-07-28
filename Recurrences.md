@@ -47,7 +47,7 @@ Here are some simple examples:
 * **`RRULE:FREQ=WEEKLY;INTERVAL=2`**
   - *An event that occurs every two weeks.*
 
-* **`RRULE:FREQ=MONTHLY;BYDAY=-1`**
+* **`RRULE:FREQ=MONTHLY;BYMONTHDAY=-1`**
   - *An event that occurs on the last day of every month.*
 
 An **`RRULE`** property can appear at most once in a calendar component. It is used only in the component that defines the master instance of a recurrence set (it can never be used in an overridden instance).
