@@ -1,3 +1,3 @@
-CalConnect project to provide documentation on Calndaring and related issues.
+CalConnect project to provide documentation on Calendaring and related issues.
 
-View the site at http://devguide-calconnect.rhcloud.com/Home
+View the site at http://devguide.calconnect.org
