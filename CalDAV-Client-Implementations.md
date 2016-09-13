@@ -208,7 +208,7 @@ SimpleCal is a Windows calendar application built on top of the CalDAV standard.
 
 **Status uncertain; appears to have been abandoned since 2013**
 
-### Spicebird
+### [Spicebird](http://spicebird.org/)
 **Open Source/Linux & Windows**
 
 Spicebird is a collaboration application built on top of various other open source software, mainly the Mozilla Platform and Thunderbird. CalDAV support is included.
