@@ -1,5 +1,4 @@
-# Disclaimer
-Please note that the authors of this site have not made any attempt to confirm support for CardDAV in all of the implementations, products or services listed here. 
+# CardDAV services
 
 ##fruux
 **Synchronization Service**

@@ -10,9 +10,13 @@ The wiki is available for anyone to access. Updates, additions, and corrections 
 
 The Table of Contents shows an outline of the various topics that have been identified as key items of interest to the community. Some of these items already have content available, with the others expected to be filled by contributions from the community.
 
-This site is maintained by people involved in the development of calendaring and scheduling standards and/or implementations. Although the content contributors are employed by a range of commercial and non-profit organizations, this site does not represent the views or opinions of those organizations.
-
-## Links ##
+## Links 
 [[Table of Contents]]
 
 [[How to Contribute]]
+
+## Disclaimer
+
+This site is maintained by people involved in the development of calendaring and scheduling standards and/or implementations. Although the content contributors are employed by a range of commercial and non-profit organizations, this site does not represent the views or opinions of those organizations.
+
+Please note that the authors of this site have not made any attempt to confirm support for any of the implementations, products or services listed on this site.
