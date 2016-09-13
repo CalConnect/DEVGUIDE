@@ -1,37 +1,36 @@
-# Disclaimer
-Please note that the authors of this site have not made any attempt to confirm support for CalDAV in all of the implementations, products or services listed here. 
+# CalDAV services
 
-##fruux
+### fruux
 **Synchronization Service**
 
 fruux is compatible with CalDAV and CardDAV.
 
-##Google
+### Google
 **Free sign-up**
 
 Google Calendar is CalDAV Enabled.
 
-##Landmarks
+### Landmarks
 **CalDAV/CardDAV service**
 
 Landmarks is a CalDAV/CardDAV service available initially in Germany.
 
-##Memotoo
+### Memotoo
 **Synchronization Service**
 
 Memotoo is compatible with CalDAV and CardDAV.
 
-##MobileMe
+### MobileMe
 **Sign-up required**
 
 MobileMe Calendar is CalDAV Enabled.
 
-##Servermx.com
+### Servermx.com
 **E-Mail/CalDAV/CardDAV service**
 
 servermx.com offers e-mail hosting plus Contacts and Calendars via CalDAV and CardDAV support.
 
-##Yahoo! Calendar
+### Yahoo! Calendar
 **Free sign-up**
 
 The new Yahoo! Calendar is CalDAV enabled. 
