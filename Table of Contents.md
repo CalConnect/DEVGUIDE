@@ -24,8 +24,9 @@
         1. [[Bootstrapping]]
         1. Finding user calendars
         1. Synchronizing data
-  1. Server
-  1. Best Practices
+    1. Server
+        1. [Implementations](CalDAV-Server-Implementations)
+    1. Best Practices
 3. Event Publishing Topics
 4. vCard Topics
 5. CardDAV Topics

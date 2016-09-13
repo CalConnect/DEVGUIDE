@@ -3,8 +3,8 @@ Please note that the authors of this site have not made any attempt to confirm s
 
 Updates and additions may be provided by following the instructions at [[How to Contribute]]
 
-## 2Do
-**Commercial/iOS**
+####2Do
+#####Commercial/iOS
 2Do is a task (to-do) manager for iOS that uses CalDAV to store and access the task remotely.
 
 ## aCal for Android
