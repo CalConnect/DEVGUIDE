@@ -2,22 +2,22 @@
 
 0. [Introduction](home)
 1. iCalendar Topics
-  1. [[History]]
-  2. [[Data Model]]
-    1. [[Simple Event]]
-    2. [[UID]]
-    3. Detailed Data Model Description
-  3. [[Handling Dates and Times]]
-  4. [[Recurrences]]
-  5. [[Time Zones]]
-  	1. [What are Time Zones](Time Zones#what-are-time-zones)
-  6. [[Scheduling]]
-    1. [iTIP](iTIP)
-    1. [iMIP](iMIP)
-    1. [FreeBusy and Availability](FreeBusyAvailability)
-    1. [VAVAILABILITY](vavailability) 
-  7. Best Practices
-  8. Putting it all together
+  a. [[History]]
+  a. [[Data Model]]
+    i. [[Simple Event]]
+    i. [[UID]]
+    i. Detailed Data Model Description
+  a. [[Handling Dates and Times]]
+  a. [[Recurrences]]
+  a. [[Time Zones]]
+  	  i. [What are Time Zones](Time Zones#what-are-time-zones)
+  a. [[Scheduling]]
+    i. [iTIP](iTIP)
+    i. [iMIP](iMIP)
+    i. [FreeBusy and Availability](FreeBusyAvailability)
+    i. [VAVAILABILITY](vavailability) 
+  a. Best Practices
+  a. Putting it all together
 2. CalDAV
     1. [Introduction](CalDAV-introduction)
     1. Client
