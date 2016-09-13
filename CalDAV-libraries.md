@@ -1,8 +1,6 @@
 # Disclaimer
 Please note that the authors of this site have not made any attempt to confirm support for CalDAV in all of the implementations, products or services listed here. 
 
-Updates and additions may be provided by following the instructions at [[How to Contribute]]
-
 ##CalDAV4j
 **Open source/Java**
 

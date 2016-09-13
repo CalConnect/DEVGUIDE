@@ -27,6 +27,7 @@
     1. Server
         1. [Implementations](CalDAV-Server-Implementations)
     1. [Libraries and tools](CalDAV-libraries)
+    1. [Service providers](CalDAV-services)
 3. Event Publishing Topics
 4. vCard Topics
 5. CardDAV Topics
