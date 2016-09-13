@@ -17,14 +17,15 @@
     1. [[VAVAILABILITY|vavailability]] 
   7. Best Practices
   8. Putting it all together
-2. CalDAV Topics
-  1. History
-  2. Client
-    1. [[Bootstrapping]]
-    2. Finding user calendars
-    3. Synchronizing data
-  3. Server
-  4. Best Practices
+2. CalDAV
+    1. [Introduction](CalDAV-introduction)
+    1. Client
+        1. [Implementations](CalDAV-Client-Implementations)
+        1. [[Bootstrapping]]
+        1. Finding user calendars
+        1. Synchronizing data
+  1. Server
+  1. Best Practices
 3. Event Publishing Topics
 4. vCard Topics
 5. CardDAV Topics
@@ -33,6 +34,6 @@
 ## Appendices
 
 1. [[Standards]]
-2. [[Examples]]
-3. [[How to Contribute]] to this document
+1. [[Examples]]
+1. [[How to Contribute]] to this document
 

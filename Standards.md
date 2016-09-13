@@ -1,9 +1,10 @@
 # The standards 
+Standards are key to providing interoperability between products, particularly with a client/server protocol.
 
-Additionally see [Index to Calendaring and Scheduling Standards](https://www.calconnect.org/resources/calendaring-standards)
+In addition to those below see [Index to Calendaring and Scheduling Standards](https://www.calconnect.org/resources/calendaring-standards)
 
 ## Which MUST be supported?
-To be able to carry out reliable interopreable calendaring the following are a requirement as they define teh data model and extensions. Even if you do not intend implementing some of the features, you may see the properties defined in these specifications.
+To be able to carry out reliable interoperable calendaring the following are a requirement as they define the data model and extensions. Even if you do not intend implementing some of the features, you may see the properties defined in these specifications.
 
 Even if you cannot support the specification, for example RFC 7529, you should to be able to recognize it and fail gracefully. 
 
@@ -23,6 +24,46 @@ These specifications define different representations of the standard iCalendar 
    *  [RFC 6321: xCal: The XML format for iCalendar](#RFC6321) - [IETF RFC](https://tools.ietf.org/html/rfc6321)
    *  [RFC 7265: jCal: The JSON Format for iCalendar](RFC7265) - [IETF RFC](https://tools.ietf.org/html/rfc7265)
 
+## CalDAV and CalDaV related base standards
+
+[RFC 4791: Calendaring Extensions to WebDAV (CalDAV)](https://tools.ietf.org/html/rfc4791)
+This document defines extensions to the Web Distributed Authoring and Versioning (WebDAV) protocol to specify a standard way of accessing, managing, and sharing calendaring and scheduling information based on the iCalendar format. This document defines the "calendar-access" feature of CalDAV.
+
+[RFC 6638: Scheduling Extensions to CalDAV](https://tools.ietf.org/html/rfc6638)
+This document defines extensions to the Calendaring Extensions to WebDAV (CalDAV) "calendar-access" feature to specify a standard way of performing scheduling operations with iCalendar-based calendar components. This document defines the "calendar-auto-schedule" feature of CalDAV.
+
+## CalDAV Additional standards and Extensions
+
+[RFC 7809: CalDAV: Time Zones by Reference](https://tools.ietf.org/html/rfc7809)
+This document defines an extension to the CalDAV calendar access protocol to allow clients and servers to exchange iCalendar data without the need to send full time zone data.
+
+[RFC 6764: Locating CalDAV and CardDAV Services](https://tools.ietf.org/html/rfc6764)
+This specification describes how DNS SRV records, DNS TXT records and well-known URIs can be used together or separately to locate Calendaring Extensions to WebDAV (CalDAV) or vCard Extensions to WebDAV (CardDAV) services.
+
+## CalDAV and CalDaV works are in progress:
+
+### CalDAV: Calendar Sharing
+This specification defines sharing calendars between users on a CalDAV system.
+
+### CalDAV: Calendar User Notifications
+This specification defines an extension to CalDAV that allows the server to provide notifications to calendar users.
+
+### CalDAV Managed Attachments
+This document defines how CalDAV servers can provide server managed collections to allow attachments associated with iCalendar data, to be stored and managed on the server.
+
+### Calendar Collection Entity Tag (CTag) in CalDAV
+This specification defines an extension to CalDAV that provides a fast way for a client to determine whether the contents of a calendar collection may have changed.
+
+### Calendar User Proxy Functionality in CalDAV
+This specification defines an extension to CalDAV that makes it easy for clients to setup and manage calendar user proxies, using the WebDAV Access Control List extension as a basis.
+
+### Collected Extensions to CalDAV
+This document defines a set of extensions to the CalDAV calendar access protocol.
+
+### Shared and Published Calendars in CalDAV
+This specification defines an extension to CalDAV that enables the sharing of calendars between users on a CalDAV server.
+
+ 
 ## Other specifications
 These specifications provide functionality which you may wish to support. It is not a requirement they be supported and some protocols allow the server to indicate which are supported. It is good to be at least aware of their existence.
 
