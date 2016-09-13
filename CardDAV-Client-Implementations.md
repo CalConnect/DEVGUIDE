@@ -1,15 +1,15 @@
 # Disclaimer
 Please note that the authors of this site have not made any attempt to confirm support for CardDAV in all of the implementations, products or services listed here. 
 
-##Apple Address Book
-**Included with Mac OS X 10.6**
+## [Apple Contacts: macOS](http://www.apple.com/macos)
+**CardDAV added: macOS 10.6, iOS 4**
 
-Desktop client for Mac OS X that supports CardDAV. Also provides CardDAV-based auto-complete to other apps via built-in APIs.
+Client for macOS that supports CardDAV. Also provides CardDAV-based auto-complete to other apps via built-in APIs.
 
-##Apple iOS
+## [Apple Contacts: iOS](http://www.apple.com/ios)
 **Included with iOS 4**
 
-Client for iPhone/iPod Touch that supports CardDAV.
+Client for iOS that supports CardDAV.
 
 ##Atmail Address Book
 **Included with Atmail 6 Product **
@@ -87,6 +87,8 @@ InfCloud is an open source CalDAV/CardDAV web client (integrated version of CalD
 **Open Source/Cross-platform**
 
 Desktop client that supports CardDAV.
+
+**Not supported since 2005**
 
 ##OwnCloud
 **Client and Server**

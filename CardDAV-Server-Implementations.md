@@ -3,9 +3,9 @@
 ##  supported development
 
 ###  Apple Contacts Server
-**Commercial OS X Server, also Open source/cross-platform**
+**Commercial macOS Server, also Open source/cross-platform**
 
-Implementation of CardDAV. Available as part of the OS X Server software. Also open source. Python-based.
+Implementation of CardDAV. Available as part of the macOS Server software. Also open source. Python-based.
 
 ### Baïkal
 **Open Source**

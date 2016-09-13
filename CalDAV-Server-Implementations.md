@@ -3,9 +3,9 @@
 ## supported implementation
 
 ### [Apple iCal Server](https://www.calendarserver.org/)
-**Commercial OS X Server, also Open source/cross-platform**
+**Commercial macOS Server, also Open source/cross-platform**
 
-Implementation of CalDAV Access and Scheduling. Available as part of the OS X Server software. Also open source. Python-based.
+Implementation of CalDAV Access and Scheduling. Available as part of the macOS Server software. Also open source. Python-based.
 
 ### [Bynari Collaboration Suite](http://www.bynari.net/products/hosted-solutions/)
 **Commercial Collaboration Suite**

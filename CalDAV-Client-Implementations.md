@@ -17,15 +17,15 @@ aCal is a CalDAV client for Android which requires a CalDAV server to function.
 
 AgenDAV is an open source multilanguage CalDAV web client which features a rich AJAX interface with shared calendars support.
 
-### [Apple iCal](http://www.apple.com/macosx)
-**Included with Mac OS X**
+### [Apple Calendar: macOS](http://www.apple.com/macos)
+**Included with macOS**
 
-Desktop client for Mac OS X that supports CalDAV Access and Scheduling.
+Desktop client for macOS that supports CalDAV Access and Scheduling.
 
-### [Apple iOS](http://www.apple.com/ios)
+### [Apple Calendar: iOS](http://www.apple.com/ios)
 **Included with iOS 3 and up**
 
-Client for iPhone/iPod Touch/iPad that supports CalDAV Access. iOS 4 adds implicit scheduling support.
+Client for iOS that supports CalDAV Access and Scheduling (scheduling added in iOS 4).
 
 ### [Atmail Web Client](https://www.atmail.com/products/)
 **Included with Atmail Product PHP/Zend, jQuery**
@@ -40,7 +40,7 @@ Client for iPhone/iPod Touch/iPad that supports CalDAV Access. iOS 4 adds implic
 *Commercial product only, server- or cloud-based solution, requires minimum 10-user license*
 
 ### [BusyCal](http://busymac.com/busycal/)
-**Commercial/Mac OS X**
+**Commercial/macOS**
 
 BusyCal is a desktop calendar that allows families and small workgroups to easily sync calendars with various CalDAV servers.
 
@@ -157,17 +157,17 @@ Outlook Plugin, which synchronizes events between Outlook and CalDAV servers. Su
 SurGATE Outlook Sync Client provides two-way calendar and contacts sync between Outlook and CalDAV/CardDAV Servers.
 
 ### [Postbox with Lightning](https://www.postbox-inc.com/add-ons/lightning)
-**Commercial/Mac OS X & Windows**
+**Commercial/macOS & Windows**
 
 Postbox is a Mozilla-based email application that now supports the Mozilla Lightning extension to enable access to calendars directly within the application, including CalDAV servers.
 
 ### [Rainlendar](http://www.rainlendar.net)
 **Multi-Platform**
 
-Rainlendar runs on Wndows, OS X and Linux and is available in both a free Lite and purchased Pro version with more functionality including CalDAV support.
+Rainlendar runs on Wndows, macOS and Linux and is available in both a free Lite and purchased Pro version with more functionality including CalDAV support.
 
 ### [SOHO Organizer](http://www.chronosnet.com/Products/sohoorganizer.html)
-**Commercial/Mac OS X**
+**Commercial/macOS**
 
 Application to manage both personal and shared calendars.
 
@@ -199,7 +199,7 @@ Plugin that provides CalDAV support for Kontact.
 
 Desktop client that supports CalDAV Access and Scheduling.
 
-**Status uncertain; appears to have been abandoned since 2007**
+**Not supported since 2005**
 
 ### [SimpleCal](http://www.ligaturetech.com/simplecalinfo.html)
 **Commercial/Windows**

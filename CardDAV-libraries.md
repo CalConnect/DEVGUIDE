@@ -21,6 +21,13 @@ Milton is a java library for WebDAV, CalDAV and CardDAV server implementations.
 
 The library used by the Mulberry client for its vCard handling.
 
+**Not supported since 2005**
+
+### [pycalendar](https://www.calendarserver.org/PyCalendar.html)
+**Open source/Python**
+
+The library used by [CalendarServer](https://www.calendarserver.org) as part of its CardDAV/vCard support.
+
 ##pyCardDAV
 **Python CardDAV client and library**
 

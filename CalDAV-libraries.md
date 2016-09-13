@@ -42,6 +42,11 @@ An open source reference implementation of the iCalendar data type and serializa
 
 Milton is a java library for WebDAV, CalDAV and CardDAV server implementations.
 
+### [pycalendar](https://www.calendarserver.org/PyCalendar.html)
+**Open source/Python**
+
+The library used by [CalendarServer](https://www.calendarserver.org) as part of its CalDAV/iCalendar support.
+
 ### [SOPE - OpenGroupware](http://sope.opengroupware.org/en/sope_ical/index.html)
 **Open source/Objective-C**
 
@@ -71,7 +76,7 @@ An open source library that is the basis for the CalDAV plugin currently under d
 
 The library used by the Mulberry client for its iCalendar and iTIP handling. Also includes Java and Python ports with similar APIs to the C++ one.
 
-**Status uncertain; appears to have been abandoned since 2005**
+**Not supported since 2005**
 
 ### [RiCal](https://github.com/rubyredrick/ri_cal)
 **Open source/Ruby**
