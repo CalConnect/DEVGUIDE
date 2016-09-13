@@ -1,6 +1,6 @@
 # Table of Contents #
 
-0. [[Introduction|home]]
+0. [Introduction](home)
 1. iCalendar Topics
   1. [[History]]
   2. [[Data Model]]
@@ -10,11 +10,12 @@
   3. [[Handling Dates and Times]]
   4. [[Recurrences]]
   5. [[Time Zones]]
-  	1. [[What are Time Zones|Time Zones#what-are-time-zones]]
+  	1. [What are Time Zones](Time Zones#what-are-time-zones)
   6. [[Scheduling]]
-    1. [[iTip]]
-    1. [[FreeBusy and Availability|FreeBusyAvailability]]
-    1. [[VAVAILABILITY|vavailability]] 
+    1. [iTIP](iTIP)
+    1. [iMIP](iMIP)
+    1. [FreeBusy and Availability](FreeBusyAvailability)
+    1. [VAVAILABILITY](vavailability) 
   7. Best Practices
   8. Putting it all together
 2. CalDAV
