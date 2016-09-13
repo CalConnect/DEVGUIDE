@@ -30,8 +30,14 @@
     1. [Service providers](CalDAV-services)
 3. Event Publishing Topics
 4. vCard Topics
-5. CardDAV Topics
-
+5. CardDAV
+    1. [Introduction](CardDAV-introduction)
+    1. Client
+        1. [Implementations](CardDAV-Client-Implementations)
+    1. Server
+        1. [Implementations](CardDAV-Server-Implementations)
+    1. [Libraries and tools](CardDAV-libraries)
+    1. [Service providers](CardDAV-services)
 
 ## Appendices
 
