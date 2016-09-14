@@ -7,12 +7,13 @@ This is often the hardest part of putting together a meeting. Here we describe s
 
 ## Freebusy
 FreeBusy is a report on the free and busy times of a person or sometimes a resource, such as a room. The is the 'traditional' approach to scheduling a meeting goes something like:
-    *  Get a freebusy report for each potential attendee (and room)
-    *  Select a time when enough attendees are free
-    *  Send an invitation to the attendees
-    *  Get some responses back
-    *  Call, email or otherwise harrass the attendees that didn't answer
-    *  Pick another time and repeat.
+
+  1. Get a freebusy report for each potential attendee (and room)
+  2. Select a time when enough attendees are free
+  3. Send an invitation to the attendees
+  4. Get some responses back
+  5. Call, email or otherwise harrass the attendees that didn't answer
+  6. Pick another time and repeat.
     
 This approach to putting together a meeting has been shown to be inordinately expensive. Numbers between 18 and 21 work hours have been reported for moderately sized meetings. This was the incentive behind our collaboration with Boeing on the FreeBusy aggregator project. (More on that [below.](#Aggregator))
 
@@ -38,7 +39,7 @@ Availability flips the problem around. Instead of asking a potential attendee wh
    * They don't have to have a free slot - they're saying they're prepared to move some other meeting
    * They don't have to reveal anything about their schedule - that might be privileged information
    
-The (VAVAILABILITY)[[vavailability]] specification standardises this and also allows for many other capabilities. Apart from being a way to respond with available time it has uses within the SmartGrid and for Vpoll.
+The [VAVAILABILITY](vavailability) specification standardises this and also allows for many other capabilities. Apart from being a way to respond with available time it has uses within the SmartGrid and for Vpoll.
 
 VAVAILABILITY was originally defined in answer to a Office Hours problem. This was the need by many universities to:
    *  define the hours when faculty could meet with students and 
