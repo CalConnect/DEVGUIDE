@@ -18,12 +18,12 @@ fruux is compatible with CalDAV and CardDAV.
 ### [GMX.net](https://www.gmx.net/mail/funktionen/kalender/)
 **Free/Premium Service GERMAN only**
 
-The new GMX.net Kalendar also offers CalDAV.
+The new GMX.net Calendar also offers CalDAV.
 
 ### [GMX.com](http://www.gmx.com/mail/free-online-calendar/)
 **Free**
 
-The new GMX.net Kalendar also offers CalDAV.
+The new GMX.com Calendar also offers CalDAV.
 
 ### [Google](http://calendar.google.com/)
 **Free sign-up**
@@ -58,4 +58,4 @@ The Yahoo! Calendar is CalDAV enabled.
 ### [WEB.DE](https://web.de/email/kalender/)
 **Free/Premium Service GERMAN only**
 
-The new WEB.DE Kalendar also offers CalDAV.
+The new WEB.DE Calendar also offers CalDAV.

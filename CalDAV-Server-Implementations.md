@@ -53,7 +53,7 @@ DavMail is a POP/IMAP/SMTP/Caldav/LDAP exchange gateway allowing users to use an
 Daylite is a commercial CalDAV server
 
 ### [EGroupware](http://www.egroupware.org)
-**Free**
+**Free Trial period**
 
 EGroupware is an enterprise ready groupware server that includes CalDAV support.
 
@@ -61,6 +61,11 @@ EGroupware is an enterprise ready groupware server that includes CalDAV support.
 **Shareware/Trial Period**
 
 CalDAV and CardDAV support.
+
+### [Fennel](https://github.com/LordEidi/fennel)
+**Open Source/JavaScript**
+
+Fennel is a lightweight CardDAV / CalDAV server. It is completely written in JavaScript and runs within a Node.js instance.
 
 ### [Kerio Connect](http://www.kerio.de/products/kerio-connect)
 **Commercial**
