@@ -40,7 +40,7 @@ Memotoo is compatible with CalDAV and CardDAV.
 
 servermx.com offers e-mail hosting plus Contacts and Calendars via CalDAV and CardDAV support.
 
-### [Yahoo! Contacts[(https://overview.mail.yahoo.com/)
+### [Yahoo! Contacts](https://overview.mail.yahoo.com/)
 
 Yahoo Contacts allows syncing Apple's Address Book with the Yahoo! CardDAV server (and presumably others).
 
