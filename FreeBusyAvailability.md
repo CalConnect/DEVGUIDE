@@ -1,5 +1,5 @@
 # FreeBusy and Availability
-The problem we are genrally trying to address here is the answer to a question posed to  group of people and resources:
+The problem we are generally trying to address here is the answer to a question posed to  group of people and resources:
 
    * When can we have this meeting?
 
@@ -12,7 +12,7 @@ FreeBusy is a report on the free and busy times of a person or sometimes a resou
   2. Select a time when enough attendees are free
   3. Send an invitation to the attendees
   4. Get some responses back
-  5. Call, email or otherwise harrass the attendees that didn't answer
+  5. Call, email or otherwise harass the attendees that didn't answer
   6. Pick another time and repeat.
     
 This approach to putting together a meeting has been shown to be inordinately expensive. Numbers between 18 and 21 work hours have been reported for moderately sized meetings. This was the incentive behind our collaboration with Boeing on the FreeBusy aggregator project. (More on that [below.](#Aggregator))
@@ -30,7 +30,7 @@ Some of the factors that prevent freebusy from working are:
    *  Potential attendees don't maintain their calendars
       Many people are very relaxed about maintaining their calendars
    *  Their calendars aren't available.
-      Some work environments explicitly prohibit users from exporting calendar data outside fo the work environment.
+      Some work environments explicitly prohibit users from exporting calendar data outside of the work environment.
    *  Busy people are 100% busy
    
 ## Availability
@@ -39,7 +39,7 @@ Availability flips the problem around. Instead of asking a potential attendee wh
    * They don't have to have a free slot - they're saying they're prepared to move some other meeting
    * They don't have to reveal anything about their schedule - that might be privileged information
    
-The [VAVAILABILITY](vavailability) specification standardises this and also allows for many other capabilities. Apart from being a way to respond with available time it has uses within the SmartGrid and for Vpoll.
+The [VAVAILABILITY](vavailability) specification standardizes this and also allows for many other capabilities. Apart from being a way to respond with available time it has uses within the SmartGrid and for VPOLL.
 
 VAVAILABILITY was originally defined in answer to a Office Hours problem. This was the need by many universities to:
    *  define the hours when faculty could meet with students and 
@@ -74,4 +74,4 @@ A number of connectors to popular systems were developed and a subset of CalDAV 
 This was demonstrated at the Open Group meeting in Miami in (?) and that's where it stayed.
 
 ##### Why would it not work?
-One of the assumptions was that we would be able to get the individuals freebusy. Even though the connector could probably provide some degreee of security, contractors probably didn't want to hand out their freebusy anyway. Sudden busy periods alone may provide useful information to competitors. In the airline industry many of those contarctors work on the Airbus and others.  
+One of the assumptions was that we would be able to get the individuals freebusy. Even though the connector could probably provide some degree of security, contractors probably didn't want to hand out their freebusy anyway. Sudden busy periods alone may provide useful information to competitors. In the airline industry many of those contractors work on the Airbus and others.  
