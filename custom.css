@@ -1,15 +1,25 @@
-
 h1#wikititle {
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-
-
 code {
   color: #101010
 }
+
+/* override for /css/template.css from gollum */
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body hr {
+  margin: 0px;
+}
+
 
 /* @control searchbar */
 #searchhead #searchbar {
@@ -97,4 +107,3 @@ code {
     background-position: -431px -28px;
   }
 }
-
