@@ -9,7 +9,7 @@ code {
 }
 
 /* override for /css/template.css from gollum */
-.markdown-body p,
+/* .markdown-body p, */
 .markdown-body blockquote,
 .markdown-body ul,
 .markdown-body ol,
