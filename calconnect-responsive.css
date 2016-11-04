@@ -1,0 +1,296 @@
+/* CalConnect RESPONSIVE OVERRIDES
+   This is a Mobile First theme - the smaller device widths should not be needed in most cases,
+   but are included here for completeness. */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  #titleBar {
+    text-align: center;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+/* Primary Break Point */
+@media only screen and (min-width : 768px) {
+  body {
+    padding-bottom: 54px; /* offset fixed footer */
+  }
+  #titleBar {
+    font-size: 16px;
+    text-align: left;
+  }
+  #navbar .logo img {
+    margin: 0;
+    width: 240px;
+  }
+  #navbar .navbar-nav > li > a {
+    padding: 1em 0.75em;
+    margin: 0;
+    line-height: 22px;
+  }
+  #navbar #block-search-form {
+    display: none;
+  }
+  #navbar #block-search-icon {
+    display: block;
+  }
+  #navbar li {
+
+  }
+  /* SUBMENU */
+  #block-submenu {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+  }
+  #block-submenu h2.block-title {
+    display: none;
+  }
+  /* FRONT PAGE */
+  #block-carousel {
+    float: left;
+    margin: 0 20px -40px 0;
+    width: 350px;
+  }
+  #calconnect-for ul {
+    width: 340px;
+    margin-top: 2em;
+  }
+  #block-views-upcoming-events-block {
+    float: left;
+    clear: left;
+    margin-right: 22px;
+    min-width: 260px;
+  }
+  #block-views-upcoming-events-block .views-field-title {
+     white-space: nowrap;
+  }
+  #block-views-news-and-highlights-block {
+    float: left;
+    width: 240px;
+  }
+  #calconnect-year {
+    float: left;
+  }
+  #calconnect-year img {
+    width: 150px;
+  }
+  #block-projects-intro {
+    clear: left;
+    float: left;
+    margin: 2em 0;
+    width: 50%;
+  }
+  #block-fp-lists {
+    float: left;
+    margin: 4em 0 0;
+    width: 50%;
+  }
+  /* SEARCH PAGE */
+  body.page-search #block-system-main {
+    min-height: 350px;
+  }
+  /* USER PAGE  */
+  body.page-user #block-system-main,
+  body.page-node-81 #block-system-main {
+    min-height: 350px;
+  }
+  /* SITEMAP */
+  #sitemap li {
+    float: left;
+    width: 20%;
+  }
+  #sitemap li li {
+    display: block;
+    float: none;
+    width: auto;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    line-height: 1em;
+    font-size: 0.9em;
+  }
+  #sitemap .contextual-links-wrapper li {
+    width: auto;
+    float: none;
+  }
+  #sitemap .contextual-links-wrapper a {
+    display: block;
+  }
+  /* EVENT LIST */
+  .calconnect-events img {
+    float: right;
+    height: 90px;
+    width: auto;
+    min-width: 0;
+    margin-left: 1em;
+  }
+  /* EVENT PAGE (and NEWS image handling) */
+  body.node-type-event .nav > li > a {
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+  body.node-type-event .field-name-field-image img,
+  body.node-type-article .field-name-field-image img,
+  .field-name-field-image-caption {
+    width: 450px;
+    min-width: 450px;
+    float: right;
+    clear: right;
+    margin: 0 0 0 1em;
+  }
+  body.node-type-event .field-name-field-recent-changes {
+    /*margin-right: 470px;*/
+  }
+  .field-name-field-image-caption {
+    margin-bottom: 1em;
+  }
+  .pagination {
+    font-size: 0.9em;
+  } 
+  .pagination > li > a,
+  .pagination > li > span {
+    padding: 6px 10px;
+  }
+  /* MEMBERS */
+  #block-member-logos .views-row {
+    width: 25%;
+    padding-right: 0;
+  }
+  #block-member-logos .field-content {
+    width: 25%;
+    text-align: center;
+  }
+  #block-member-logos img {
+    max-width: 75%;
+  }
+  /* FORMS */
+  .field-name-field-registering-for .field-item {
+    font-size: 1.5em;
+  }
+  body.node-type-webform .field-name-field-image img {
+    float: right;
+    margin-right: 15px;
+    margin-top: -110px;
+    width: auto;
+    height: 75px;
+    min-width: 0;
+  }
+  /* SPECIALTY */
+  #calconnect-audience-boxes li {
+    float: left;
+    width: 31%;
+    height: 210px;
+    margin: 0 1em 2em 0;
+  }  
+  #calconnect-audience-boxes h3 {
+    height: 50px;
+  }
+  #calconnect-audience-boxes li ul {
+    padding-left: 1.5em;
+  }  
+  /* FOOTER */
+  #footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+  }
+  #footer-right {
+    float: right;
+  }
+  #footer a {
+    display: block;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  body {
+    padding-bottom: 38px; /* offset fixed footer */
+  }
+  #titleBar {
+    font-size: 18px;
+  }
+  #navbar .logo img {
+    width: auto;
+  }
+  #navbar .navbar-nav > li > a {
+    padding: 1em;
+    line-height: 38px;
+  }
+  #navbar #block-search-icon {
+    display: block;
+    margin-top: 9px;
+  }
+  .pagination {
+    font-size: 1em;
+  }
+  .pagination > li > a,
+  .pagination > li > span {
+    padding: 6px 12px;
+  }
+  /* FRONTPAGE */
+  #block-carousel{
+    width: 550px;
+  }
+  #calconnect-for {
+    margin-top: 3em;
+  }
+  #calconnect-year img {
+  }
+  #block-views-upcoming-events-block {
+    width: 300px;
+  }
+  #block-views-news-and-highlights-block {
+    width: 360px;
+  }
+  /* EVENTS PAGE */
+  body.node-type-event .nav > li > a {
+    padding: 10px 15px;
+    font-size: 1em;
+  }
+  /* MEMBERS */
+  #block-member-logos img {
+    max-width: 100%;
+  }
+  /* FORMS */
+  /* SPECIALTY */
+  #calconnect-audience-boxes li {
+    height: 180px;
+  }
+  /* FOOTER */
+  #footer a {
+    display: inline;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  #navbar #block-search-form {
+    display: block;
+    position: absolute;
+    right: 0;
+    margin: 1em 0 0 0;
+  }
+  #calconnect-for ul {
+    width: 500px;
+  }
+  #calconnect-year img {
+    width: 180px;
+  }
+  #block-views-upcoming-events-block {
+    width: 360px;
+  }
+  #block-views-news-and-highlights-block {
+    width: 440px;
+  }
+  /* SPECIALTY */
+  #calconnect-audience-boxes li {
+    width: 32%;
+    height: 132px;
+  }
+}
