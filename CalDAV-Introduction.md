@@ -19,6 +19,6 @@ See [[Standards]] for further information on standards you need to be aware of.
 
 In addition CalConnect has the following documents:
 
-   *  [CalDAvUse Cases](http://www.calconnect.org/publications/caldavusecasesv1.0.pdf)
-   *  [CalDav Scheduling Requirements](http://www.calconnect.org/publications/caldavschedulingrequirementsv1.1.pdf)
+   *  [CalDAV Use Cases](http://www.calconnect.org/publications/caldavusecasesv1.0.pdf)
+   *  [CalDAV Scheduling Requirements](http://www.calconnect.org/publications/caldavschedulingrequirementsv1.1.pdf)
    
