@@ -11,9 +11,6 @@ For more information on what is available on the Developers Guide please see the
 For information on CalDAV implementations see:
 
 1. [Clients](CalDAV-Client-Implementations)
-	1. [[Bootstrapping]]
-	1. Finding user calendars
-	1. Synchronizing data
 1. [Servers](CalDAV-Server-Implementations)
 1. [Libraries and tools](CalDAV-libraries)
 1. [Service providers](CalDAV-services)
