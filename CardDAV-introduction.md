@@ -9,8 +9,8 @@ A new version of vCard (vCard 4) has been published by the IETF as [RFC 6350](ht
   1. Client
      1. [Implementations](CardDAV-Client-Implementations)
   1. Server
-     1. [Implementations](CardDAV-Server-Implementations)
-  1. [Libraries and tools](CardDAV-libraries)
-  1. [Service providers](CardDAV-services)
+	   1. [Implementations](CardDAV-Server-Implementations)
+	   1. [Libraries and tools](CardDAV-libraries)
+     1. [Service providers](CardDAV-services)
 
 See [[Standards]] for further information on standards you need to be aware of.
