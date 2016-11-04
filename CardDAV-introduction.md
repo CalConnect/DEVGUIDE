@@ -10,8 +10,8 @@ For more information on what is available on the Developers Guide please see the
 
 For information on CardDAV implementations see:
 
-1. [Client](CardDAV-Client-Implementations)
-1. [Server](CardDAV-Server-Implementations)
+1. [Clients](CardDAV-Client-Implementations)
+1. [Servers](CardDAV-Server-Implementations)
 1. [Libraries and tools](CardDAV-libraries)
 1. [Service providers](CardDAV-services)
 
