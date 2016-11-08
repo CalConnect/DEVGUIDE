@@ -10,7 +10,7 @@ within calendaring.  Many people have their calendar hosted on one
 service, but their email address hosted somewhere else.  The
 ATTENDEE and ORGANIZER components of an iCalendar scheduling resource
 are generally mailto: URIs, and are created by people adding addresses
-from their addressbook.
+from their address book.
 
 The most interoperable way to ensure that an [[iTIP]] request reaches the
 owner of an email address is to attach it to an email and send it to that
@@ -19,7 +19,7 @@ address.
 ## description
 
 An iMIP message is an email containing attached scheduling [[iTIP]] files.
-each [[iTIP]] is an [[iCalendar]] format file with a METHOD property.
+Each [[iTIP]] is an [[iCalendar]] format file with a METHOD property.
 
 We will ignore COUNTER and DECLINECOUNTER for this document, as they are
 poorly supported and not recommended.  Likewise REFRESH is not often seen
@@ -77,7 +77,7 @@ incoming replies.
 To avoid spam automatically being added to calendars, it is recommended to
 provide some upfront checking of emails before blindly processing the
 attached calendar parts, for example checking if the sender email is in the
-recipient's addressbook or if the UID of an incoming REPLY or REQUEST is
+recipient's address book or if the UID of an incoming REPLY or REQUEST is
 already in the user's calendar, implying that they created or have already
 accepted this event.
 
@@ -106,7 +106,7 @@ message to send.
 
 In particular, Section 3.2.6 'Restrict Recurrence Instances Sent to "Attendees"'
 means that the VEVENT will have to be rewritten depending on which attendee the
-iMIP message is being sent to.  It is easist by far to send a separate email
+iMIP message is being sent to.  It is easiest by far to send a separate email
 to each ATTENDEE.
 
 One of the most complex cases to handle, both as a sender and as a recipient of
