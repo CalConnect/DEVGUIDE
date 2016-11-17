@@ -19,7 +19,7 @@ address.
 ## description
 
 An iMIP message is an email containing attached scheduling [[iTIP]] files.
-Each [[iTIP]] is an [[iCalendar]] format file with a METHOD property.
+Each [[iTIP]] is an iCalendar format file with a METHOD property.
 
 We will ignore COUNTER and DECLINECOUNTER for this document, as they are
 poorly supported and not recommended.  Likewise REFRESH is not often seen
