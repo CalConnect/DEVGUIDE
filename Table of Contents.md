@@ -42,6 +42,7 @@
 
 ## Appendices
 
+1. [[Glossary]]
 1. [[Standards]]
 1. [[Examples]]
 1. [[How to Contribute]] to this document
