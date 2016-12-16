@@ -78,7 +78,8 @@ See Subscribed Calendar.
 A person who accesses or modifies calendar information.
 
 <h5 id="calendar-user-agent">Calendar User Agent (CUA)</h5>
-(1) Software with which the calendar user communicates with a calendar service or local calendar store to access calendar information. (2) Software that gathers calendar data on the Calendar User's behalf.
+(1) Software with which the calendar user communicates with a calendar service or local calendar store to access calendar information.
+(2) Software that gathers calendar data on the Calendar User's behalf.
 
 <h5 id="calendar-system">Calendar System</h5>
 A way to represent dates as a combination of eras, years, months, weeks, and days in formats used in many different parts of the world. A calendar system also defines the limits for those different quantities and how "date arithmetic" can be done to implement repeating dates. (See http://en.wikipedia.org/wiki/Calendar for a description of many different calendar systems.)
@@ -322,7 +323,7 @@ A VTODO calendar component is a grouping of component properties and possibly VA
 Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol (HTTP) that facilitates collaboration between users in editing and managing documents and files stored on World Wide Web servers. See CalDAV and CardDAV. (Reference: RF4918.)
 
 <h5 id="webdav-sync">WebDAV Sync</h5>
-An extension to Web Distributed Authoring and Versioning (WebDAV) that allows efficient synchornization of the contents of a WebDAV collection. (Reference: RFC6578.)
+An extension to Web Distributed Authoring and Versioning (WebDAV) that allows efficient synchronization of the contents of a WebDAV collection. (Reference: RFC6578.)
 
 <h5 id="ws-calendar">WS-Calendar</h5>
 An OASIS (Organization for the Advancement of Structured Information Standards) working group tasked with defining a cross-domain standard for passing schedule and interval information between and within services built around CalWS. The product of the working group will be a standard also named "WS-Calendar" (from http://www.oasis-open.org/committees/workgroup.php?wg_abbrev=ws-calendar) incorporating the CalWS proposal. See CalWS.
