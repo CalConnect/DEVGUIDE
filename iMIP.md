@@ -65,6 +65,8 @@ non-calendaring-aware email clients to accept or decline a request
 without having to process the calendar parts at all.  The server just
 updates the ORGANIZER's copy of the event based on the link clicked.
 
+An example of the whole RFC message is provided on [GitHub](https://github.com/CalConnect/DEVGUIDE-EXAMPLES/blob/master/imip/imip_example.txt).
+
 One useful practice is to set the ORGANIZER address to a per-event or
 per-calendar agent email address rather than the personal address of a
 human, while still adding the personal address of the ORGANIZER as one
