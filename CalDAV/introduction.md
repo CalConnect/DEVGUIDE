@@ -6,16 +6,16 @@ The CalDAV Access protocol has been standardized by the IETF and published as [R
 
 The CalDAV Scheduling protocol has been standardized by the IETF and published as [RFC 6638](https://tools.ietf.org/html/rfc6638).
 
-For more information on what is available on the Developers Guide please see the [Table of Contents](Home).
+For more information on what is available on the Developers Guide please see the [Table of Contents](../Table-of-Contents).
 
 For information on CalDAV implementations see:
 
-1. [Clients](CalDAV-Client-Implementations)
-1. [Servers](CalDAV-Server-Implementations)
-1. [Libraries and tools](CalDAV-libraries)
-1. [Service providers](CalDAV-services)
+1. [Clients](Client-Implementations)
+1. [Servers](Server-Implementations)
+1. [Libraries and tools](libraries)
+1. [Service providers](services)
 
-See [[Standards]] for further information on standards you need to be aware of.
+See [Standards](../Standards) for further information on standards you need to be aware of.
 
 In addition CalConnect has the following documents:
 

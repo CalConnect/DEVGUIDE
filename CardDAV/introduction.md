@@ -6,7 +6,7 @@ The CardDAV protocol has been standardized by the IETF and published as [RFC 635
 
 A new version of vCard (vCard 4) has been published by the IETF as [RFC 6350](https://tools.ietf.org/html/rfc6350), and the XML Representation of vCard (xCard) as [RFC 6351](https://tools.ietf.org/html/rfc6351).
 
-For more information on what is available on the Developers Guide please see the [Table of Contents](../Table of Contents).
+For more information on what is available on the Developers Guide please see the [Table of Contents](../Table-of-Contents).
 
 For information on CardDAV implementations see:
 
@@ -15,4 +15,4 @@ For information on CardDAV implementations see:
 1. [Libraries and tools](libraries)
 1. [Service providers](services)
 
-See [[Standards]] for further information on standards you need to be aware of.
+See [Standards](../Standards) for further information on standards you need to be aware of.

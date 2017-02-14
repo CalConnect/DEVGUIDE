@@ -59,6 +59,7 @@ CalConnect has given this approach a name - Consensus Scheduling. This approach 
 The end result of most of these services is an iTip request sent via iMip which now has a high acceptance rate.
 
 <h4 id="Aggregator">The Boeing/CalConnect FreeBusy aggregator</h4>
+
 ##### The problem
 With the development of the DreamLiner Boeing took a different approach of contracting out the building of most of the components to outside contractors with the aircraft being assembled by Boeing.Among the problems this caused them was that of trying to put together very many meetings with those contractors around the world.
 
