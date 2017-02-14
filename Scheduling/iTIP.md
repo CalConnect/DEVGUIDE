@@ -9,7 +9,7 @@ iTIP DOES NOT describe HOW these messages are sent and received. That is describ
 ## How to handle meetings
 The process involves a number of steps - some not covered by this specification. These steps are:
 
-   *  Choose a time for the meeting (see [[FreeBusyAvailability]]
+   *  Choose a time for the meeting (see [[FreeBusyAvailability]])
    *  Create a meeting request with you as the ORGANIZER and with a number of ATTENDEEs
    *  Send the invitation with method REQUEST
    

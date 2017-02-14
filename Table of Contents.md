@@ -3,9 +3,9 @@
 0. [Introduction](home)
 1. iCalendar Topics
   1. [[History]]
-  2. [[Data Model]]
-    1. [[Simple Event]]
-    2. [[UID]]
+  2. [Data Model](Data-Model/Data-Model)
+    1. [Simple Event](Data-Model/Simple-Event)
+    2. [UID](Data-Model/UID)
     3. Detailed Data Model Description
   3. [[Handling Dates and Times]]
   4. [[Recurrences]]
