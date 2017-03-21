@@ -27,9 +27,4 @@ TBD: Olson/IANA & Windows
 
 TBD
 
-## Best Practice
-
-By default always create digital calendar events or tasks using a timezone to "anchor" the start, end, due, etc times of the event or task.
-
-When you want a personal event or task that always has the same local time, no matter where you are (or rather where your digital calendar application thinks you are) then set the start, end, due etc times to "floating" (remove the associated timezone). However, it is inadvisable to use floating times for any event or task that involves multiple people.
  
