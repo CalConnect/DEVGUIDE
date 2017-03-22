@@ -11,8 +11,8 @@
   4. [[Recurrences]]
   5. [Time Zones](Time-Zones/Time-Zones)
   	1. [Best Practices](Time-Zones/Best-Practices)
-  	2. [Sources of Time Zone Information](Time-Zones/Sources)
-  	2. [Time Zone Distribution Service](Time-Zones/TZDS)
+  	2. Sources of Time Zone Information
+  	2. Time Zone Distribution Service
   6. [Scheduling](Scheduling/Scheduling)
     1. [iTIP](Scheduling/iTIP)
     1. [iMIP](Scheduling/iMIP)
