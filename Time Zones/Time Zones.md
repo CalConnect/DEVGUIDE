@@ -8,7 +8,7 @@ Humans typically have names for the time zones they commonly use, such as "Pacif
 
 On computers time zones are typically identified using a name of the form "country/city", for example "America/New_York". For that particular example, the UTC offset is -5 hours and daylight saving starts on the second Sunday in March, and ends on the first Sunday in November. All of that information is encoded into a digital "timezone definition" that a computer can understand and use to calculate local times of events, and each definition has a unique timezone identifier.
 
-##How time zones work with digital calendars
+## How time zones work with digital calendars
 
 Typically in a digital calendar there are two ways of entering a time. One is to enter the time with a timezone identifier "attached". The alternative is to enter the time without a timezone identifier - this style of time is called "floating time". To use a digital calendar correctly users need to understand the differences between these two ways of entering time. This is particularly important if users travel between different areas with different timezone definitions or have meetings (such as over the telephone) with people in different time zones.
 
@@ -18,13 +18,5 @@ If a floating time is specified instead of one with a timezone, then things are 
 
 This simple example would suggest that it is never wise to use floating time events. That is certainly true for events that involve meetings between people. However, the most common use for floating time is for events that have a specific meaning to the owner of the calendar. For example, if the calendar owner always takes a lunch break at 12 pm, no matter where they are, by specifying floating times, the 12 pm event will always occur at that time in whichever locality the user happens to be in. Of course that requires the digital calendar application to know what the correct locality and associated timezone is.
 
-
-## Sources of Time Zone Information
-
-TBD: Olson/IANA & Windows
-
-## Time Zone Distribution Service
-
-TBD
 
  

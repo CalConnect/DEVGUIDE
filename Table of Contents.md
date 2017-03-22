@@ -10,7 +10,9 @@
   3. [[Handling Dates and Times]]
   4. [[Recurrences]]
   5. [Time Zones](Time-Zones/Time-Zones)
-  	1. [What are Time Zones](Time-Zones/Time-Zones#what-are-time-zones)
+  	1. [Best Practices](Time-Zones/Best-Practices)
+  	2. [Sources of Time Zone Information](Time-Zones/Sources)
+  	2. [Time Zone Distribution Service](Time-Zones/TZDS)
   6. [Scheduling](Scheduling/Scheduling)
     1. [iTIP](Scheduling/iTIP)
     1. [iMIP](Scheduling/iMIP)
