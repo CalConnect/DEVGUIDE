@@ -80,4 +80,4 @@ Dates with local time and time zone reference should be preferred instead of `UT
 When talking about `Daylight Saving Time`, there is definitely an advantage in using time zone reference. By using `UTC Time`, when changing from standard to daylight time, we will have a gap in our recurrent events, because using `UTC` we will point to a fix point in time.
 This will not happen if we will provide time zone reference, because the value will adapt to the time zone, which includes Daylight Time Saving support. 
 
-There is a more detailed description about [Best Practices](Time-Zones/Best-Practices) in the [Time Zones section](Time-Zones/Time-Zones).
+There is a more detailed description about [Best Practices](Time-Zones/Best-Practices) in the [Time Zones](Time-Zones/Time-Zones) section.
