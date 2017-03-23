@@ -79,3 +79,5 @@ UTC Time and Time zone reference are two of the ways on managing the values for 
 Dates with local time and time zone reference should be preferred instead of `UTC Time`. Using Time zone information helps the Calendar components to be precise when talking about events that occur more than once when changing from daylight to standard time.
 When talking about `Daylight Saving Time`, there is definitely an advantage in using time zone reference. By using `UTC Time`, when changing from standard to daylight time, we will have a gap in our recurrent events, because using `UTC` we will point to a fix point in time.
 This will not happen if we will provide time zone reference, because the value will adapt to the time zone, which includes Daylight Time Saving support. 
+
+There is a more detailed description about [Best Practices](Time-Zones/Best-Practices) in the [Time Zones section](Time-Zones/Time-Zones).
