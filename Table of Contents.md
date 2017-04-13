@@ -48,6 +48,6 @@
 1. [Glossary](Appendix/Glossary)
 1. [Standards](Appendix/Standards)
 1. [Examples](Appendix/Examples)
-1. [Links to further pages](Appendix/Links)
-1. [How to Contribute](Appendix/How-to-Contibute) to this document
+1. [Links other interesting sites](Appendix/Links)
+1. [How to Contribute](Appendix/How-to-Contribute) to this document
 
