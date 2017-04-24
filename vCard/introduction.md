@@ -110,7 +110,7 @@ used in conjunction with server implementations in form of cloud-based
 systems.
 Apple's iCloud Contacts and Google Contacts are cloud-based services
 that utilize the vCard data format together with
-[CardDAV](../CalDAV/introduction), a server/client protocol that helps
+[CardDAV](../CardDAV/introduction), a server/client protocol that helps
 centrally manage vCard data on a server.
 
 
