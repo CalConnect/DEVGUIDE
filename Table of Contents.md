@@ -34,6 +34,7 @@
     1. [Service providers](CalDAV/services)
 1. Event Publishing Topics
 1. vCard Topics
+  1. [Introduction](vCard/introduction)
 1. CardDAV
     1. [Introduction](CardDAV/introduction)
     1. Client
