@@ -93,7 +93,7 @@ subject.
 
 vCards are often used in electronic contact or address book clients
 (described in the 20th century as Personal Information Management
-softwar e,PIMs), such as the implementations on Apple's macOS and
+software,PIMs), such as the implementations on Apple's macOS and
 iOS, Google's Android, Microsoft's Outlook and Mozilla's Lightning. This
 type of software usually allows importing and exporting of vCards.
 
@@ -106,11 +106,11 @@ personal information managers and calendaring software.
 ## Server implementations
 
 vCards can be used and exchanged as individual files, but are more often
-used in conjuction with server implementations in form of cloud-based
+used in conjunction with server implementations in form of cloud-based
 systems.
 Apple's iCloud Contacts and Google Contacts are cloud-based services
 that utilize the vCard data format together with
-[CardDAV](CalDAV/introduction), a server/client protocol that helps
+[CardDAV](../CalDAV/introduction), a server/client protocol that helps
 centrally manage vCard data on a server.
 
 
