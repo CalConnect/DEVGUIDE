@@ -10,6 +10,25 @@ a business card or a directory profile. RFC 6350 was developed through
 the CalConnect VCARD technical committee and published in August 2011
 through IETF.
 
+## A brief history of vCard 4.0
+
+In the early days of CalConnect (i.e. 2006/2007), our members had a fair
+amount of discussion whether we should tackle a revision of vCard (which
+was then at 3.0, but 2.1 was still in general use) due to the various
+shortcomings of the standard.
+
+Eventually, CalConnect hosted an open vCard workshop during the
+CalConnect meeting at MIT in September 2007 with the goal of meeting
+fellow users and vendors of vCard to discuss existing issues. A fair
+number of interested parties, including CalConnect members and external
+individuals, came and decided that it is time to update the existing
+standard.
+
+The conclusion of the CalConnect vCard workshop led the IETF to
+undertake a revision of vCard and assigned an editor. The resulting
+standard is vCard 4.0, which resolves some immediate concerns raised
+during the workshop while keeping it compatible with 3.0.
+
 
 ## Benefits of vCard 4.0
 
