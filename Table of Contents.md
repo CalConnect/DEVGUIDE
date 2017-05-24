@@ -25,7 +25,7 @@
     1. [Introduction](CalDAV/introduction)
     1. Client
         1. [Implementations](CalDAV/Client-Implementations)
-        1. [[Bootstrapping]]
+        1. [Bootstrapping](CalDAV/Bootstrapping)
         1. Finding user calendars
         1. Synchronizing data
     1. Server
@@ -38,6 +38,7 @@
   1. [Version 4](vCard/vcard-4)
 1. CardDAV
     1. [Introduction](CardDAV/introduction)
+    1. [Bootstrapping](CardDAV/Bootstrapping)
     1. Client
         1. [Implementations](CardDAV/Client-Implementations)
     1. Server
