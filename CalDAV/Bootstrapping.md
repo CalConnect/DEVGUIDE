@@ -1,6 +1,6 @@
 <!-- --- title: Bootstrapping -->
 
-Text about bootstrapping.
+<! -- Text about bootstrapping.
 
 As of gollum-lib 4.1.0 [PlantUML](http://plantuml.com/) is supported to draw nice diagrams:
 
@@ -9,6 +9,7 @@ Client -> Server: /.well-known/caldav
 Server -> Client: location: /calendars/users
 Client -> Server: PROPFIND /calendars/users 
 @enduml
+-->
 
 ## How to discover and load calendar content given a user address
 
