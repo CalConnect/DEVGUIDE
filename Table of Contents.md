@@ -38,9 +38,9 @@
   1. [Version 4](vCard/vcard-4)
 1. CardDAV
     1. [Introduction](CardDAV/introduction)
-    1. [Bootstrapping](CardDAV/Bootstrapping)
     1. Client
         1. [Implementations](CardDAV/Client-Implementations)
+        1. [Bootstrapping](CardDAV/Bootstrapping)
     1. Server
         1. [Implementations](CardDAV/Server-Implementations)
     1. [Libraries and tools](CardDAV/libraries)
