@@ -1,16 +1,5 @@
 <!-- --- title: Bootstrapping -->
 
-<! -- Text about bootstrapping.
-
-As of gollum-lib 4.1.0 [PlantUML](http://plantuml.com/) is supported to draw nice diagrams:
-
-@startuml
-Client -> Server: /.well-known/caldav
-Server -> Client: location: /calendars/users
-Client -> Server: PROPFIND /calendars/users 
-@enduml
--->
-
 ## How to discover and load calendar content given a user address
 
 [RFC 6764](https://tools.ietf.org/html/rfc6764) describes how to discover the endpoint and context path for a CalDAV system. Endpoints should be available in DNS SRV records for each service:
