@@ -589,6 +589,8 @@ ul.action-links {
   color: #eee;
 }
 
+#feedback-content {border-top: 1px solid #ddd;}
+
 
 /* CalConnect RESPONSIVE OVERRIDES
    This is a Mobile First theme - the smaller device widths should not be needed in most cases,
