@@ -583,11 +583,13 @@ ul.action-links {
 #footer a {
   color: #ccc;
   text-decoration: underline;
+  target: _new;
 }
 #footer a:hover,
 #footer a:active {
   color: #eee;
 }
+
 
 /* CalConnect RESPONSIVE OVERRIDES
    This is a Mobile First theme - the smaller device widths should not be needed in most cases,
