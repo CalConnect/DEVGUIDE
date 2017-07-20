@@ -583,6 +583,8 @@ ul.action-links {
 #footer a {
   color: #ccc;
   text-decoration: underline;
+}
+# footer a:link {
   target: _new;
 }
 #footer a:hover,
