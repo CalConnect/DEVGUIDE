@@ -584,9 +584,6 @@ ul.action-links {
   color: #ccc;
   text-decoration: underline;
 }
-# footer a:link {
-  target: _new;
-}
 #footer a:hover,
 #footer a:active {
   color: #eee;
