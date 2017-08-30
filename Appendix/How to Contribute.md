@@ -8,7 +8,7 @@ This Wiki is based on [Gollum](https://github.com/gollum/gollum), a [Git](http:/
 
 ### Send an email
 
-The editorial team is monitoring the public CalConnect [calendar developer's list](http://lists.calconnect.org/mailman/listinfo/caldeveloper-l) so please send comments, corrections, etc to that list.
+The editorial team is monitoring the public CalConnect [calendar developer's list](http://lists.calconnect.org/listinfo.cgi/caldeveloper-l-calconnect.org) so please send comments, corrections, etc to that list.
 
 ### Raise an issue on GitHub
 
