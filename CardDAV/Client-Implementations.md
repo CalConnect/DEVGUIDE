@@ -2,6 +2,13 @@
 
 ## supported development
 
+### [Akonadi](https://userbase.kde.org/Akonadi)
+**Open source/Linux**
+
+The Akonadi framework is responsible for providing applications with a
+centralized database to store, index and retrieve the user's personal
+information in KDE. It supports CardDAV.
+
 ### [Apple Contacts: macOS](http://www.apple.com/macos)
 **CardDAV added: macOS 10.6, iOS 4**
 

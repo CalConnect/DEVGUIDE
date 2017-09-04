@@ -17,6 +17,13 @@ aCal is a CalDAV client for Android which requires a CalDAV server to function.
 
 AgenDAV is an open source multilanguage CalDAV web client which features a rich AJAX interface with shared calendars support.
 
+### [Akonadi](https://userbase.kde.org/Akonadi)
+**Open source/Linux**
+
+The Akonadi framework is responsible for providing applications with a
+centralized database to store, index and retrieve the user's personal
+information in KDE. It supports CalDAV for calendars, tasks and journals.
+
 ### [Apple Calendar: macOS](http://www.apple.com/macos)
 **Included with macOS**
 
