@@ -112,6 +112,11 @@ Implementation of CalDAV Access and Scheduling.
 
 Implementation of CalDAV Access and Scheduling.
 
+### [Xandikos](https://www.xandikos.org/)
+**Open source/cross-platform**
+
+Xandikos is a lightweight free WebDAV server that includes support for CalDAV.
+
 ## unsupported implementation
 
 ### [Dingo Calendar Server](http://andrew.triumf.ca/dingo/)
