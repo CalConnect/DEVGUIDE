@@ -23,3 +23,6 @@ plantuml:
   tmp_folder: _plantuml               # tmp folder to put generated image files
   dot_exe: /usr/bin/dot               # [optional] path to Graphviz dot execution
   background_color: white             # [optional] UML image background color
+
+exclude:
+  - app.yaml
