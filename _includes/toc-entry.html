@@ -1,0 +1,11 @@
+{% for page in include.pages %}
+{% assign content_size = page.content | strip | size %}
+<li>{% if content_size == 0 %}{{ page.title }}{% else %}<a href="{{ page.url }}">{{ page.title }}</a>{% endif %}
+{% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}
+{% if subpages.size > 0 %}
+  <ol>
+  {% include toc-entry.html pages=subpages %}
+  </ol>
+{% endif %}
+</li>
+{% endfor %}

@@ -1,0 +1,25 @@
+title: CalConnect DEVGUIDE
+author: Thomas Schäfer
+email: thomas.schaefer@1und1.de
+description: > # this means to ignore newlines until "baseurl:"
+  My modified template for CalConnect
+
+twitter_username: wsdwl
+
+sass:
+    style: compressed
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+  appendixes:
+    output: true
+    permalink: /Appendix/:path/
+
+plantuml:
+  plantuml_jar: _bin/plantuml.jar     # path to plantuml jar
+  tmp_folder: _plantuml               # tmp folder to put generated image files
+  dot_exe: /usr/bin/dot               # [optional] path to Graphviz dot execution
+  background_color: white             # [optional] UML image background color
