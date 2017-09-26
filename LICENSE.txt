@@ -1,6 +1,0 @@
-   Copyright The Calendaring and Scheduling Consortium
-
-   Licensing terms for the content of this repository are
-   available at:
-   
-   https://www.calconnect.org/about/policies/copyright-licensing
