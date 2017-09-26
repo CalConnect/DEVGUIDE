@@ -7,19 +7,30 @@ handlers:
 - url: /(.+)/
   static_files: _site/\1/index.html
   upload: _site/(.+)/index.html
+  secure: always
+  redirect_http_response_code: 301
 
 # site root
 - url: /
   static_files: _site/index.html
   upload: _site/index.html
+  secure: always
+  redirect_http_response_code: 301
 
 # For folders without trailing slashes - ideally a 301 redirect, but we're static & it isn't 2004
 - url: /([^\.]+)([^/])
   static_files: _site/\1\2/index.html
   upload: _site/(.+)
+  secure: always
+  redirect_http_response_code: 301
 
 # Redirect Everything else
 - url: /(.+)
   static_files: _site/\1
   upload: _site/(.+)
+  secure: always
+  redirect_http_response_code: 301
 
+# individual error page ;-( only working local  
+error_handlers:
+- file: 404.html
