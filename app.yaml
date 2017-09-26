@@ -4,6 +4,12 @@ threadsafe: true
 default_expiration: "1m"
 
 handlers:
+- url: /Home
+  static_files: _site/index.html
+  upload: _site/index.html
+  secure: always
+  redirect_http_response_code: 301
+
 - url: /(.+)/
   static_files: _site/\1/index.html
   upload: _site/(.+)/index.html
