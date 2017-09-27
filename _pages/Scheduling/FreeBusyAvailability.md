@@ -46,7 +46,7 @@ Availability flips the problem around. Instead of asking a potential attendee wh
    * They don't have to have a free slot - they're saying they're prepared to move some other meeting
    * They don't have to reveal anything about their schedule - that might be privileged information
    
-The [VAVAILABILITY](../vavailability/) specification standardizes this and also allows for many other capabilities. Apart from being a way to respond with available time it has uses within the SmartGrid and for VPOLL.
+The [VAVAILABILITY](/Scheduling/vavailability/) specification standardizes this and also allows for many other capabilities. Apart from being a way to respond with available time it has uses within the SmartGrid and for VPOLL.
 
 VAVAILABILITY was originally defined in answer to a Office Hours problem. This was the need by many universities to:
    *  define the hours when faculty could meet with students and 

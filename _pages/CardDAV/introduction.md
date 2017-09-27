@@ -19,10 +19,10 @@ For more information on what is available on the Developers Guide please see the
 
 For information on CardDAV implementations see:
 
-1. [Clients](../Client-Implementations/)
-1. [Bootstrapping](../Bootstrapping/)
-1. [Servers](../Server-Implementations/)
-1. [Libraries and tools](../libraries/)
-1. [Service providers](../services/)
+1. [Clients](/CardDAV/Client-Implementations/)
+1. [Bootstrapping](/CardDAV/Bootstrapping/)
+1. [Servers](/CardDAV/Server-Implementations/)
+1. [Libraries and tools](/CardDAV/libraries/)
+1. [Service providers](/CardDAV/services/)
 
 See [Standards](/Appendix/Standards/) for further information on standards you need to be aware of.

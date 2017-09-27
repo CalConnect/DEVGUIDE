@@ -10,7 +10,7 @@ order: 2
 This document is still incomplete.  It requires many more examples
 of what iMIP messages look like in different contexts.
 
-iMIP describe HOW [iTIP](../iTIP/) messages are sent and received via email.
+iMIP describe HOW [iTIP](/Scheduling/iTIP/) messages are sent and received via email.
 
 iMIP is important to solve the "identity crisis" as it's called
 within calendaring.  Many people have their calendar hosted on one
@@ -19,14 +19,14 @@ ATTENDEE and ORGANIZER components of an iCalendar scheduling resource
 are generally mailto: URIs, and are created by people adding addresses
 from their address book.
 
-The most interoperable way to ensure that an [iTIP](../iTIP/) request reaches the
+The most interoperable way to ensure that an [iTIP](/Scheduling/iTIP/) request reaches the
 owner of an email address is to attach it to an email and send it to that
 address.
 
 ## description
 
-An iMIP message is an email containing attached scheduling [iTIP](../iTIP/) files.
-Each [iTIP](../iTIP/) is an iCalendar format file with a METHOD property.
+An iMIP message is an email containing attached scheduling [iTIP](/Scheduling/iTIP/) files.
+Each [iTIP](/Scheduling/iTIP/) is an iCalendar format file with a METHOD property.
 
 We will ignore COUNTER and DECLINECOUNTER for this document, as they are
 poorly supported and not recommended.  Likewise REFRESH is not often seen

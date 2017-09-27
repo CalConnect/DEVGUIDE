@@ -17,11 +17,11 @@ For more information on what is available on the Developers Guide please see the
 
 For information on CalDAV implementations see:
 
-1. [Clients](../Client-Implementations/)
-1. [Bootstrapping](../Bootstrapping/)
-1. [Servers](../Server-Implementations/)
-1. [Libraries and tools](../libraries/)
-1. [Service providers](../services/)
+1. [Clients](/CalDAV/Client-Implementations/)
+1. [Bootstrapping](/CalDAV/Bootstrapping/)
+1. [Servers](/CalDAV/Server-Implementations/)
+1. [Libraries and tools](/CalDAV/libraries/)
+1. [Service providers](/CalDAV/services/)
 
 See [Standards](/Appendix/Standards/) for further information on standards you need to be aware of.
 
