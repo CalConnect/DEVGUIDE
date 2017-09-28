@@ -56,7 +56,7 @@ The way this value is created is the following concatenation:
 `DATE` + "T" + `TIME` where:
 * `DATE` - represents the calendar date
 * "T" - the LATIN CAPITAL LETTER T character is a time designator showing that the value also contains `TIME` value.
-* `TIME` - it is the time value, value that can be represented in different ways
+* `TIME` - it is the time value, value that can be represented in different ways.
 
 Below there are 2 examples of a `DATE-TIME` value:
 * 20160226T120000 - a `DATE-TIME` value that does not contain time zone information
