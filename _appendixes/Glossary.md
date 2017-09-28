@@ -142,7 +142,7 @@ The process by which public event data is gathered, formatted and distributed to
 A list of free and busy periods for a particular calendar user or resource. Primarily used for scheduling resources or meetings with other people. Time periods may be marked as busy, free, busy-unavailable (sometimes referred to as out of office) and busy-tentative.
 
 <h5 id="gregorian-calendar">Gregorian Calendar</h5>
-The most common civil calendar system in use today, recognized by many international bodies. (See http://en.wikipedia.org/wiki/Gregorian_calendar.)
+The most common civil calendar system in use today, recognized by [many international bodies](http://en.wikipedia.org/wiki/Gregorian_calendar)
 
 <h5 id="ical">iCal</h5>
 The name of Apple, Inc's desktop calendar user agent. Often used as an abbreviation for the iCalendar standard.
@@ -172,10 +172,10 @@ All information on other resources available as part of a resource.
 A general term from common usage to convey a request for an attendee's participation in an event. In RFC documents the more specific term is request (cp. Request).
 
 <h5 id="jcal">jCal</h5>
-A draft specification that defines a JSON representation of iCalendar data. (Reference: jCal: The JSON format for iCalendar - https://datatracker.ietf.org/doc/draft-ietf-jcardcal-jcal.)
+A draft specification that defines a JSON representation of iCalendar data. Reference: [jCal: The JSON format for iCalendar](https://datatracker.ietf.org/doc/draft-ietf-jcardcal-jcal)
 
 <h5 id="jcard">jCard</h5>
-A draft specification that defines a JSON representation of vCard data. (Reference: jCard - The JSON format for vCard - https://datatracker.ietf.org/doc/draft-ietf-jcardcal-jcard.)
+A draft specification that defines a JSON representation of vCard data. Reference: [jCard - The JSON format for vCard](https://datatracker.ietf.org/doc/draft-ietf-jcardcal-jcard)
 
 <h5 id="journal-entry">Journal Entry</h5>
 From RFC5545, one or more descriptive text notes associated with a particular calendar date. Examples of a journal entry include a daily record of a legislative body or a journal entry of individual telephone contacts for the day or an ordered list of accomplishments for the day.
@@ -199,13 +199,13 @@ An Internet media type, sometimes a Content-type after the name of a header in s
 Number of simultaneous bookings allowed by a resource, during scheduling.
 
 <h5 id="non-gregorian-calendar">Non-Gregorian Calendar</h5>
-Any calendar system that is not a Gregorian Calendar (e.g., Chinese, Hebrew, Islamic). (See http://en.wikipedia.org/wiki/Calendar for a description of many different calendar systems.)
+Any calendar system that is not a Gregorian Calendar (e.g., Chinese, Hebrew, Islamic). See [Wikipedia](http://en.wikipedia.org/wiki/Calendar) for a description of many different calendar systems.
 
 <h5 id="notification">Notification</h5>
 See Alarm.
 
 <h5 id="oasis">OASIS (Organization for the Advancement of Structured Information Standards)</h5>
-A Standards Development Organization primarily focused on web services standards. OASIS and CalConnect have reciprocal memberships for joint work on WS-Calendar. (Reference http://www.oasis-open.org.)
+A Standards Development Organization primarily focused on web services standards. [OASIS](http://www.oasis-open.org) and CalConnect have reciprocal memberships for joint work on WS-Calendar.
 
 <h5 id="organizer">Organizer</h5>
 A calendar user who creates a calendar item, requests free/busy information, or published free/busy information. It is an Organizer who invites Attendees. (Reference: [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.8.4.3).)
@@ -232,7 +232,7 @@ Generally, to make calendar information, such as freebusy time, available to a s
 An iCalendar property used to define a repeating pattern for events or tasks.
 
 <h5 id="rscale">RSCALE</h5>
-An iCalendar RRULE parameter indicating which calendar system to use for expanding this RRULE. (See draft http://tools.ietf.org/id/draft-daboo-icalendar-rscale. )
+An iCalendar RRULE parameter indicating which calendar system to use for expanding this [RRULE](http://tools.ietf.org/id/draft-daboo-icalendar-rscale).
 
 <h5 id="recurrence-id">RECURRENCE-ID</h5>
 This property is used to identify a specific instance of a recurring VEVENT, VTODO, or VJOURNAL calendar component.
@@ -262,7 +262,7 @@ Information on the person(s) responsible for the daily upkeep of a resource.
 acceptance or refusal of a meeting request sent to a meeting proposer.
 
 <h5 id="rfc">RFC (Request for Comments)</h5>
-The IETF and some other standards bodies use RFCs to define Internet standards. They document most of the protocols, mechanisms, procedures and best practices in use on the Internet (Reference: ietf.org).
+The [IETF](https://ietf.org) and some other standards bodies use RFCs to define Internet standards. They document most of the protocols, mechanisms, procedures and best practices in use on the internet.
 
 <h5 id="rsvp">RSVP</h5>
 Specifies whether there is an expectation of a reply from a specific calendar user (Reference: [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.2.17).)
@@ -332,7 +332,7 @@ Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hyperte
 An extension to Web Distributed Authoring and Versioning (WebDAV) that allows efficient synchronization of the contents of a WebDAV collection. (Reference: RFC6578.)
 
 <h5 id="ws-calendar">WS-Calendar</h5>
-An OASIS (Organization for the Advancement of Structured Information Standards) working group tasked with defining a cross-domain standard for passing schedule and interval information between and within services built around CalWS. The product of the working group will be a standard also named "WS-Calendar" (from http://www.oasis-open.org/committees/workgroup.php?wg_abbrev=ws-calendar) incorporating the CalWS proposal. See CalWS.
+An OASIS (Organization for the Advancement of Structured Information Standards) working group tasked with defining a cross-domain standard for passing schedule and interval information between and within services built around CalWS. The product of the working group will be a standard also named [WS-Calendar](http://www.oasis-open.org/committees/workgroup.php?wg_abbrev=ws-calendar) incorporating the CalWS proposal. See CalWS.
 
 <h5 id="xcal">xCal</h5>
 A standard that defines an XML representation of iCalendar data. (Reference: xCal: The XML format for iCalendar - RFC6321.)
