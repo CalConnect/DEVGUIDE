@@ -28,7 +28,7 @@ If you wish to be able to transport or handle scheduling requests, depending on 
 These specifications define different representations of the standard iCalendar data model. Depending on your needs you may need one or more of: 
 
    *  [RFC 6321: xCal: The XML format for iCalendar](#RFC6321) - [IETF RFC](https://tools.ietf.org/html/rfc6321)
-   *  [RFC 7265: jCal: The JSON Format for iCalendar](RFC7265) - [IETF RFC](https://tools.ietf.org/html/rfc7265)
+   *  [RFC 7265: jCal: The JSON Format for iCalendar](#RFC7265) - [IETF RFC](https://tools.ietf.org/html/rfc7265)
 
 ## CalDAV and CalDaV related base standards
 
@@ -93,7 +93,7 @@ See [[iTip]] for a more complete description.
 <h5 id="RFC6047">RFC 6047: iCalendar Message-Based Interoperability Protocol (iMIP)</h5>
 RFC 6047 specifies how to exchange calendaring data using iTip via e-mail.
  
-There are a number of issues to avoid when attempting to schedule via iMip. These are described in [[iMip]]
+There are a number of issues to avoid when attempting to schedule via iMip. These are described in [iMip](/Scheduling/iMIP/).
 
 <h5 id="RFC6321">RFC 6321: xCal: The XML format for iCalendar</h5>
 RFC 6321 defines a format for representing iCalendar data in XML. 
@@ -116,7 +116,7 @@ This document, developed by the XML Technical Committee, specifies a RESTful web
 calendaring operations. This protocol has been contributed to OASIS WS-CALENDAR as a component of the 
 WS-CALENDAR Specification under development by OASIS.
 
-[CalWS-SOAP SOAP Web Servicies Protocol for Calendaring](http://calconnect.org/pubdocs/CD1301%20CalWS-SOAP%20SOAP%20Web%20Services%20Protocol%20for%20Calendaring.pdf)
+[CalWS-SOAP SOAP Web Services Protocol for Calendaring](http://calconnect.org/pubdocs/CD1301%20CalWS-SOAP%20SOAP%20Web%20Services%20Protocol%20for%20Calendaring.pdf)
 This document, developed by the XML Technical Committee, specifies a SOAP web services protocol for calendaring operations. This protocol has been contributed to OASIS WS-CALENDAR as a component of the WS-CALENDAR Specification under development by OASIS.
 
 [Freebusy Read URL](http://calconnect.org/pubdocs/CD0903%20Freebusy%20Read%20URL.pdf)
