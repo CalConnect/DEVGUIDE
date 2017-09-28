@@ -60,9 +60,9 @@ DavMail is a POP/IMAP/SMTP/Caldav/LDAP exchange gateway allowing users to use an
 Daylite is a commercial CalDAV server
 
 ### [EGroupware](http://www.egroupware.org)
-**Free Trial period**
+**Open Source/Commercial/Free Hosted Trial**
 
-EGroupware is an enterprise ready groupware server that includes CalDAV support.
+EGroupware is an enterprise ready groupware server that includes CalDAV and CardDAV support.
 
 ### [EVO Mail Server](http://www.evomailserver.com/)
 **Shareware/Trial Period**
