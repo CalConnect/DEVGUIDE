@@ -12,6 +12,11 @@ order: 5
 
 iCloud Calendar is CalDAV Enabled.
 
+### [EGroupware](http://www.egroupware.org)
+**Free Trial/Hosted in Germany**
+
+Hosted EGroupware enterprise groupware server including CalDAV and CardDAV support.
+
 ### [FastMail](https://www.fastmail.com/)
 **Free Trial/Premium**
 
