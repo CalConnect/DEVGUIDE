@@ -337,9 +337,39 @@ ul.staggered-list li {
 
 // Footer
 .page-footer {
-  padding-top: 20px;
   color: $footer-font-color;
   background-color: $footer-bg-color;
+  padding: 0;
+  margin: 2em 0 0 0;
+
+  #sitemap {
+      padding: 1em 0;
+      .menu-block-wrapper {
+
+          > .nav {
+              margin: 0;
+              display: flex;
+          }
+
+          .sub-list {
+              li {
+                  padding-left: 6.3px;
+                  width: 100%;
+              }
+          }
+
+          li {
+              margin-right: 30px;
+              width: 20%;
+
+              a {
+                  color: color('grey', 'lighten-4');
+                  font-size: 14px;
+                  font-family: 'Ek Mukta',Arial,Helvetica,sans-serif;
+              }
+          }
+      }
+  }
 
   .footer-copyright {
     overflow: hidden;
@@ -349,7 +379,17 @@ ul.staggered-list li {
     padding: 10px 0px;
     color: $footer-copyright-font-color;
     background-color: $footer-copyright-bg-color;
+    font-size: 0.8em;
     @extend .light;
+
+    a {
+        color: $footer-copyright-font-color;
+        text-decoration: underline;
+
+        &:last-of-type {
+            text-decoration: none;
+        }
+    }
   }
 }
 
