@@ -34,6 +34,7 @@ nav {
   .nav-wrapper {
     position: relative;
     height: 100%;
+    display: flex;
   }
 
   @media #{$large-and-up} {
@@ -47,7 +48,6 @@ nav {
     position: relative;
     z-index: 1;
     height: $navbar-height-mobile;
-    margin: 0 18px;
 
     i {
       height: $navbar-height-mobile;
@@ -58,11 +58,13 @@ nav {
 
   // Logo
   .brand-logo {
-    position: absolute;
     color: $navbar-font-color;
     display: inline-block;
     font-size: $navbar-brand-font-size;
     padding: 0;
+    position: relative;
+    font-weight: 500;
+    margin-right: 30px;
 
     &.center {
       left: 50%;
@@ -70,9 +72,6 @@ nav {
     }
 
     @media #{$medium-and-down} {
-      left: 50%;
-      transform: translateX(-50%);
-
       &.left, &.right {
         padding: 0;
         transform: none;
@@ -95,6 +94,13 @@ nav {
     i.material-icons {
       float: left;
       margin-right: 15px;
+    }
+
+    @media #{$medium-and-down} {
+      .hidden-xs {
+          display: none;
+      }
+      flex: 2;
     }
   }
 

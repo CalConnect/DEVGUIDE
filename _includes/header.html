@@ -1,20 +1,27 @@
+<div id="topbar-inner">
+    <div id="topbar-inner" class="navbar container">
+        <div id="titleBar">
+            <a href="{{ "/" | relative_url }}"><span class="hidden-xs">CalConnect : </span>The Calendaring and Scheduling Consortium</a>
+        </div>
+    </div>
+</div>
 <nav class="deep-purple lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}">CalConnect Developer's Guide</a>
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
+    <div class="nav-wrapper container">
+        <a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}">CALCONNECT <span class="hidden-xs">Developer's Guide</span></a>
+        {% assign default_paths = site.pages | map: "path" %}
+        {% assign page_paths = site.header_pages | default: default_paths %}
 
-          <ul class="right hide-on-med-and-down">
+        <ul class="hide-on-med-and-down">
             <li><a href="{{ "/" | relative_url }}">Home</a></li>
             <li><a href="/Table-of-Contents/">Table of Contents</a></li>
             <li><a href="/Appendix/How-to-Contribute/">How to Contribute</a></li>
-          </ul>
+        </ul>
 
-          <ul id="nav-mobile" class="side-nav">
+        <ul id="nav-mobile" class="side-nav">
             <li><a href="#">Home</a></li>
             <li><a href="/Table-of-Contents/">Table of Contents</a></li>
             <li><a href="/Appendix/How-to-Contribute/">How to Contribute</a></li>
-          </ul>
-
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
 </nav>
