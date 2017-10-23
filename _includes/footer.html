@@ -8,23 +8,26 @@
                             <li class="sub-list">
                                 <a href="#">Table of Contents</a>
                                 <ul class="menu nav">
-                                    <li><a href="#">Introduction</a></li>
-                                    <li><a href="#">iCalendar Topics</a></li>
-                                    <li><a href="#">Validation</a></li>
-                                    <li><a href="#">CalDAV</a></li>
-                                    <li><a href="#">Event Publishing Topics</a></li>
-                                    <li><a href="#">vCard Topics</a></li>
-                                    <li><a href="#">CardDAV</a></li>
+                                    {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
+                                    {% for page in pages %}
+                                    {% assign content_size = page.content | strip | size %}
+                                        <li>
+                                            {% if content_size == 0 %}
+                                                <a href="/Table-of-Contents#{{ page.title | replace:' ', '_' | downcase }}">{{ page.title }}</a>
+                                            {% else %}
+                                                <a href="{{ page.url }}">{{ page.title }}</a>
+                                            {% endif %}
+                                        </li>
+                                    {% endfor %}
                                 </ul>
                             </li>
                             <li class="sub-list">
                                 <a href="#">Appendixes</a>
                                 <ul class="menu nav">
-                                    <li><a href="#">Glossary of Terms</a></li>
-                                    <li><a href="#">Standards</a></li>
-                                    <li><a href="#">Examples</a></li>
-                                    <li><a href="#">Links to other interesting sites</a></li>
-                                    <li><a href="#">How to Contribute</a></li>
+                                    {% assign appendixes = site.appendixes | sort: "order" %}
+                                    {% for appendix in appendixes %}
+                                    <li><a href="{{ appendix.url }}">{{ appendix.title }}</a></li>
+                                    {% endfor %}
                                 </ul>
                             </li>
                             <li class="sub-list">
