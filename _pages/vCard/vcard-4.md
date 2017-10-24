@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: toc-type
 title: vCard 4.0
 parent: "/vCard-Topics"
+mainParrent: "vCard Topics"
 order: 2
 ---
 
@@ -226,4 +227,3 @@ Ideally, your software should continue supporting vCard 3.0 alongside
 the implementation of vCard 4.0, until the newest format is widely used.
 For most use cases, vCard 4.0 represents a vast improvement over the
 previous version, and should be adopted immediately.
-

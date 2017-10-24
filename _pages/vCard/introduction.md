@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: toc-type
 title: Introduction
 parent: "/vCard-Topics"
+mainParrent: "vCard Topics"
 order: 1
 ---
 
@@ -130,6 +131,3 @@ Apple's iCloud Contacts and Google Contacts are cloud-based services
 that utilize the vCard data format together with
 [CardDAV](/CardDAV/introduction/), a server/client protocol that helps
 centrally manage vCard data on a server.
-
-
-

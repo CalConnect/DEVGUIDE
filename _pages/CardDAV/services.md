@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: toc-type
 title: CardDAV services
 parent: "/CardDAV"
+mainParrent: "CardDAV"
 order: 5
 ---
 

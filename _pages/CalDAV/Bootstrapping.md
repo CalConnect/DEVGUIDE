@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: toc-type
 title: Bootstrapping
 parent: "/CalDAV/Client"
+mainParrent: "CalDAV"
 order: 2
 ---
 

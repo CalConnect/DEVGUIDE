@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: toc-type
 title: Bootstrapping
 parent: "/CardDAV/Client"
+mainParrent: "CardDAV"
 order: 2
 ---
 

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: toc-type
 title: CalDAV services
 parent: "/CalDAV"
+mainParrent: "CalDAV"
 order: 5
 ---
 

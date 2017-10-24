@@ -2,6 +2,23 @@
   margin: 0 auto;
   max-width: 1140px;
   width: 90%;
+
+  &.container-columns {
+      display: flex;
+
+      .container-content {
+          flex: 3.85;
+          margin-right: 30px;
+      }
+
+      .container-sidebar {
+          flex: 1;
+      }
+
+      @media #{$medium-and-down} {
+          display: block;
+      }
+  }
 }
 @media #{$medium-and-up} {
   .container {

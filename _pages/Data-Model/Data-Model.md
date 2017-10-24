@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: toc-type
 title: iCalendar Data Model
 parent: "/iCalendar-Topics"
+mainParrent: "iCalendar Topics"
 order: 2
 ---
 

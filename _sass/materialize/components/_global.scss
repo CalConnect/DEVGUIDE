@@ -772,3 +772,88 @@ td, th{
 .no-padding {
   padding: 0 !important;
 }
+
+/*******************
+  Sidebar
+*******************/
+.container-sidebar {
+    ul {
+        margin-top: 22px;
+
+        li {
+            line-height: 1em;
+            margin-bottom: 0.5em;
+
+            a {
+                padding: 0.2em 0 0.2em 1em;
+                border-radius: 4px;
+                font-weight: 400;
+                color: color('grey', 'lighten-7');
+                text-decoration: none;
+                font-family: 'Ek Mukta',Arial,Helvetica,sans-serif;
+                font-size: 14px;
+                display: block;
+                width: 100%;
+
+                &.active {
+                    background-color: color('grey', 'lighten-4');
+                }
+            }
+        }
+
+        @media #{$medium-and-down} {
+            margin-top: 10px;
+        }
+    }
+
+    span {
+        display: none;
+        font-size: 1.8em;
+        margin-top: 28px;
+        padding-top: 14px;
+        line-height: 20px;
+        border-top: 1px solid color('deep-purple', 'lighten-1');
+
+        @media #{$medium-and-down} {
+            display: block;
+        }
+    }
+}
+
+/*******************
+  Breadcrumbs per page
+*******************/
+.container-content {
+    .breadcrumb {
+        padding: 0px 10px;
+        margin-bottom: 20px;
+        list-style: none;
+        background-color: color('grey', 'lighten-4');
+        border-radius: 4px;
+        margin-top: 22px;
+
+        li {
+            margin-bottom: 0;
+            display: inline-block;
+
+            &.active {
+                color: color('grey', 'lighten-8');
+                font-family: 'Ek Mukta',Arial,Helvetica,sans-serif;
+                font-size: 14px;
+            }
+
+            &+li:before {
+                padding: 0 5px;
+                color: color('grey', 'lighten-9');
+                content: "/\00a0";
+            }
+
+            a {
+                color: color('grey', 'lighten-7');
+                text-decoration: none;
+                font-size: 14px;
+                font-family: 'Ek Mukta',Arial,Helvetica,sans-serif;
+            }
+        }
+    }
+}

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: toc-type
 title: Creating Simple Events
 parent: "/Data-Model/Data-Model"
+mainParrent: "iCalendar Topics"
 order: 1
 ---
 
