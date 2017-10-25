@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="container container-columns">
+    <div class="container-content">
+        <ol class="breadcrumb">
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="/Table-of-Contents">Table of Contents</a></li>
+            {% if page.mainParrent %}
+                {% assign pageMainParrent = page.mainParrent %}
+                <li class="active">{{ page.mainParrent }}</li>
+                {{ page.parent }}
+            {% endif %}
+        </ol>
+
+        {{ content }}
+    </div>
+    <div class="container-sidebar">
+        <span>Table of Contents</span>
+        <ul class="menu nav">
+            {% assign currentPageUrl = page.url %}
+            {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
+            {% include toc-sidebar.html pages=pages currentPageUrl=currentPageUrl %}
+        </ul>
+    </div>
+</div>
