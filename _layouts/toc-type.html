@@ -6,21 +6,26 @@ layout: default
         <ol class="breadcrumb">
             <li><a href="{{ "/" | relative_url }}">Home</a></li>
             <li><a href="/Table-of-Contents">Table of Contents</a></li>
-            {% if page.mainParrent %}
-                {% assign pageMainParrent = page.mainParrent %}
-                <li class="active">{{ page.mainParrent }}</li>
-                {{ page.parent }}
-            {% endif %}
+            {% assign pageParents = page.parents | split:';' %}
+            {% for parent in pageParents %}
+                {% assign pageParentsDetails = parent| split:':' %}
+                {% if forloop.last %}
+                    <li class="active">{{pageParentsDetails[0]}}</li>
+                {% else %}
+                    <li><a href="{{pageParentsDetails[1]}}">{{pageParentsDetails[0]}}</a></li>
+                {% endif %}
+            {% endfor %}
         </ol>
 
         {{ content }}
     </div>
     <div class="container-sidebar">
-        <span>Table of Contents</span>
-        <ul class="menu nav">
+        <span class="mobile-title">Table of Contents</span>
+        <ul class="menu-sidebar">
             {% assign currentPageUrl = page.url %}
+            {% assign currentPageTitle = page.title %}
             {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
-            {% include toc-sidebar.html pages=pages currentPageUrl=currentPageUrl %}
+            {% include toc-sidebar.html pages=pages currentPageUrl=currentPageUrl currentMainParrent=page.mainParrent currentPageTitle=currentPageTitle%}
         </ul>
     </div>
 </div>

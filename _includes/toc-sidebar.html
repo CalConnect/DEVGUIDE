@@ -1,15 +1,32 @@
-{% for page in pages %}
-    {% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}
-    {% if page.title == pageMainParrent %}
-        {% for subpage in subpages %}
-            {% assign content_size = subpage.content | strip | size %}
-                <li>
-                    {% if content_size == 0 %}
-                        <a href="#">{{ subpage.title }}</a>
-                    {% else %}
-                        <a href="{{ subpage.url }}" class="{% if currentPageUrl contains subpage.url %}active{% endif %}">{{ subpage.title }}</a>
-                    {% endif %}
-                </li>
-        {% endfor %}
+
+{% for page in include.pages %}
+{% if page.parrents contains page.url %}active{% endif %}
+    {% assign content_size = page.content | strip | size %}
+    {% if include.currentMainParrent == page.mainParrent %}
+        <!-- Check if active parrent -->
+        {% assign pageUrlPices = page.url | split:'/' %}
+        {% assign activeParent = false %}
+
+        {% if page.childs contains currentPageTitle %}
+            {% assign activeParent = true %}
+        {% endif %}
+        <!-- End Check if active parrent -->
+        {% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}
+
+        <li class="{% if subpages.size > 0 %}expandable{% endif %} {% if currentPageUrl contains page.url %}active{% endif %} {% if activeParent %}active{% endif %}">
+            {% if include.level %}
+                {% if content_size == 0 %}
+                    <div><span>{{ page.title }}</span></div>
+                {% else %}
+                    <a href="{{ page.url }}" class="{% if currentPageUrl contains page.url %}active{% endif %}">{{ page.title }}</a>
+                {% endif %}
+            {% endif %}
+
+            {% if subpages.size > 0 %}
+                <ul class="menu nav">
+                    {% include toc-sidebar.html pages=subpages currentMainParrent=page.mainParrent level="secondary" %}
+                </ul>
+            {% endif %}
+        </li>
     {% endif %}
 {% endfor %}

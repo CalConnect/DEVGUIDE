@@ -3,7 +3,6 @@ layout: toc-type
 title: Introduction
 parent: "/CalDAV"
 mainParrent: "CalDAV"
-order: 1
 ---
 
 # CalDAV - introduction
@@ -30,4 +29,3 @@ In addition CalConnect has the following documents:
 
    *  [CalDAV Use Cases](http://www.calconnect.org/publications/caldavusecasesv1.0.pdf)
    *  [CalDAV Scheduling Requirements](http://www.calconnect.org/publications/caldavschedulingrequirementsv1.1.pdf)
-   

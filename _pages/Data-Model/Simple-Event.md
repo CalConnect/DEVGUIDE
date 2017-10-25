@@ -3,6 +3,7 @@ layout: toc-type
 title: Creating Simple Events
 parent: "/Data-Model/Data-Model"
 mainParrent: "iCalendar Topics"
+parents: "iCalendar Topics:/iCalendar-Topics;iCalendar Data Model:/Data-Model/Data-Model"
 order: 1
 ---
 
