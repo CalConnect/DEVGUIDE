@@ -349,13 +349,26 @@ ul.staggered-list li {
           > .nav {
               margin: 0;
               display: flex;
+
+              @media #{$medium-and-down} {
+                  display: block;
+              }
           }
 
           .sub-list {
               li {
                   padding-left: 6.3px;
                   width: 100%;
+
+                  @media #{$medium-and-down} {
+                      display: none;
+                  }
               }
+
+              @media #{$medium-and-down} {
+                  width: 100%;
+              }
+
           }
 
           li {
