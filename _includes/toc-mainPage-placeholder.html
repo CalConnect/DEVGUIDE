@@ -1,0 +1,15 @@
+<ol>
+    {% for page in pages %}
+        {% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}
+        {% if page.title == currentMainParrent %}
+            {% for subpage in subpages %}
+                {% assign content_size = subpage.content | strip | size %}
+                    {% if content_size > 0 %}
+                        <li>
+                            <a href="{{ subpage.url }}" class="{% if currentPageUrl contains subpage.url %}active{% endif %}">{{ subpage.title }}</a>
+                        </li>
+                    {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ol>
