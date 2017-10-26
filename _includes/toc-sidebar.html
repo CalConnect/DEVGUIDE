@@ -1,18 +1,21 @@
-
 {% for page in include.pages %}
 {% if page.parrents contains page.url %}active{% endif %}
     {% assign content_size = page.content | strip | size %}
     {% if include.currentMainParrent == page.mainParrent %}
-        <!-- Check if active parrent -->
-        {% assign pageUrlPices = page.url | split:'/' %}
-        {% assign activeParent = false %}
 
-        {% if page.childs contains currentPageTitle %}
-            {% assign activeParent = true %}
-        {% endif %}
-        <!-- End Check if active parrent -->
+        {% assign pageChilds = page.childs | split:',' %}
+        {% for pageChild in pageChilds %}
+            {% assign pageChildStripped = pageChild | downcase | remove: " " %}
+            {% assign currentPageTitleStripped = currentPageTitle | downcase | remove: " " %}
+            {% if pageChildStripped == currentPageTitleStripped %}
+                {% assign activeParent = true %}
+                {% break %}
+            {% else %}
+                {% assign activeParent = false %}
+            {% endif %}
+        {% endfor %}
+
         {% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}
-
         <li class="{% if subpages.size > 0 %}expandable{% endif %} {% if currentPageUrl contains page.url %}active{% endif %} {% if activeParent %}active{% endif %}">
             {% if include.level %}
                 {% if content_size == 0 %}

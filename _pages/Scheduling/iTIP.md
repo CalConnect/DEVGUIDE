@@ -3,6 +3,7 @@ layout: toc-type
 title: iTIP
 parent: /Scheduling/Scheduling
 mainParrent: "iCalendar Topics"
+parents: "iCalendar Topics:/iCalendar-Topics;Scheduling:/Scheduling/Scheduling/"
 order: 1
 ---
 

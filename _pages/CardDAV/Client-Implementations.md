@@ -3,6 +3,7 @@ layout: toc-type
 title: CardDAV client implementations
 parent: "/CardDAV/Client"
 mainParrent: "CardDAV"
+parents: "CardDAV:/CardDAV;Client:/CardDAV/Client/"
 order: 1
 ---
 
@@ -30,7 +31,7 @@ Client for iOS that supports CardDAV.
 ### [ASynk](http://asynk.io/)
 **Free**
 
-ASynK is a flexible Contacts synchronization program that works with a variety of Contacts software such as Microsoft Outlook, Microsoft Exchange Server, Google Contacts, Any standards compiant CardDAV server, and Emacs BBDB. 
+ASynK is a flexible Contacts synchronization program that works with a variety of Contacts software such as Microsoft Outlook, Microsoft Exchange Server, Google Contacts, Any standards compiant CardDAV server, and Emacs BBDB.
 
 ### [Atmail Address Book](https://www.atmail.com/products/)
 **Included with Atmail 6 Product **
@@ -92,7 +93,7 @@ gSyncit V4.2 offers CalDAV calendar/task sync and CardDAV sync for Outlook, in a
 ### [InfCloud](http://www.inf-it.com/open-source/clients/infcloud/)
 **Open Source CalDAV/CardDAV web client**
 
-InfCloud is an open source CalDAV/CardDAV web client (integrated version of CalDavZAP and CardDavMATE). 
+InfCloud is an open source CalDAV/CardDAV web client (integrated version of CalDavZAP and CardDavMATE).
 
 ### [OwnCloud](https://owncloud.org/)
 **Client and Server**
@@ -139,4 +140,3 @@ Desktop client that supports CardDAV.
 pyCardDAV is a CLI CardDAV client (for use with mutt etc.) and also contains a reusable CardDAV module.
 
 **Not supported since 2014**
-

@@ -3,6 +3,7 @@ layout: toc-type
 title: Recurrences
 parent: "/iCalendar-Topics"
 mainParrent: "iCalendar Topics"
+parents: "iCalendar Topics:/iCalendar-Topics"
 order: 4
 ---
 

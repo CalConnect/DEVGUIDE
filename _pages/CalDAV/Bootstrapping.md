@@ -3,6 +3,7 @@ layout: toc-type
 title: Bootstrapping
 parent: "/CalDAV/Client"
 mainParrent: "CalDAV"
+parents: "CalDAV:/CalDAV;Client:/CalDAV/Client/"
 order: 2
 ---
 
@@ -20,6 +21,3 @@ Context path for the service may be available in DNS TXT records. In practice, p
 Once the endpoint and path are determined, a client can query for the principal resource for this particular user, contained in the "current-user-principal" property, then query that resource to get the "calendar-home-set" property.  
 
 Query the home set to see the available calendars and their properties, then query the individual collections to get the list of hrefs for the contained events. By using "multiget" REPORT queries clients can obtain the actual event content for many items at once.
-
-
-

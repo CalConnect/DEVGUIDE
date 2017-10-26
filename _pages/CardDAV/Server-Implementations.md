@@ -3,6 +3,7 @@ layout: toc-type
 title: CardDAV server implementations
 parent: "/CardDAV/Server"
 mainParrent: "CardDAV"
+parents: "CardDAV:/CardDAV;Server:/CardDAV/Server/"
 order: 1
 ---
 
@@ -91,4 +92,3 @@ ScalableOGo (SOGo) is a free groupware server and includes support for CardDAV.
 Xandikos is a lightweight free WebDAV server that includes support for CardDAV.
 
 ##  unsupported development
-

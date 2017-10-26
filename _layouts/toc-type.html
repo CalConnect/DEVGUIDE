@@ -9,11 +9,7 @@ layout: default
             {% assign pageParents = page.parents | split:';' %}
             {% for parent in pageParents %}
                 {% assign pageParentsDetails = parent| split:':' %}
-                {% if forloop.last %}
-                    <li class="active">{{pageParentsDetails[0]}}</li>
-                {% else %}
-                    <li><a href="{{pageParentsDetails[1]}}">{{pageParentsDetails[0]}}</a></li>
-                {% endif %}
+                <li><a href="{{pageParentsDetails[1]}}">{{pageParentsDetails[0]}}</a></li>
             {% endfor %}
         </ol>
 

@@ -3,6 +3,7 @@ layout: toc-type
 title: CalDAV client implementations
 parent: "/CalDAV/Client"
 mainParrent: "CalDAV"
+parents: "CalDAV:/CalDAV;Client:/CalDAV/Client/"
 order: 1
 ---
 

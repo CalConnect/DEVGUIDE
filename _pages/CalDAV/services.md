@@ -3,6 +3,7 @@ layout: toc-type
 title: CalDAV services
 parent: "/CalDAV"
 mainParrent: "CalDAV"
+parents: "CalDAV:/CalDAV"
 order: 5
 ---
 
@@ -66,7 +67,7 @@ servermx.com offers e-mail hosting plus Contacts and Calendars via CalDAV and Ca
 ### [Yahoo! Calendar](https://calendar.yahoo.com/)
 **Free sign-up**
 
-The Yahoo! Calendar is CalDAV enabled. 
+The Yahoo! Calendar is CalDAV enabled.
 
 ### [WEB.DE](https://web.de/email/kalender/)
 **Free/Premium Service GERMAN only**

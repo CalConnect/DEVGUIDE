@@ -3,6 +3,7 @@ layout: toc-type
 title: iCalendar Data Model
 parent: "/iCalendar-Topics"
 mainParrent: "iCalendar Topics"
+parents: "iCalendar Topics:/iCalendar-Topics"
 childs: 'Creating Simple Events, UID, Detailed Data Model Description'
 order: 2
 ---
