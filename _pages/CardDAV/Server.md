@@ -3,7 +3,7 @@ layout: toc-type
 title: "Server"
 parent: "/CardDAV"
 order: 2
-mainParrent: "CardDAV"
+mainParent: "CardDAV"
 parents: "CardDAV:/CardDAV"
 childs: "CardDAV server implementations"
 ---

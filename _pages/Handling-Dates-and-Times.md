@@ -2,7 +2,7 @@
 layout: toc-type
 title: Handling Dates and Times
 parent: "/iCalendar-Topics"
-mainParrent: "iCalendar Topics"
+mainParent: "iCalendar Topics"
 parents: "iCalendar Topics:/iCalendar-Topics"
 order: 3
 ---

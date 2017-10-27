@@ -16,10 +16,10 @@ layout: default
         {% if content.size != 1 %}
             {{ content }}
         {% else %}
-            For information on {{page.title}} implementations see:
-            {% assign currentMainParrent = page.mainParrent %}
+            For information on {{page.title}} see:
+            {% assign currentMainParent = page.mainParent %}
             {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
-            {% include toc-mainPage-placeholder.html pages=pages currentMainParrent=currentMainParrent %}
+            {% include toc-mainPage-placeholder.html pages=pages currentMainParent=currentMainParent %}
         {% endif %}
 
     </div>
@@ -29,7 +29,7 @@ layout: default
             {% assign currentPageUrl = page.url %}
             {% assign currentPageTitle = page.title %}
             {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
-            {% include toc-sidebar.html pages=pages currentPageUrl=currentPageUrl currentMainParrent=page.mainParrent currentPageTitle=currentPageTitle%}
+            {% include toc-sidebar.html pages=pages currentPageUrl=currentPageUrl currentMainParent=page.mainParent currentPageTitle=currentPageTitle%}
         </ul>
     </div>
 </div>

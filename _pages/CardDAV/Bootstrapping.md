@@ -2,7 +2,7 @@
 layout: toc-type
 title: Bootstrapping
 parent: "/CardDAV/Client"
-mainParrent: "CardDAV"
+mainParent: "CardDAV"
 parents: "CardDAV:/CardDAV;Client:/CardDAV/Client/"
 order: 2
 ---

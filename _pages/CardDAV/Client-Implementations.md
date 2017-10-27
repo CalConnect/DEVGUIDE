@@ -2,7 +2,7 @@
 layout: toc-type
 title: CardDAV client implementations
 parent: "/CardDAV/Client"
-mainParrent: "CardDAV"
+mainParent: "CardDAV"
 parents: "CardDAV:/CardDAV;Client:/CardDAV/Client/"
 order: 1
 ---

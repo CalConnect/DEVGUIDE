@@ -1,7 +1,7 @@
 ---
 layout: toc-type
 title: vCard 5.0
-mainParrent: "vCard Topics"
+mainParent: "vCard Topics"
 ---
 
 # vCard 5.0

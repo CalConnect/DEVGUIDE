@@ -1,7 +1,7 @@
 <ol>
     {% for page in pages %}
         {% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}
-        {% if page.title == currentMainParrent %}
+        {% if page.title == currentMainParent %}
             {% for subpage in subpages %}
                 {% assign content_size = subpage.content | strip | size %}
                     {% if content_size > 0 %}

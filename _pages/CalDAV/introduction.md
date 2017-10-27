@@ -2,7 +2,7 @@
 layout: toc-type
 title: Introduction
 parent: "/CalDAV"
-mainParrent: "CalDAV"
+mainParent: "CalDAV"
 parents: "CalDAV:/CalDAV"
 ---
 

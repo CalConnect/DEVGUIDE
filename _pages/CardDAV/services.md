@@ -2,7 +2,7 @@
 layout: toc-type
 title: CardDAV services
 parent: "/CardDAV"
-mainParrent: "CardDAV"
+mainParent: "CardDAV"
 parents: "CardDAV:/CardDAV"
 order: 5
 ---

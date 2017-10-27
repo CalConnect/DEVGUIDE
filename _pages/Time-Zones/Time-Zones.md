@@ -2,7 +2,7 @@
 layout: toc-type
 title: Time Zones
 parent: "/iCalendar-Topics"
-mainParrent: "iCalendar Topics"
+mainParent: "iCalendar Topics"
 parents: "iCalendar Topics:/iCalendar-Topics"
 childs: 'Best practices, Sources of Time Zone Information, Time Zone Distribution Service'
 order: 5

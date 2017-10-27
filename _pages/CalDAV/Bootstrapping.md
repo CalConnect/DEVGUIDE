@@ -2,7 +2,7 @@
 layout: toc-type
 title: Bootstrapping
 parent: "/CalDAV/Client"
-mainParrent: "CalDAV"
+mainParent: "CalDAV"
 parents: "CalDAV:/CalDAV;Client:/CalDAV/Client/"
 order: 2
 ---

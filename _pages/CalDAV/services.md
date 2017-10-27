@@ -2,7 +2,7 @@
 layout: toc-type
 title: CalDAV services
 parent: "/CalDAV"
-mainParrent: "CalDAV"
+mainParent: "CalDAV"
 parents: "CalDAV:/CalDAV"
 order: 5
 ---

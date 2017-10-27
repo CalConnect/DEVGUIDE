@@ -1,7 +1,7 @@
 {% for page in include.pages %}
-{% if page.parrents contains page.url %}active{% endif %}
+{% if page.parents contains page.url %}active{% endif %}
     {% assign content_size = page.content | strip | size %}
-    {% if include.currentMainParrent == page.mainParrent %}
+    {% if include.currentMainParent == page.mainParent %}
 
         {% assign pageChilds = page.childs | split:',' %}
         {% for pageChild in pageChilds %}
@@ -27,7 +27,7 @@
 
             {% if subpages.size > 0 %}
                 <ul class="menu nav">
-                    {% include toc-sidebar.html pages=subpages currentMainParrent=page.mainParrent level="secondary" %}
+                    {% include toc-sidebar.html pages=subpages currentMainParent=page.mainParent level="secondary" %}
                 </ul>
             {% endif %}
         </li>

@@ -2,7 +2,7 @@
 layout: toc-type
 title: vCard 4.0
 parent: "/vCard-Topics"
-mainParrent: "vCard Topics"
+mainParent: "vCard Topics"
 parents: "vCard Topics:/vCard-Topics/"
 order: 2
 ---

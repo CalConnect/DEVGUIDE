@@ -2,7 +2,7 @@
 layout: toc-type
 title: Scheduling
 parent: "/iCalendar-Topics"
-mainParrent: "iCalendar Topics"
+mainParent: "iCalendar Topics"
 parents: "iCalendar Topics:/iCalendar-Topics"
 childs: 'iTIP, iMIP, FreeBusy and Availability, VAVAILABILITY'
 order: 6
