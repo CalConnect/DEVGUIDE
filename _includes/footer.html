@@ -1,14 +1,51 @@
 <footer class="page-footer">
-        <div class="container">
-	    <div>
-		    The contents of this wiki are freely available licensed via a <a href="http://creativecommons.org/licenses/by/3.0/" class="deep-purple-text text-lighten-3">Creative Commons Attribution 3.0 Unported License</a>.
+    <div id="sitemap">
+        <div id="sitemap-inner" class="container">
+            <div class="region region-sitemap">
+                <section id="block-menu-block-1" class="block block-menu-block ">
+                    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+                        <ul class="menu nav">
+                            <li class="sub-list">
+                                <a href="/Table-of-Contents/">Table of Contents</a>
+                                <ul class="menu nav">
+                                    {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
+                                    {% for page in pages %}
+                                    {% assign content_size = page.content | strip | size %}
+                                        <li>
+                                            {% if content_size == 0 %}
+                                                <a href="/Table-of-Contents#{{ page.title | replace:' ', '_' | downcase }}">{{ page.title }}</a>
+                                            {% else %}
+                                                <a href="{{ page.url }}">{{ page.title }}</a>
+                                            {% endif %}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                            <li class="sub-list">
+                                <a href="#">Appendixes</a>
+                                <ul class="menu nav">
+                                    {% assign appendixes = site.appendixes | sort: "order" %}
+                                    {% for appendix in appendixes %}
+                                    <li><a href="{{ appendix.url }}">{{ appendix.title }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                            <li class="sub-list">
+                                <a href="https://goo.gl/forms/NqKna6d4lsqUtlgD3" target="_blank">Feedback</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </div>
+    </div>
    <div class="footer-copyright">
         <div class="container">
             <div>
-		    <a href="https://www.calconnect.org/about/policies/copyright-licensing" class="deep-purple-text text-lighten-3">Copyright © The Calendaring and Scheduling Consortium</a>.
-	    </div>
+                The contents of this wiki are freely available licensed via a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+                <br>
+                <a href="https://www.calconnect.org/about/policies/copyright-licensing">Copyright © The Calendaring and Scheduling Consortium</a>.
+	       </div>
         </div>
     </div>
 </footer>

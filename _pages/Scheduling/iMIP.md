@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: iMIP
 parent: /Scheduling/Scheduling
+mainParrent: "iCalendar Topics"
+parents: "iCalendar Topics:/iCalendar-Topics;Scheduling:/Scheduling/Scheduling/"
 order: 2
 ---
 

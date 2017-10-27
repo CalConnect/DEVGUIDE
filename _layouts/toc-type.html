@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="container container-columns">
+    <div class="container-content">
+        <ol class="breadcrumb">
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="/Table-of-Contents">Table of Contents</a></li>
+            {% assign pageParents = page.parents | split:';' %}
+            {% for parent in pageParents %}
+                {% assign pageParentsDetails = parent| split:':' %}
+                <li><a href="{{pageParentsDetails[1]}}">{{pageParentsDetails[0]}}</a></li>
+            {% endfor %}
+        </ol>
+
+        {% if content.size != 1 %}
+            {{ content }}
+        {% else %}
+            For information on {{page.title}} implementations see:
+            {% assign currentMainParrent = page.mainParrent %}
+            {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
+            {% include toc-mainPage-placeholder.html pages=pages currentMainParrent=currentMainParrent %}
+        {% endif %}
+
+    </div>
+    <div class="container-sidebar">
+        <span class="mobile-title">Table of Contents</span>
+        <ul class="menu-sidebar">
+            {% assign currentPageUrl = page.url %}
+            {% assign currentPageTitle = page.title %}
+            {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
+            {% include toc-sidebar.html pages=pages currentPageUrl=currentPageUrl currentMainParrent=page.mainParrent currentPageTitle=currentPageTitle%}
+        </ul>
+    </div>
+</div>

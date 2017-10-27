@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: CalDAV libraries
 parent: "/CalDAV"
+mainParrent: "CalDAV"
+parents: "CalDAV:/CalDAV"
 order: 4
 ---
 

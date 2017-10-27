@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: CardDAV libraries
 parent: "/CardDAV"
+mainParrent: "CardDAV"
+parents: "CardDAV:/CardDAV"
 order: 3
 ---
 
@@ -58,6 +60,6 @@ A Python library used to read and write vCard data streams as defined in RFC2426
 ### [vCard4j](http://vcard4j.sourceforge.net/)
 **Open source/Java**
 
-vCard4j is a Java library used to read and write vCard data streams as defined in RFC2426. 
+vCard4j is a Java library used to read and write vCard data streams as defined in RFC2426.
 
 **Not supported since 2003**

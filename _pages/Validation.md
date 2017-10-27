@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: toc-type
 title: Validation
 parent: "/"
 order: 3

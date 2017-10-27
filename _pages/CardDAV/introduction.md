@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: Introduction
 parent: "/CardDAV"
+mainParrent: "CardDAV"
+parents: "CardDAV:/CardDAV"
 order: 1
 ---
 

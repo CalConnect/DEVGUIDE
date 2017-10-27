@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: CalDAV server implementations
 parent: "/CalDAV/Server"
+mainParrent: "CalDAV"
+parents: "CalDAV:/CalDAV;Server:/CalDAV/Server/"
 order: 1
 ---
 

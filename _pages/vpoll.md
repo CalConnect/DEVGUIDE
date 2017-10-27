@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: toc-type
 title: VPOLL
 ---
 
@@ -16,4 +16,3 @@ Online services have appeared as a result and these allow participants to vote o
 The component and properties defined in this specification provide a standardized structure for this process and allow calendar clients and servers and web based services to interact.
 
 These structures also have uses beyond the relatively simple needs of most meeting organizers. The process of coming to consensus can also be viewed as a bidding process.
-

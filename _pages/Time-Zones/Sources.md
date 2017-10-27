@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: Sources of Time Zone Information
 parent: /Time-Zones/Time-Zones
+mainParrent: "iCalendar Topics"
+parents: "iCalendar Topics:/iCalendar-Topics;Time Zones:/Time-Zones/Time-Zones/"
 order: 2
 ---
 

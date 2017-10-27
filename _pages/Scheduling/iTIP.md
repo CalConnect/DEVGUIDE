@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: iTIP
 parent: /Scheduling/Scheduling
+mainParrent: "iCalendar Topics"
+parents: "iCalendar Topics:/iCalendar-Topics;Scheduling:/Scheduling/Scheduling/"
 order: 1
 ---
 
@@ -19,7 +21,7 @@ The process involves a number of steps - some not covered by this specification.
    *  Choose a time for the meeting (see [FreeBusyAvailability](/Scheduling/FreeBusyAvailability/))
    *  Create a meeting request with you as the ORGANIZER and with a number of ATTENDEEs
    *  Send the invitation with method REQUEST
-   
+
 Attendees receiving the invitation can choose to accept or decline the request by setting their participation status (PARTSTAT parameter) and sending it back with a METHOD: REPLY
 
-iTIP describes a COUNTER method in which an attendee may respond with an alternative time for the meeting. This approach is often not implemented and in any case impractical (see [FreeBusyAvailability](/Scheduling/FreeBusyAvailability/)) 
+iTIP describes a COUNTER method in which an attendee may respond with an alternative time for the meeting. This approach is often not implemented and in any case impractical (see [FreeBusyAvailability](/Scheduling/FreeBusyAvailability/))

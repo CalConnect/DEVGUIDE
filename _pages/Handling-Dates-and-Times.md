@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: Handling Dates and Times
 parent: "/iCalendar-Topics"
+mainParrent: "iCalendar Topics"
+parents: "iCalendar Topics:/iCalendar-Topics"
 order: 3
 ---
 
@@ -10,7 +12,7 @@ order: 3
 When speaking about a calendar, we are speaking  about dates and  times.
 Dates represent the most important part of a calendar component.
 Either we are speaking about the start of an event, end of an event, duration of an event, we are speaking about dates and times.
-Calendar properties like `DTSTART`, `DTEND`, `DUE`, `COMPLETED` have as value types one of following value types: `DATE` or `DATE-TIME`. 
+Calendar properties like `DTSTART`, `DTEND`, `DUE`, `COMPLETED` have as value types one of following value types: `DATE` or `DATE-TIME`.
 
 Some property values examples can be seen below:
 
@@ -63,17 +65,17 @@ Below there are 2 examples of a `DATE-TIME` value:
 * TZID=America/New_York:20160226T120000 - a `DATE-TIME` value that has also the `TZID` property defining the Time zone on which that `DATE-TIME` applies to.
 
 Depending on the `TIME` value the `DATE-TIME` values can be split in 3 categories:
-* `DATE WITH LOCAL TIME AND TIME ZONE REFERENCE` - Date and local time with reference to time zone information. Time zone information is specified by `TZID` property parameter. The `TZID` property parameter value references a particular time zone definition 
+* `DATE WITH LOCAL TIME AND TIME ZONE REFERENCE` - Date and local time with reference to time zone information. Time zone information is specified by `TZID` property parameter. The `TZID` property parameter value references a particular time zone definition
 via a `VTIMEZONE` calendar component.
 Example:
 TZID=America/New_York:20160307T230000. Indicates March 07, 2016 11:00 PM UTC-05:00
-* `DATE WITH LOCAL TIME` - these are "Floating" date-times. They represent the same year, month, day, hour, minute, second no matter 
+* `DATE WITH LOCAL TIME` - these are "Floating" date-times. They represent the same year, month, day, hour, minute, second no matter
 in what time zone they are observed. For example '20160307T230000' will indicate year 2016, month March, day 7, hour 23, minute 0, second 0 for users with different time zones.
-* `DATE WITH UTC TIME` - Represent a fix point in time. Their time zone is `UTC` or absolute time. Are identified with suffix 'Z' (which comes from Zulu Military Time with UTC±00:00). 
+* `DATE WITH UTC TIME` - Represent a fix point in time. Their time zone is `UTC` or absolute time. Are identified with suffix 'Z' (which comes from Zulu Military Time with UTC±00:00).
 Example: 20160307T230000Z.
 It is illegal to apply a 'TZID' property parameter to `DATE-TIME` properties with values in `UTC`
 
-# Using `TIME ZONE` values instead of `LOCAL TIME` 
+# Using `TIME ZONE` values instead of `LOCAL TIME`
 
 Using `DATE WITH LOCAL TIME` values assigned to your properties is the easiest way of using the `DATE-TIME` value type but in the same time is the less recommended.
 Using them may cause synchronization problems for users that are in different time zones and they need to participate at a common event.
@@ -85,6 +87,6 @@ This will definitely lead to synchronization issues between all participants.
 UTC Time and Time zone reference are two of the ways on managing the values for the `DATE-TIME` value type.
 Dates with local time and time zone reference should be preferred instead of `UTC Time`. Using Time zone information helps the Calendar components to be precise when talking about events that occur more than once when changing from daylight to standard time.
 When talking about `Daylight Saving Time`, there is definitely an advantage in using time zone reference. By using `UTC Time`, when changing from standard to daylight time, we will have a gap in our recurrent events, because using `UTC` we will point to a fix point in time.
-This will not happen if we will provide time zone reference, because the value will adapt to the time zone, which includes Daylight Time Saving support. 
+This will not happen if we will provide time zone reference, because the value will adapt to the time zone, which includes Daylight Time Saving support.
 
 There is a more detailed description about [Best Practices](/Time-Zones/Best-Practices/) in the [Time Zones](/Time-Zones/Time-Zones/) section.

@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: CalDAV client implementations
 parent: "/CalDAV/Client"
+mainParrent: "CalDAV"
+parents: "CalDAV:/CalDAV;Client:/CalDAV/Client/"
 order: 1
 ---
 
@@ -197,7 +199,7 @@ Webical is a web application to view and edit multiple iCalendars and has a CalD
 
 Desktop client that includes CalDAV Access support.
 
-**Not supported since 2009** 
+**Not supported since 2009**
 
 The chandler server has recently been started to be supported again by 1&1 and moved to their GitHub repository. See the [Server Implementations](CalDAV-Server-Implementations) page for that.
 
@@ -235,4 +237,3 @@ Spicebird is a collaboration application built on top of various other open sour
 TaskCal Internet standards based human task management and process interaction. TaskCal is an iCalendar wrapper to the jBPM process manager, providing standards based calendar agent access to an actors tasks via email (iMIP), HTTP (.ics) and CalDAV.
 
 **Status uncertain; appears to have been abandoned since 2014**
-

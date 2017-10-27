@@ -337,9 +337,52 @@ ul.staggered-list li {
 
 // Footer
 .page-footer {
-  padding-top: 20px;
   color: $footer-font-color;
   background-color: $footer-bg-color;
+  padding: 0;
+  margin: 2em 0 0 0;
+
+  #sitemap {
+      padding: 1em 0;
+      .menu-block-wrapper {
+
+          > .nav {
+              margin: 0;
+              display: flex;
+
+              @media #{$medium-and-down} {
+                  display: block;
+              }
+          }
+
+          .sub-list {
+              li {
+                  padding-left: 6.3px;
+                  width: 100%;
+
+                  @media #{$medium-and-down} {
+                      display: none;
+                  }
+              }
+
+              @media #{$medium-and-down} {
+                  width: 100%;
+              }
+
+          }
+
+          li {
+              margin-right: 30px;
+              width: 20%;
+
+              a {
+                  color: color('grey', 'lighten-4');
+                  font-size: 14px;
+                  font-family: 'Ek Mukta',Arial,Helvetica,sans-serif;
+              }
+          }
+      }
+  }
 
   .footer-copyright {
     overflow: hidden;
@@ -349,7 +392,17 @@ ul.staggered-list li {
     padding: 10px 0px;
     color: $footer-copyright-font-color;
     background-color: $footer-copyright-bg-color;
+    font-size: 0.8em;
     @extend .light;
+
+    a {
+        color: $footer-copyright-font-color;
+        text-decoration: underline;
+
+        &:last-of-type {
+            text-decoration: none;
+        }
+    }
   }
 }
 
@@ -731,4 +784,113 @@ td, th{
 
 .no-padding {
   padding: 0 !important;
+}
+
+/*******************
+  Sidebar
+*******************/
+.container-sidebar {
+    ul {
+        margin-top: 22px;
+        margin-left: 0;
+
+        li ul li {
+            line-height: 1em;
+            margin-bottom: 0.5em;
+            font-weight: 400;
+            text-decoration: none;
+            font-family: 'Ek Mukta',Arial,Helvetica,sans-serif;
+            font-size: 14px;
+            color: color('grey', 'lighten-7');
+
+            ul {
+                margin-left: 1.5em;
+                margin-top: 0;
+            }
+
+            a, div{
+                border-radius: 4px;
+                font-weight: 400;
+                text-decoration: none;
+                font-family: 'Ek Mukta',Arial,Helvetica,sans-serif;
+                font-size: 14px;
+                display: block;
+                width: 100%;
+                padding: 0.2em 0 0.2em 1em;
+
+                &.active,
+                &:hover {
+                    background-color: color('grey', 'lighten-4');
+                    cursor: pointer;
+                }
+            }
+
+            &.expandable {
+                ul {
+                    display: none;
+                }
+
+                &.active {
+                    ul {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        @media #{$medium-and-down} {
+            margin-top: 10px;
+        }
+    }
+
+    span.mobile-title {
+        display: none;
+        font-size: 1.8em;
+        margin-top: 28px;
+        padding-top: 14px;
+        line-height: 20px;
+        border-top: 1px solid color('deep-purple', 'lighten-1');
+
+        @media #{$medium-and-down} {
+            display: block;
+        }
+    }
+}
+
+/*******************
+  Breadcrumbs per page
+*******************/
+.container-content {
+    .breadcrumb {
+        padding: 0px 10px;
+        margin-bottom: 20px;
+        list-style: none;
+        background-color: color('grey', 'lighten-4');
+        border-radius: 4px;
+        margin-top: 22px;
+
+        li {
+            margin-bottom: 0;
+            display: inline-block;
+
+            &.active {
+                color: color('grey', 'lighten-8');
+                font-family: 'Ek Mukta',Arial,Helvetica,sans-serif;
+                font-size: 14px;
+            }
+
+            &+li:before {
+                padding: 0 5px;
+                color: color('grey', 'lighten-9');
+                content: "/\00a0";
+            }
+
+            a {
+                color: color('grey', 'lighten-7');
+                text-decoration: none;
+                font-size: 14px;
+                font-family: 'Ek Mukta',Arial,Helvetica,sans-serif;
+            }
+        }
+    }
 }

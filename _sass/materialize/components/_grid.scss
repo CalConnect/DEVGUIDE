@@ -1,18 +1,26 @@
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1140px;
   width: 90%;
-}
-@media #{$medium-and-up} {
-  .container {
-    width: 85%;
+
+  &.container-columns {
+      display: flex;
+
+      .container-content {
+          flex: 3.5;
+          margin-right: 30px;
+      }
+
+      .container-sidebar {
+          flex: 1;
+      }
+
+      @media #{$medium-and-down} {
+          display: block;
+      }
   }
 }
-@media #{$large-and-up} {
-  .container {
-    width: 70%;
-  }
-}
+
 .container .row {
   margin-left: (-1 * $gutter-width / 2);
   margin-right: (-1 * $gutter-width / 2);
