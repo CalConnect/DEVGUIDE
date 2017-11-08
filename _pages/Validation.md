@@ -11,7 +11,10 @@ RFCs describe all formats in a formal way and also often includes examples, but 
 
 Here you will find a collection of the ones, we use and think are useful to you too:
 
-## [iCalendar Validator](http://severinghaus.org/projects/icv/)
+## iCalendar Validators
+
+### [Severinghaus](http://severinghaus.org/projects/icv/)
 Based on the current iCal4J version by Ben Fortuna
 
-## more to add
+### [Z Content](https://icalendar.org/validator.html)
+Z Content is a developer of iCalendar tools for the Joomla Content Management System.
