@@ -7,11 +7,10 @@ parents: "iCalendar Topics:/iCalendar-Topics"
 order: 3
 ---
 
-# Dates importance in calendar components
+# The importance of dates and times in calendar components
 
-When speaking about a calendar, we are speaking  about dates and  times.
-Dates represent the most important part of a calendar component.
-Either we are speaking about the start of an event, end of an event, duration of an event, we are speaking about dates and times.
+When speaking about a calendar, we are speaking  about dates and times.
+The start, end and duration of an event represent the most important part of a calendar component.
 Calendar properties like `DTSTART`, `DTEND`, `DUE`, `COMPLETED` have as value types one of following value types: `DATE` or `DATE-TIME`.
 
 Some property values examples can be seen below:
@@ -26,9 +25,11 @@ LOCATION:Mo's bar - back room
 END:VEVENT
 </code></pre>
 
+# Start is inclusive, End is exclusive
+This is an important point and allows us to create edjacent events with no overlap. This is particularly important in date only events. For exampel a one day event will havea start day on the day the event takes place and an end date of the day after.
+
 
 # Using DATE values
-
 A Property value for a Date related property, assigned to a Calendar component, can have the `DATE` value type.
 This value type if defined to identify values that contain a calendar date, without any `TIME` information include in it.
 This value is basically composed on the year value, month value and day value.
@@ -79,7 +80,7 @@ It is illegal to apply a 'TZID' property parameter to `DATE-TIME` properties wit
 
 Using `DATE WITH LOCAL TIME` values assigned to your properties is the easiest way of using the `DATE-TIME` value type but in the same time is the less recommended.
 Using them may cause synchronization problems for users that are in different time zones and they need to participate at a common event.
-For example, creating an event that has as Start Date Time the value '20160307T230000', means that every participant, no matter in what time zone he will be at that moment, will have in his calendar an event at 11 PM, on March 7, 2016.
+For example, creating an event that has as Start Date Time the value '20160307T230000', means that every participant, no matter in what time zone they will be at that moment, will have in their calendar an event at 11 PM, on March 7, 2016.
 This will definitely lead to synchronization issues between all participants.
 
 # `UTC` and `TIME ZONE` Handling
