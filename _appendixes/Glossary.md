@@ -93,7 +93,13 @@ A way to represent dates as a combination of eras, years, months, weeks, and day
 <h5 id="calconnect">CalConnect</h5>
 The Calendaring and Scheduling Consortium is a non-for-profit partnership between vendors of calendaring and scheduling systems and tools, and users of those tools. Our purpose is to improve all aspects of calendaring and scheduling, in particular interoperability. We do this by improving existing standards, developing new standards, offering interoperability testing for calendaring and scheduling systems and tools, collaborating with other organizations with similar goals, and conducting periodic conferences where engineers and customers meet and interact in a collegial atmosphere. Although CalConnect is not a standards development organization, virtually every important calendaring or calendaring-related standard over the last five years has been authored, edited and/or coedited by members of a CalConnect Technical Committee.
 
-<h5 id="calscale">CALSCALE</h5>
+<h5 id="calext">CALEXT</h5>
+The IETF working group for calendaring and scheduling standards development. See https://datatracker.ietf.org/wg/calext/about/. This group uses the [Calsify](#calsify) 
+
+<h5 id="calsify">Calsify</h5>
+The IETF mailing list most commonly used for calendaring and scheduling standards development. See the page at https://www.ietf.org/mailman/listinfo/calsify to join.
+
+<h5 id="calscale">Calscale</h5>
 An iCalendar property used to identify the calendar system used to represent dates and times within an iCalendar object. iCalendar currently only defines the GREGORIAN calendar system.
 
 <h5 id="calws">CalWS</h5>
@@ -232,7 +238,7 @@ Generally, to make calendar information, such as freebusy time, available to a s
 An iCalendar property used to define a repeating pattern for events or tasks.
 
 <h5 id="rscale">RSCALE</h5>
-An iCalendar RRULE parameter indicating which calendar system to use for expanding this [RRULE](http://tools.ietf.org/id/draft-daboo-icalendar-rscale).
+An iCalendar RRULE parameter indicating which calendar system to use for expanding this [RRULE](http://tools.ietf.org/html/rfc7529).
 
 <h5 id="recurrence-id">RECURRENCE-ID</h5>
 This property is used to identify a specific instance of a recurring VEVENT, VTODO, or VJOURNAL calendar component.
