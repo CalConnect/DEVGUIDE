@@ -26,10 +26,14 @@ We're not developing new protocol elements or APIs, this work is just describing
 - Guidance to CalConnect on building a suitable IT infrastructure to support an interactive document
 
 ## Begin and End Dates
-| **Begin:** | April 2015 |
-| **End:** | tbd |
+
+* **Begin:** April 2015
+* **End:** tbd
 
 ## Milestones and Work Products
+
+| Period | Milestone |
+| --- | --- |
 | April-May 2015 |	Identify key problem areas of iCalendar for documenting as FAQs|
 |May 2015 |	Outline of the "cookbook" document for presentation at the Conference|
 |June-August 2015 |	Develop the key examples for the "cookbook" along with associated FAQs and diagrams|
