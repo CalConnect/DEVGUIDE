@@ -44,6 +44,8 @@ We're not developing new protocol elements or APIs, this work is just describing
 |January 2017 | Integrate content about Timezones and Handling Date and Time|
 |April 2017| Integrate content about VCard and Bootstrapping |
 |July 2017 | Integrate way to receive feedback from users |
+| Oktober 2017 | improve layout for better reading and navigating |
+| November 2017 | adding a section about public available validators for iCal |
 
 ## DEVGUIDE Mailing List
 
