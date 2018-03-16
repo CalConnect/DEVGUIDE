@@ -896,3 +896,35 @@ td, th{
         }
     }
 }
+
+
+/*******************
+  Collapse Items
+*******************/
+.data-expander {
+    overflow: hidden;
+    height: 28px;
+    -webkit-transition: all 0.2s ease-out; /* Safari */
+    transition: all 0.2s ease-out;
+    border: 1px solid $primary-color;
+    margin-bottom: 5px;
+
+    .data-expander-child {
+        padding: 5px;
+    }
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: $primary-color;
+        display: block;
+        padding: 2px 2px 2px 10px;
+        position: relative;
+
+        i {
+            position: absolute;
+            top: 2px;
+            right: 10px;
+        }
+    }
+}
