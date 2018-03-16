@@ -32,7 +32,12 @@ layout: default
 
     </div>
     <div class="container-sidebar">
-        <span class="mobile-title">Table of Contents</span>
+        {% if page.mainParent == 'Appendixes' %}
+            <span class="mobile-title">Appendixes</span>
+        {% else %}
+            <span class="mobile-title">Table of Contents</span>
+        {% endif %}
+
         <ul class="menu-sidebar">
             {% assign currentPageUrl = page.url %}
             {% assign currentPageTitle = page.title %}
