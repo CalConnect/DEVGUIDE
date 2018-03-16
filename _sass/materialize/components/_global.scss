@@ -794,7 +794,7 @@ td, th{
         margin-top: 22px;
         margin-left: 0;
 
-        li ul li {
+        li {
             line-height: 1em;
             margin-bottom: 0.5em;
             font-weight: 400;
@@ -824,7 +824,9 @@ td, th{
                     cursor: pointer;
                 }
             }
+        }
 
+        li ul li {
             &.expandable {
                 ul {
                     display: none;

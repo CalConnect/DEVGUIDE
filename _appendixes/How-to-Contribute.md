@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: How to Contribute
+parent: "/Appendix/Appendixes"
+mainParent: "Appendixes"
+parents: 'Appendixes:/Appendix/Appendixes'
 order: 5
 ---
 

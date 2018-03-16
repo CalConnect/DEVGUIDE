@@ -1,6 +1,11 @@
 <ol>
-    {% for page in pages %}
-        {% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}
+    {% for page in loopPages %}
+        {% if page.title == 'Appendixes' %}
+            {% assign subpages = site.appendixes | where: "parent", page.id | sort: "order" %}
+        {% else %}
+            {% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}
+        {% endif %}
+
         {% if page.title == currentMainParent %}
             {% for subpage in subpages %}
                 {% assign content_size = subpage.content | strip | size %}

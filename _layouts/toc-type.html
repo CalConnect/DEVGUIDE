@@ -5,7 +5,9 @@ layout: default
     <div class="container-content">
         <ol class="breadcrumb">
             <li><a href="{{ "/" | relative_url }}">Home</a></li>
-            <li><a href="/Table-of-Contents">Table of Contents</a></li>
+            {% if page.mainParent != 'Appendixes' %}
+                <li><a href="/Table-of-Contents">Table of Contents</a></li>
+            {% endif %}
             {% assign pageParents = page.parents | split:';' %}
             {% for parent in pageParents %}
                 {% assign pageParentsDetails = parent| split:':' %}
@@ -18,8 +20,14 @@ layout: default
         {% else %}
             For information on {{page.title}} see:
             {% assign currentMainParent = page.mainParent %}
-            {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
-            {% include toc-mainPage-placeholder.html pages=pages currentMainParent=currentMainParent %}
+
+            {% if page.title == 'Appendixes' %}
+                {% assign loopPages = site.appendixes | where: "parent", "/" | sort: "order" %}
+            {% else %}
+                {% assign loopPages = site.pages | where: "parent", "/" | sort: "order" %}
+            {% endif %}
+
+            {% include toc-mainPage-placeholder.html loopPages=loopPages currentMainParent=currentMainParent %}
         {% endif %}
 
     </div>

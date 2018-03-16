@@ -19,7 +19,9 @@ layout: default
   <ol>
     {% assign appendixes = site.appendixes | sort: "order" %}
     {% for appendix in appendixes %}
-    <li><a href="{{ appendix.url }}">{{ appendix.title }}</a></li>
+        {% if appendix.title != 'Appendixes' %}
+            <li><a href="{{ appendix.url }}">{{ appendix.title }}</a></li>
+        {% endif %}
     {% endfor %}
   </ol>
 </div>
