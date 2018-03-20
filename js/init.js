@@ -6,15 +6,17 @@
 
     $( ".data-expander a" ).click(function(evt) {
         evt.preventDefault();
+        var icon = $(this).find('i');
         var expandParent = $(this).parent();
-        var expandChild = expandParent.find('.data-expander-child');
-        var expandChildHeight = expandChild.height();
-
-        $( ".data-expander" ).each(function( index ) {
-            $(this).height(28);
-        });
-        
-        expandParent.height(expandChildHeight + 34);
+        var currentClass = expandParent.hasClass('expanded');
+        //Collapse all items
+        $( ".data-expander" ).find('i').html('add');
+        $( ".data-expander" ).removeClass('expanded');
+        //Expand other item only if the previous wasn't expanded
+        if (!currentClass) {
+            expandParent.toggleClass('expanded');
+            icon.html('remove');
+        }
     });
 
   }); // end of document ready
