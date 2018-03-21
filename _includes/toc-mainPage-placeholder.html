@@ -1,6 +1,6 @@
 <ol>
     {% for page in loopPages %}
-        {% if page.title == 'Appendixes' %}
+        {% if page.path contains '_appendixes' %}
             {% assign subpages = site.appendixes | where: "parent", page.id | sort: "order" %}
         {% else %}
             {% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}

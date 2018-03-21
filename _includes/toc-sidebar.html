@@ -1,4 +1,4 @@
-{% if page.mainParent == 'Appendixes' %}
+{% if page.path contains '_appendixes' %}
     {% assign loopPages = site.appendixes | sort: "order" %}
 {% else %}
     {% assign loopPages = include.pages | sort: "order" %}
@@ -31,7 +31,7 @@
                 {% endif %}
             {% endif %}
 
-            {% if  page.mainParent == 'Appendixes' %}
+            {% if page.path contains '_appendixes' %}
                 {% if content_size != 0 %}
                     <a href="{{ page.url }}" class="{% if currentPageUrl contains page.url %}active{% endif %}">{{ page.title }}</a>
                 {% endif %}

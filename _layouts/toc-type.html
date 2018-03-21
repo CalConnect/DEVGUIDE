@@ -5,7 +5,9 @@ layout: default
     <div class="container-content">
         <ol class="breadcrumb">
             <li><a href="{{ "/" | relative_url }}">Home</a></li>
-            {% if page.mainParent != 'Appendixes' %}
+            {% if page.path contains '_appendixes' %}
+                <!-- Do Nothing -->
+            {% else %}
                 <li><a href="/Table-of-Contents">Table of Contents</a></li>
             {% endif %}
             {% assign pageParents = page.parents | split:';' %}
@@ -21,7 +23,7 @@ layout: default
             For information on {{page.title}} see:
             {% assign currentMainParent = page.mainParent %}
 
-            {% if page.title == 'Appendixes' %}
+            {% if page.path contains '_appendixes' %}
                 {% assign loopPages = site.appendixes | where: "parent", "/" | sort: "order" %}
             {% else %}
                 {% assign loopPages = site.pages | where: "parent", "/" | sort: "order" %}
@@ -32,7 +34,7 @@ layout: default
 
     </div>
     <div class="container-sidebar">
-        {% if page.mainParent == 'Appendixes' %}
+        {% if page.path contains '_appendixes' %}
             <span class="mobile-title">Appendixes</span>
         {% else %}
             <span class="mobile-title">Table of Contents</span>
