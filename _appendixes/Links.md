@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: toc-type
 title: Links to other interesting sites
+parent: "/Appendix/Appendixes"
+mainParent: "Appendixes"
+parents: 'Appendixes:/Appendix/Appendixes'
 order: 4
 ---
-
 
 # Links
 

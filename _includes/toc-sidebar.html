@@ -1,4 +1,10 @@
-{% for page in include.pages %}
+{% if page.path contains '_appendixes' %}
+    {% assign loopPages = site.appendixes | sort: "order" %}
+{% else %}
+    {% assign loopPages = include.pages | sort: "order" %}
+{% endif %}
+
+{% for page in loopPages %}
 {% if page.parents contains page.url %}active{% endif %}
     {% assign content_size = page.content | strip | size %}
     {% if include.currentMainParent == page.mainParent %}
@@ -23,6 +29,13 @@
                 {% else %}
                     <a href="{{ page.url }}" class="{% if currentPageUrl contains page.url %}active{% endif %}">{{ page.title }}</a>
                 {% endif %}
+            {% endif %}
+
+            {% if page.path contains '_appendixes' %}
+                {% if content_size != 0 %}
+                    <a href="{{ page.url }}" class="{% if currentPageUrl contains page.url %}active{% endif %}">{{ page.title }}</a>
+                {% endif %}
+                
             {% endif %}
 
             {% if subpages.size > 0 %}

@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: toc-type
 title: Glossary of Terms
+parent: "/Appendix/Appendixes"
+mainParent: "Appendixes"
+parents: 'Appendixes:/Appendix/Appendixes'
 order: 1
 ---
 
@@ -94,7 +97,7 @@ A way to represent dates as a combination of eras, years, months, weeks, and day
 The Calendaring and Scheduling Consortium is a non-for-profit partnership between vendors of calendaring and scheduling systems and tools, and users of those tools. Our purpose is to improve all aspects of calendaring and scheduling, in particular interoperability. We do this by improving existing standards, developing new standards, offering interoperability testing for calendaring and scheduling systems and tools, collaborating with other organizations with similar goals, and conducting periodic conferences where engineers and customers meet and interact in a collegial atmosphere. Although CalConnect is not a standards development organization, virtually every important calendaring or calendaring-related standard over the last five years has been authored, edited and/or coedited by members of a CalConnect Technical Committee.
 
 <h5 id="calext">CALEXT</h5>
-The IETF working group for calendaring and scheduling standards development. See [https://datatracker.ietf.org/wg/calext/about/](https://datatracker.ietf.org/wg/calext/about/). This group uses the [Calsify](#calsify) 
+The IETF working group for calendaring and scheduling standards development. See [https://datatracker.ietf.org/wg/calext/about/](https://datatracker.ietf.org/wg/calext/about/). This group uses the [Calsify](#calsify)
 
 <h5 id="calsify">Calsify</h5>
 The IETF mailing list most commonly used for calendaring and scheduling standards development. See the page at [https://www.ietf.org/mailman/listinfo/calsify](https://www.ietf.org/mailman/listinfo/calsify) to join.
