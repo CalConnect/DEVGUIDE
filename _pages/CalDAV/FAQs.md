@@ -4,7 +4,7 @@ title: FAQs
 parent: "/CalDAV"
 mainParent: "CalDAV"
 parents: "CalDAV:/CalDAV"
-published: false
+published: true
 order: 6
 ---
 
