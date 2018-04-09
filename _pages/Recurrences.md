@@ -36,7 +36,7 @@ Sometimes an event in a recurrence set needs to be removed (e.g., an every Monda
 
 Sometimes an irregular pattern exists - for example the Easter holiday is determined by a complex astronomical calculation that would not be trivial to represent in iCalendar. Or additional one-off meetings are scheduled (e.g., during one weekly meeting the participants agree to have a follow-up later in the week). To cope with these, it is possible to specify explicit dates for items in a recurrence set, rather than use a rule.
 
-##iCalendar's Implementation of Recurrences
+## iCalendar's Implementation of Recurrences
 
 iCalendar supports recurrences by allowing rules, specific dates, specific exception dates, and overridden instances to all be specified using properties and components. The recurrence properties can only appear in the component defining the master instance of a recurrence set - they can never be used in components representing overridden instances. This means that if the recurrence pattern needs to change in a significant manner (e.g., switching from a weekly meeting to a monthly meeting) then two separate events are needed: one for the old set of events with the original recurrence pattern, and one for the new set with the new pattern.
 
