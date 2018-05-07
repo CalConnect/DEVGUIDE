@@ -156,3 +156,8 @@ r1 -right-> r3
 ### *Overridden Instances*
 
 An overridden instance is one where one or more properties from the...
+
+
+## useful link
+
+There is also a [RRule Generator tool](https://icalendar.org/rrule-tool.html) on icalendar.org helping you to generate the needed syntax for daily, weekly and yearly rules.

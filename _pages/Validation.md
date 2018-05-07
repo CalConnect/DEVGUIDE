@@ -17,4 +17,4 @@ Here you will find a collection of the ones, we use and think are useful to you 
 Based on the current iCal4J version by Ben Fortuna
 
 ### [Z Content](https://icalendar.org/validator.html)
-Z Content is a developer of iCalendar tools for the Joomla Content Management System.
+Z Content (Dan Cogliano) is a developer of iCalendar tools for the Joomla Content Management System.
