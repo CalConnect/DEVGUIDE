@@ -46,6 +46,7 @@ We're not developing new protocol elements or APIs, this work is just describing
 |July 2017 | Integrate way to receive feedback from users |
 | Oktober 2017 | improve layout for better reading and navigating |
 | November 2017 | adding a section about public available validators for iCal |
+| March 2018 | adding layout for FAQ pages |
 
 ## DEVGUIDE Mailing List
 
