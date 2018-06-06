@@ -18,3 +18,4 @@ Here you will find a collection of some, we like and think are useful to you too
 - [Falsehoods programmers believe about time](http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time) and [More falsehoods programmers believe about time; “wisdom of the crowd” edition](http://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-about-time) by Noah Sussman
 - [The evolution a developer's understanding of time](https://twitter.com/stephenbinns/status/842330300000665601) by Stephen Bonns
 - [Calendar Facts](https://xkcd.com/1930/) by xkcd: A webcomic of romance, sarcasm, math, and language.
+- [UTC is enough for everyone ...right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right) Zach Holman talks about   Calendar and such 
