@@ -49,7 +49,7 @@ This document defines an extension to the CalDAV calendar access protocol to all
 [RFC 6764: Locating CalDAV and CardDAV Services](https://tools.ietf.org/html/rfc6764)
 This specification describes how DNS SRV records, DNS TXT records and well-known URIs can be used together or separately to locate Calendaring Extensions to WebDAV (CalDAV) or vCard Extensions to WebDAV (CardDAV) services.
 
-## CalDAV and CalDaV works are in progress:
+## CalDAV and CalDAV works are in progress:
 
 ### CalDAV: Calendar Sharing
 This specification defines sharing calendars between users on a CalDAV system.
