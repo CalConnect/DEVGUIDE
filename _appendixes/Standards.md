@@ -33,7 +33,7 @@ These specifications define different representations of the standard iCalendar 
    *  [RFC 6321: xCal: The XML format for iCalendar](#RFC6321) - [IETF RFC](https://tools.ietf.org/html/rfc6321)
    *  [RFC 7265: jCal: The JSON Format for iCalendar](#RFC7265) - [IETF RFC](https://tools.ietf.org/html/rfc7265)
 
-## CalDAV and CalDaV related base standards
+## CalDAV and CalDAV related base standards
 
 [RFC 4791: Calendaring Extensions to WebDAV (CalDAV)](https://tools.ietf.org/html/rfc4791)
 This document defines extensions to the Web Distributed Authoring and Versioning (WebDAV) protocol to specify a standard way of accessing, managing, and sharing calendaring and scheduling information based on the iCalendar format. This document defines the "calendar-access" feature of CalDAV.
