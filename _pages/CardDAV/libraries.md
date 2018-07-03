@@ -31,17 +31,24 @@ Milton is a java library for WebDAV, CalDAV and CardDAV server implementations.
 
 The library used by [CalendarServer](https://www.calendarserver.org) as part of its CardDAV/vCard support.
 
-### [pyCardDAV](http://lostpackets.de/pycarddav/)
-**Python CardDAV client and library**
-
-pyCardDAV is a CLI CardDAV client (for use with mutt etc.) and also contains a reusable CardDAV module.
-
 ### [vdirsyncer](https://github.com/pimutils/vdirsyncer)
 **Open Source Command-Line Tool**
 
 vdirsyncer is a command-line tool to synchronize a CalDAV/CardDAV server with a local iCalendar/vCard file, or a folder of those. It can also be used to synchronize two DAV servers with each other.
 
+### [Khard](https://github.com/scheibler/khard)
+**Open Source/Python/Command-Line Tool**
+
+Khard is an address book for the Linux console. It creates, reads, modifies and removes carddav address book entries at your local machine.
+
 ##  unsupported implementations
+
+### [pyCardDAV](http://lostpackets.de/pycarddav/)
+**Python CardDAV client and library**
+
+pyCardDAV is a CLI CardDAV client (for use with mutt etc.) and also contains a reusable CardDAV module.
+
+**Not supported since 2017**
 
 ### [Mulberry vCard Library](http://trac.mulberrymail.com/repos/browser/vCard)
 **Open source/C++**
