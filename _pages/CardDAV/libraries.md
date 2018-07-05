@@ -21,6 +21,11 @@ A Java library used to read and write vCard data streams as defined in RFC2426. 
 
 ez-vcard is a java parser library for vCard. It supports all versions of the vCard standard (2.1, 3.0, 4.0) as well as xCard, hCard, and jCard.
 
+### [Khard](https://github.com/scheibler/khard)
+**Open Source/Python/Command-Line Tool**
+
+Khard is an address book for the Linux console. It creates, reads, modifies and removes CalDAV address book entries at your local machine.
+
 ### [Milton](http://milton.io/)
 **Java library**
 
@@ -35,11 +40,6 @@ The library used by [CalendarServer](https://www.calendarserver.org) as part of 
 **Open Source Command-Line Tool**
 
 vdirsyncer is a command-line tool to synchronize a CalDAV/CardDAV server with a local iCalendar/vCard file, or a folder of those. It can also be used to synchronize two DAV servers with each other.
-
-### [Khard](https://github.com/scheibler/khard)
-**Open Source/Python/Command-Line Tool**
-
-Khard is an address book for the Linux console. It creates, reads, modifies and removes carddav address book entries at your local machine.
 
 ##  unsupported implementations
 
