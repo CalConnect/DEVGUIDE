@@ -43,19 +43,19 @@ vdirsyncer is a command-line tool to synchronize a CalDAV/CardDAV server with a 
 
 ##  unsupported implementations
 
-### [pyCardDAV](http://lostpackets.de/pycarddav/)
-**Python CardDAV client and library**
-
-pyCardDAV is a CLI CardDAV client (for use with mutt etc.) and also contains a reusable CardDAV module.
-
-**Not supported since 2017**
-
 ### [Mulberry vCard Library](http://trac.mulberrymail.com/repos/browser/vCard)
 **Open source/C++**
 
 The library used by the Mulberry client for its vCard handling.
 
 **Not supported since 2005**
+
+### [pyCardDAV](http://lostpackets.de/pycarddav/)
+**Python CardDAV client and library**
+
+pyCardDAV is a CLI CardDAV client (for use with mutt etc.) and also contains a reusable CardDAV module.
+
+**Not supported since 2017**
 
 ### [vobject](http://vobject.skyhouseconsulting.com/)
 **Open source/Python**
