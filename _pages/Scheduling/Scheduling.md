@@ -12,4 +12,4 @@ For information on Scheduling implementations see:
 1. [iTIP](/Scheduling/iTIP/)
 1. [iMIP](/Scheduling/iMIP/)
 1. [FreeBusy and Availability](/Scheduling/FreeBusyAvailability/)
-1. [VAVAILABILITY](/Scheduling/vavailability/)
+

@@ -7,4 +7,7 @@ mainParent: "CardDAV"
 parents: "CardDAV:/CardDAV"
 childs: "CardDAV server implementations"
 ---
-TBD
+
+For information on server see:
+
+1. [server implementations](/CardDAV/Server-Implementations/)
