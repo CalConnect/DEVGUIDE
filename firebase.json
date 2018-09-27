@@ -6,6 +6,20 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "cleanUrls": true
+    "cleanUrls": true,
+    "redirects": [ {
+    "source" : "/CalDAV/introduction/macht.christian@web.de/",
+    "destination" : "/404.html",
+    "type" : 301
+    }, {
+    "source" : "/CalDAV/introduction/robots.txt",
+    "destination" : "/robots.txt",
+    "type" : 301
+    }, {
+    "source" : "/CardDAV/introduction/robots.txt",
+    "destination" : "/robots.txt",
+    "type" : 301
+    }
+    ]
   }
 }
