@@ -18,3 +18,4 @@ Here you will find a unsorted collection of some, we like and think are useful t
 - [The evolution a developer's understanding of time](https://twitter.com/stephenbinns/status/842330300000665601) by Stephen Bonns
 - [Calendar Facts](https://xkcd.com/1930/) by xkcd: A webcomic of romance, sarcasm, math, and language.
 - [UTC is enough for everyone ...right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right) Zach Holman talks about   Calendar and such 
+- [whencanireusethiscalendar](https://www.whencanireusethiscalendar.com/) answers the question of when I can reuse this calendar again.
