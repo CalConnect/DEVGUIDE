@@ -18,6 +18,8 @@ The wiki is available for anyone to access. Updates, additions, and corrections 
 
 The Table of Contents shows an outline of the various topics that have been identified as key items of interest to the community. Some of these items already have content available, with the others expected to be filled by contributions from the community.
 
+The guide is currently structured as follows. It contains sections introducing iCalendar and vCard, which are standards for describing the data model of appointments and tasks (iCalendar) and contacts (vCard). For both data representation standards, there exists a corresponding protocol for manipulating data over HTTP. This is CalDAV in the case of iCalendar, and CardDAV in the case of vCard.
+
 ## Links 
 [Table of Contents](Table-of-Contents)
 
