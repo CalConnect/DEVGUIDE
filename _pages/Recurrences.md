@@ -152,12 +152,14 @@ object "Recurrence 3“ as r3 {
 r1 -right-> r3
 {% endplantuml %}
 
+## Useful link
+
+There is also a [RRule Generator tool](https://icalendar.org/rrule-tool.html) on icalendar.org helping you to generate the needed syntax for daily, weekly and yearly rules.
 
 ### *Overridden Instances*
 
-An overridden instance is one where one or more properties from the...
+An overridden instance is one where one or more properties from the event are changed. This may be because the organizer has explicitly changed the property, for example by updating the **`DESCRIPTION`** with a meeting agenda. It may also happen as a result of scheduling where the attendees **`PARTSTAT`** is stored in the overridden instance.
 
+An override is stored as a **`COMPLETE`** copy of the master with the **`DTSTART`** and/or **`DTEND`** set to the dates for the instance and will contain a **`RECURRENCE-ID`** property to identify which instance it is. It **`MUST NOT`** contain any **`RRULE`**, **`RDATE`** or **`EXDATE`** properties.
 
-## useful link
-
-There is also a [RRule Generator tool](https://icalendar.org/rrule-tool.html) on icalendar.org helping you to generate the needed syntax for daily, weekly and yearly rules.
+This override mechanism is one of the problems with long running recurring events. If every instance is modified the event data becomes very large over time.
