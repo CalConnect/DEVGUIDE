@@ -87,3 +87,18 @@ h1.page-title {
 p.rss-subscribe {
     margin: 0;
 }
+.container-content ul {
+    padding-left: 20px;
+
+    ul li {
+        list-style-type: circle!important;
+
+        ul li {
+            list-style-type: square!important;
+        }
+    }
+
+    li {
+        list-style-type: disc!important;
+    }
+}
