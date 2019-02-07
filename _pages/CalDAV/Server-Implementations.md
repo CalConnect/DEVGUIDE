@@ -41,6 +41,11 @@ Java-based server that includes support for CalDAV. Created from the chandler pr
 
 Implementation of CalDAV Access and Scheduling as part of unified messaging server.
 
+### [Cyrus IMAP](https://www.cyrusimap.org/)
+**Open Source**
+
+Cyrus IMAP is an email, contacts and calendar server. Cyrus is free and open source. It supports CalDAV and CardDAV, and the project provides a list of [implemented RFCs](https://www.cyrusimap.org/imap/rfc-support.html).
+
 ### [DAVical](http://www.davical.org/)
 **Open Source/PHP/PostgreSQL**
 
