@@ -42,3 +42,9 @@ All these examples are in the form of simple C programs and are available at
 More Ruby calendar and scheduling libraries can be found at [Ruby Toolbox](https://www.ruby-toolbox.com/categories/calendars)
 
 ## Javascript
+
+No examples yet
+
+## python
+
+[Panda](https://pandas.pydata.org/) offers besides Data Analyses also a very detailed library for Date transformations and ranges. See [Description here](http://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html)
