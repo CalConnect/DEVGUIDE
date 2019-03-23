@@ -65,10 +65,10 @@ ContactSync is an Android app which syncs your Android contacts with FTP, HTTP, 
 
 Contactzilla is a commercial cloud-based contact manager which supports CardDAV.
 
-### [DAVdroid](https://davdroid.bitfire.at/)
-**Open Source/Android Sync Adapter**
+### [DAVx⁵](https://www.davx5.com/)
+**Android/Open Source/Commercial**
 
-DAVdroid is a professional open-sourc synchronization adapter that combines CalDAV and CardDAV into one Android+ app. It offers two-way sync, integrates seamlessly into the device and is aimed at easy setup and simplicity.
+DAVx⁵ (formerly DAVdroid) is a professional open-source synchronization adapter that combines CalDAV and CardDAV into one Android 4+ app. It offers two-way sync, integrates seamlessly into the device and is aimed at easy setup and simplicity.
 
 ### [eM Client with Calendar](http://de.emclient.com/)
 **Free/Windows**
