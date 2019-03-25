@@ -92,10 +92,10 @@ CalDavZAP is an open source CalDAV web client
 
 CalendarSync syncs your device with various calendar information sources, e.g. it allows you to sync Android with CalDAV. It also provides many additional features.
 
-### [DAVdroid](https://davdroid.bitfire.at/)
-**Commercial/Android**
+### [DAVx⁵](https://www.davx5.com/)
+**Android/Open Source/Commercial**
 
-DAVdroid is a professional open-sourc synchronization adapter that combines CalDAV and CardDAV into one Android+ app. It offers two-way sync, integrates seamlessly into the device and is aimed at easy setup and simplicity.
+DAVx⁵ (formerly DAVdroid) is a professional open-source synchronization adapter that combines CalDAV and CardDAV into one Android 4.4+ app. It offers two-way sync, integrates seamlessly into the device and is aimed at easy setup and simplicity.
 
 ### [dCaldav](http://www.dcaldav.com/)
 **Creative Commons/Drupal**
