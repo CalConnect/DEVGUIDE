@@ -18,6 +18,8 @@ Evert Pot/sabre.io provide a good introduction about how to build a client:
 1. [Building a CalDAV client](http://sabre.io/dav/building-a-caldav-client/)
 2. [Building a CardDAV client](http://sabre.io/dav/building-a-carddav-client/)
 
+And also how to do [service discovery](http://sabre.io/dav/service-discovery/).
+
 ## others
 
 Here you will find a unsorted collection of some others, we like and think are useful to you too:
