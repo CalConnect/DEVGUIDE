@@ -31,6 +31,9 @@ This project is a CalDAV (RFC4791) client library for Python.
 
 iCal4j is a Java library used to read and write iCalendar data streams as defined in RFC2445.
 
+### [ical.js][http://mozilla-comm.github.io/ical.js/]
+jsical - Javascript parser for rfc5545
+
 ### [IT Hit WebDAV Server Engine for .NET](https://www.webdavsystem.com/server/)
 **Commercial License**
 

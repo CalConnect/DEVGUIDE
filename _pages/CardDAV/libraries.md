@@ -21,6 +21,10 @@ A Java library used to read and write vCard data streams as defined in RFC2426. 
 
 ez-vcard is a java parser library for vCard. It supports all versions of the vCard standard (2.1, 3.0, 4.0) as well as xCard, hCard, and jCard.
 
+### [ical.js][http://mozilla-comm.github.io/ical.js/]
+jsical - Javascript parser for rfc5545, as well as similar formats like
+vCard.
+
 ### [Khard](https://github.com/scheibler/khard)
 **Open Source/Python/Command-Line Tool**
 
