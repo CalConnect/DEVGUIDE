@@ -39,11 +39,6 @@ jsical - Javascript parser for rfc5545
 
 With IT Hit Engine you can add CalDAV and CardDAV support to your .NET web application in minutes using Visual Studio wizard. The IT Hit SDK is shipped with iCalendar and vCard parsing libraries covered by over 1500 unit tests and several C# template projects with Microsoft SQL and file system back-end storages that you can use as a starting point for CalDAV-enabling your CRM/CMS/ERP.
 
-### [kcaldav](https://code.google.com/archive/p/kcaldav/)
-**Open source/C**
-
-An open source library that is the basis for the CalDAV plugin currently under development for Kontact.
-
 ### [Libical](http://libical.github.io/libical/)
 **Open source/C**
 
@@ -79,7 +74,7 @@ A Python library used to read and write iCalendar data streams as defined in RFC
 ### [kcaldav](https://code.google.com/archive/p/kcaldav/)
 **Open source/C**
 
-An open source library that is the basis for the CalDAV plugin currently under development for Kontact.
+An open source library that is the basis for the CalDAV plugin currently under development for KDE Kontact.
 
 **This project is no longer being maintained.**
 
