@@ -4,7 +4,7 @@ title: CardDAV libraries
 parent: "/CardDAV"
 mainParent: "CardDAV"
 parents: "CardDAV:/CardDAV"
-order: 3
+order: 5
 ---
 
 # CardDAV libraries
@@ -45,6 +45,11 @@ The library used by [CalendarServer](https://www.calendarserver.org) as part of 
 
 vdirsyncer is a command-line tool to synchronize a CalDAV/CardDAV server with a local iCalendar/vCard file, or a folder of those. It can also be used to synchronize two DAV servers with each other.
 
+### [VObject library for PHP](https://packagist.org/packages/sabre/vobject)
+**PHP library**
+
+The VObject library for PHP allows you to easily parse and manipulate iCalendar and vCard objects.
+
 ##  unsupported implementations
 
 ### [Mulberry vCard Library](http://trac.mulberrymail.com/repos/browser/vCard)
@@ -67,6 +72,13 @@ pyCardDAV is a CLI CardDAV client (for use with mutt etc.) and also contains a r
 A Python library used to read and write vCard data streams as defined in RFC2426. Also does iCalendar.
 
 **Not supported since 2009**
+
+### [vcard](https://rubygems.org/gems/vcard)
+**Ruby**
+
+Vcard gem extracts Vcard support from Vpim gem.
+
+**Not supported since 2016**
 
 ### [vCard4j](http://vcard4j.sourceforge.net/)
 **Open source/Java**

@@ -4,7 +4,7 @@ title: CardDAV services
 parent: "/CardDAV"
 mainParent: "CardDAV"
 parents: "CardDAV:/CardDAV"
-order: 5
+order: 6
 ---
 
 # CardDAV services
