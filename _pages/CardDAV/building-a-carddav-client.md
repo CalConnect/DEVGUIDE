@@ -26,8 +26,7 @@ Clients
 Before you build your own client, there's a chance there's already a client
 available for your programming language.
 
-DEVGUIDE provides a list of known [CardDAV client implementations](../Client-Implementations).
-
+DEVGUIDE maintains an updated list of known [CardDAV client implementations](../Client-Implementations).
 
 High-level protocol
 -------------------
@@ -103,7 +102,7 @@ vCards, you should either:
 
 ### vCard parsers, per language
 
-DEVGUIDE provides a list of libraries, that parses vCards [here](../libraries).
+DEVGUIDE maintains an updated list of libraries, that parses vCards [here](../libraries).
 
 XML
 ---
