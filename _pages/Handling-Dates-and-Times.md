@@ -26,7 +26,7 @@ END:VEVENT
 </code></pre>
 
 # Start is inclusive, End is exclusive
-This is an important point and allows us to create edjacent events with no overlap. This is particularly important in date only events. For exampel a one day event will havea start day on the day the event takes place and an end date of the day after.
+This is an important point and allows us to create adjacent events with no overlap. This is particularly important in date only events. For example a one day event will have a start day on the day the event takes place and an end date of the day after.
 
 
 # Using DATE values
