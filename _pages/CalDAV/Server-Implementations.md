@@ -86,6 +86,11 @@ Fennel is a lightweight CardDAV / CalDAV server. It is completely written in Jav
 
 Implementation of CalDAV Access and Scheduling as part of unified messaging server.
 
+### [mailfence](https://mailfence.com)
+**Commercial**
+
+Implementation of CalDAV Access and Scheduling as part of secure email service.
+
 ### [OX App Suite](https://www.open-xchange.com/)
 **Open Source/Commercial/Cross Platform**
 
