@@ -33,7 +33,7 @@ This is an important point and allows us to create edjacent events with no overl
 A Property value for a Date related property, assigned to a Calendar component, can have the `DATE` value type.
 This value type if defined to identify values that contain a calendar date, without any `TIME` information include in it.
 This value is basically composed on the year value, month value and day value.
-Month value has 4 digits, the month and the day values contain each of them 2 digits.
+Year value has 4 digits, the month and the day values contain each of them 2 digits.
 
 An example of a `DATE` value type is:
 `20160226` - February 26, 2016
