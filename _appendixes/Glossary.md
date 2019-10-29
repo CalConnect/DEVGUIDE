@@ -5,6 +5,7 @@ parent: "/Appendix/Appendixes"
 mainParent: "Appendixes"
 parents: 'Appendixes:/Appendix/Appendixes'
 order: 1
+published: true
 ---
 
 # Calendaring and Scheduling Glossary of Terms
