@@ -932,7 +932,7 @@ td, th{
 .data-expander {
     margin-bottom: 10px;
 
-    a {
+    > a {
         color: #ffffff;
         text-decoration: none;
         background-color: $primary-color;
@@ -957,7 +957,7 @@ td, th{
     }
 
     &.expanded {
-        a {
+        > a {
             background-color: $primary-color-dark;
         }
 
