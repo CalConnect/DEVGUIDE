@@ -23,9 +23,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>Access Control</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        Access control is a system which enables an authority (e.g., user or resource administrator) to control access to different entities in a calendar system. Typically vendors create Preference/Settings options to instantiate access control. Terminology varies considerably across products but broadly speaking access control is usually broken into two areas, read access and write access. Vendor terminology used for read access includes: 'read', 'reviewer', 'proxy read', 'viewer', 'see all', and 'see only freebusy'. Vendor terminology for write access includes: 'write', 'editor', 'proxy write', 'proxy', 'manager', 'administrator', 'designate', 'read/create/edit', 'make changes', 'manage', and 'edit'. (Cp. Delegate and Designate below.)
-    </div>
+  <div class="data-expander-child" markdown="1">
+  Access control is a system which enables an authority (e.g., user or resource administrator) to control access to different entities in a calendar system. Typically vendors create Preference/Settings options to instantiate access control. Terminology varies considerably across products but broadly speaking access control is usually broken into two areas, read access and write access. Vendor terminology used for read access includes: 'read', 'reviewer', 'proxy read', 'viewer', 'see all', and 'see only freebusy'. Vendor terminology for write access includes: 'write', 'editor', 'proxy write', 'proxy', 'manager', 'administrator', 'designate', 'read/create/edit', 'make changes', 'manage', and 'edit'. (Cp. Delegate and Designate below.)
+  </div>
 </div>
 
 <div class="data-expander">
@@ -33,9 +33,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>Access Control List (ACL)</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        A list of access control elements that define access control to a particular calendar system entity. (Reference: RFC3744 for its use in a WebDAV context.)
-    </div>
+  <div class="data-expander-child" markdown="1">
+  A list of access control elements that define access control to a particular calendar system entity. (Reference: RFC3744 for its use in a WebDAV context.)
+  </div>
 </div>
 
 <div class="data-expander">
@@ -43,9 +43,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>Accessibility</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        Information pertaining to access to a resource by the physically disabled. This applies to Location Resources.
-    </div>
+  <div class="data-expander-child" markdown="1">
+  Information pertaining to access to a resource by the physically disabled. This applies to Location Resources.
+  </div>
 </div>
 
 <div class="data-expander">
@@ -53,9 +53,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>Admittance Info</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        All information required to gain access to a resource. It applies to Location Resources.
-    </div>
+  <div class="data-expander-child" markdown="1">
+  All information required to gain access to a resource. It applies to Location Resources.
+  </div>
 </div>
 
 <div class="data-expander">
@@ -63,9 +63,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>Agenda</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        See Calendar.
-    </div>
+  <div class="data-expander-child" markdown="1">
+  See Calendar.
+  </div>
 </div>
 
 <div class="data-expander">
@@ -73,9 +73,11 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>Alarm</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        Use of the terms alarm, reminder, alert, and notifications vary by implementation and can represent several things. They can represent a setting applied to an event by which a user indicates they want a 'notification' to be triggered to 'remind' them about some event or action (cp. VALARM in RFC5545). They can also be used to designate the type of 'alert' that serves as the notification (e.g., email message, audible sound, pop-up window). (Reference [RFC4791 (CalDAV)](https://tools.ietf.org/html/rfc4791), [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.6.6), [RFC5546 (iTip)](https://tools.ietf.org/html/rfc5546).)
-    </div>
+  <div class="data-expander-child" markdown="1">
+  Use of the terms alarm, reminder, alert, and notifications vary by implementation and can represent several things.
+  They can represent a setting applied to an event by which a user indicates they want a 'notification' to be triggered to 'remind' them about some event or action (cp. VALARM in RFC5545).
+  They can also be used to designate the type of 'alert' that serves as the notification (e.g., email message, audible sound, pop-up window). (Reference [RFC4791 (CalDAV)](https://tools.ietf.org/html/rfc4791), [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.6.6), [RFC5546 (iTip)](https://tools.ietf.org/html/rfc5546).)
+  </div>
 </div>
 
 <div class="data-expander">
@@ -83,9 +85,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>Application/calendar + XML</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        The MIME content type that indicates an iCalendar object expressed in XML.
-    </div>
+  <div class="data-expander-child" markdown="1">
+  The MIME content type that indicates an iCalendar object expressed in XML.
+  </div>
 </div>
 
 
@@ -94,9 +96,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
 
@@ -105,9 +107,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
 
@@ -116,9 +118,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
 
@@ -127,9 +129,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
 
@@ -138,9 +140,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
 
@@ -149,9 +151,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
 
@@ -160,9 +162,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
 
@@ -171,9 +173,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
 
@@ -182,9 +184,9 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
 
@@ -193,8 +195,8 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <span>title</span>
         <i class="material-icons">add</i>
     </a>
-    <div class="data-expander-child">
-        content
-    </div>
+  <div class="data-expander-child" markdown="1">
+  content
+  </div>
 </div>
 
