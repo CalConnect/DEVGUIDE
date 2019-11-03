@@ -49,10 +49,10 @@ A document object associated with a calendar component.
 Specifies the participants or non-participants (e.g., room or resources) for an event. This property in iCalendar can contain multiple attributes specifying additional information, i.e., role, participation status, group membership, delegation, etc. (Reference: [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.6.4.1).)
 
 <h5 id="autoconfiguration">Autoconfiguration</h5>
-the process of configuring clients such as mobile devices or desktop applications to access a service, or class of service, with a minimum of input from the user of the device. See also Autodiscovery.
+The process of configuring clients such as mobile devices or desktop applications to access a service, or class of service, with a minimum of input from the user of the device. See also Autodiscovery.
 
 <h5 id="autodiscovery">Autodiscovery</h5>
-The process used to determine the services provided by a host, or for a domain, including retrieval of the recommended configuration values for those services. The autodiscovery funtionality requires the service provider to declare in a standard way which services are available and what their configuration looks like for the requesting user. See also Autoconfiguration. (Reference: draft-daboo-aggregated-service-discovery.)
+The process used to determine the services provided by a host, or for a domain, including retrieval of the recommended configuration values for those services. The autodiscovery functionality requires the service provider to declare in a standard way which services are available and what their configuration looks like for the requesting user. See also Autoconfiguration. (Reference: [draft-daboo-aggregated-service-discovery](https://datatracker.ietf.org/doc/draft-daboo-aggregated-service-discovery/).)
 
 <h5 id="autoschedule">Autoschedule</h5>
 Accept scheduling invitations automatically with no human intervention.
@@ -70,10 +70,10 @@ A collection of calendar items such as events, tasks, journal entries, etc. Exam
 See Access Control, Access Control List, Delegate, and Designate.
 
 <h5 id="calendar-collection">Calendar Collection</h5>
-A WebDAV collection used to represent a calendar containing a set of calendar object resources. (Reference: RFC4791 and [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.4).)
+A WebDAV collection used to represent a calendar containing a set of calendar object resources. (Reference: [RFC4791](https://tools.ietf.org/html/rfc4791) and [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.4).)
 
 <h5 id="calendar-object-resource">Calendar Object Resource</h5>
-A WebDAV resource representing an iCalendar component typically stored inside a Calendar Collection (cp. Component). (Reference: RFC4791.)
+A WebDAV resource representing an iCalendar component typically stored inside a Calendar Collection (cp. Component). (Reference: [RFC4791](https://tools.ietf.org/html/rfc4791).)
 
 <h5 id="calendar-service">Calendar Service</h5>
 A server application that provides calendar user agents access to calendar stores.
