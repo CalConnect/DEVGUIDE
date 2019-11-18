@@ -24,7 +24,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  Access control is a system which enables an authority (e.g., user or resource administrator) to control access to different entities in a calendar system. Typically vendors create Preference/Settings options to instantiate access control. Terminology varies considerably across products but broadly speaking access control is usually broken into two areas, read access and write access. Vendor terminology used for read access includes: 'read', 'reviewer', 'proxy read', 'viewer', 'see all', and 'see only freebusy'. Vendor terminology for write access includes: 'write', 'editor', 'proxy write', 'proxy', 'manager', 'administrator', 'designate', 'read/create/edit', 'make changes', 'manage', and 'edit'. (Cp. Delegate and Designate below.)
+  Access control is a system which enables an authority (e.g., user or resource administrator) to control access to different entities in a calendar system. Typically vendors create Preference/Settings options to instantiate access control. Terminology varies considerably across products but broadly speaking access control is usually broken into two areas, read access and write access. Vendor terminology used for read access includes: 'read', 'reviewer', 'proxy read', 'viewer', 'see all', and 'see only freebusy'. Vendor terminology for write access includes: 'write', 'editor', 'proxy write', 'proxy', 'manager', 'administrator', 'designate', 'read/create/edit', 'make changes', 'manage', and 'edit'. (Cp. [Delegate](#Delegate) and [Designate](#Designate) below.)
   </div>
 </div>
 
@@ -34,7 +34,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  A list of access control elements that define access control to a particular calendar system entity. (Reference: RFC3744 for its use in a WebDAV context.)
+  A list of access control elements that define access control to a particular calendar system entity. (Reference: [RFC3744](https://tools.ietf.org/html/rfc3744) for its use in a WebDAV context.)
   </div>
 </div>
 
@@ -75,7 +75,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
     </a>
   <div class="data-expander-child" markdown="1">
   Use of the terms alarm, reminder, alert, and notifications vary by implementation and can represent several things.
-  They can represent a setting applied to an event by which a user indicates they want a 'notification' to be triggered to 'remind' them about some event or action (cp. VALARM in RFC5545).
+  They can represent a setting applied to an event by which a user indicates they want a 'notification' to be triggered to 'remind' them about some event or action (cp. [VALARM](#VALARM) in [RFC5545](https://tools.ietf.org/html/rfc5545).
   They can also be used to designate the type of 'alert' that serves as the notification (e.g., email message, audible sound, pop-up window). (Reference [RFC4791 (CalDAV)](https://tools.ietf.org/html/rfc4791), [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.6.6), [RFC5546 (iTip)](https://tools.ietf.org/html/rfc5546).)
   </div>
 </div>
