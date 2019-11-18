@@ -5,6 +5,11 @@
     $('.carousel').carousel();
 
     $( ".data-expander a" ).click(function(evt) {
+        // external links should work as usual
+        if ($(this).attr('href') !== '#') {
+             return;
+        }
+
         evt.preventDefault();
         var icon = $(this).find('i');
         var expandParent = $(this).parent();
