@@ -1,3 +1,5 @@
+(i) Moved to https://gitlab.com/calconnect/DEVGUIDE
+
 CalConnect project to provide documentation on Calendaring and related issues.
 
 View the site at https://devguide.calconnect.org
@@ -61,6 +63,6 @@ Participation on the DEVGUIDE mailing list will be in accordance with standard C
 
 ## Chair 
 
-Thomas Schäfer (1&1)
+Thomas Schäfer (individual member)
 
 Please contact the Chair for more information or to join this Technical Committee. Participation in this Technical Committee will be in accordance with standard CalConnect practices and procedures.
