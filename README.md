@@ -1,5 +1,3 @@
-(i) Moved to https://gitlab.com/calconnect/DEVGUIDE
-
 CalConnect project to provide documentation on Calendaring and related issues.
 
 View the site at https://devguide.calconnect.org
@@ -49,6 +47,8 @@ We're not developing new protocol elements or APIs, this work is just describing
 | October 2017 | improve layout for better reading and navigating |
 | November 2017 | adding a section about public available validators for iCal |
 | March 2018 | adding layout for FAQ pages |
+| Januar 2020 | moved to GitLab |
+| April 2020 | moved back to GitHub |
 
 ## DEVGUIDE Mailing List
 

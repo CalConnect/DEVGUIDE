@@ -4,3 +4,4 @@
 .sass_cache
 *.scssc
 /uml
+.jekyll-cache

@@ -51,6 +51,11 @@ Enables storage of custom attributes in Active Directory, such as instant messen
 
 Implementation of CardDAV. Available as part of the Kerio Connect server software.
 
+### [mailfence](https://mailfence.com)
+**Commercial**
+
+Implementation of CardDAV Access and Scheduling as part of secure email service.
+
 ### [Meishi](https://github.com/inferiorhumanorgans/meishi)
 **Open source / Cross platform**
 
