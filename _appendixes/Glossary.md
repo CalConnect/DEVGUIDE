@@ -384,7 +384,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  In common usage 'delegate' may mean either a person who acts for someone else (cp. [Designate](#designate)) or refer to the act of appointing someone as a representative. The term has very specific meaning in the iCalendar and iTIP RFCs. In iCalendar, delegate means to specify that another individual, rather than oneself, should attend an event (cp. [Delegator](#Delegator) and [Delegatee](#delegatee)). In iTIP, delegate means to assign ownership of a task to another individual. (Reference: [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.2.4) and [RFC5546](https://tools.ietf.org/html/rfc5546))
+  In common usage 'delegate' may mean either a person who acts for someone else (cp. [Designate](#designate)) or refer to the act of appointing someone as a representative. The term has very specific meaning in the iCalendar and iTIP RFCs. In iCalendar, delegate means to specify that another individual, rather than oneself, should attend an event (cp. [Delegator](#delegator) and [Delegatee](#delegatee)). In iTIP, delegate means to assign ownership of a task to another individual. (Reference: [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.2.4) and [RFC5546](https://tools.ietf.org/html/rfc5546))
   </div>
 </div>
 
