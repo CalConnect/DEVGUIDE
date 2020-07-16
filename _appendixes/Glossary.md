@@ -770,7 +770,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  contAn iCalendar RRULE parameter indicating which calendar system to use for expanding this [RRULE](http://tools.ietf.org/html/rfc7529).ent
+  An iCalendar RRULE parameter indicating which calendar system to use for expanding this [RRULE](http://tools.ietf.org/html/rfc7529).
   </div>
 </div>
 
