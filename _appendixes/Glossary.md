@@ -24,7 +24,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  Access control is a system which enables an authority (e.g., user or resource administrator) to control access to different entities in a calendar system. Typically vendors create Preference/Settings options to instantiate access control. Terminology varies considerably across products but broadly speaking access control is usually broken into two areas, read access and write access. Vendor terminology used for read access includes: 'read', 'reviewer', 'proxy read', 'viewer', 'see all', and 'see only freebusy'. Vendor terminology for write access includes: 'write', 'editor', 'proxy write', 'proxy', 'manager', 'administrator', 'designate', 'read/create/edit', 'make changes', 'manage', and 'edit'. (Cp. [Delegate](#Delegate) and [Designate](#Designate) below.)
+  Access control is a system which enables an authority (e.g., user or resource administrator) to control access to different entities in a calendar system. Typically vendors create Preference/Settings options to instantiate access control. Terminology varies considerably across products but broadly speaking access control is usually broken into two areas, read access and write access. Vendor terminology used for read access includes: 'read', 'reviewer', 'proxy read', 'viewer', 'see all', and 'see only freebusy'. Vendor terminology for write access includes: 'write', 'editor', 'proxy write', 'proxy', 'manager', 'administrator', 'designate', 'read/create/edit', 'make changes', 'manage', and 'edit'. (Cp. [Delegate](#delegate) and [Designate](#designate) below.)
   </div>
 </div>
 
@@ -64,7 +64,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  See [Calendar](#Calendar).
+  See [Calendar](#calendar).
   </div>
 </div>
 
@@ -75,7 +75,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
     </a>
   <div class="data-expander-child" markdown="1">
   Use of the terms alarm, reminder, alert, and notifications vary by implementation and can represent several things.
-  They can represent a setting applied to an event by which a user indicates they want a 'notification' to be triggered to 'remind' them about some event or action (cp. [VALARM](#VALARM) in [RFC5545](https://tools.ietf.org/html/rfc5545).
+  They can represent a setting applied to an event by which a user indicates they want a 'notification' to be triggered to 'remind' them about some event or action (cp. [VALARM](#valarm) in [RFC5545](https://tools.ietf.org/html/rfc5545).
   They can also be used to designate the type of 'alert' that serves as the notification (e.g., email message, audible sound, pop-up window). (Reference [RFC4791 (CalDAV)](https://tools.ietf.org/html/rfc4791), [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.6.6), [RFC5546 (iTip)](https://tools.ietf.org/html/rfc5546).)
   </div>
 </div>
@@ -130,7 +130,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  The process of configuring clients such as mobile devices or desktop applications to access a service, or class of service, with a minimum of input from the user of the device. See also [Autodiscovery](#Autodiscovery).
+  The process of configuring clients such as mobile devices or desktop applications to access a service, or class of service, with a minimum of input from the user of the device. See also [Autodiscovery](#autodiscovery).
   </div>
 </div>
 
@@ -141,7 +141,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  The process used to determine the services provided by a host, or for a domain, including retrieval of the recommended configuration values for those services. The autodiscovery functionality requires the service provider to declare in a standard way which services are available and what their configuration looks like for the requesting user. See also [Autoconfiguration](#Autoconfiguration). (Reference: [draft-daboo-aggregated-service-discovery](https://datatracker.ietf.org/doc/draft-daboo-aggregated-service-discovery/).)
+  The process used to determine the services provided by a host, or for a domain, including retrieval of the recommended configuration values for those services. The autodiscovery functionality requires the service provider to declare in a standard way which services are available and what their configuration looks like for the requesting user. See also [Autoconfiguration](#autoconfiguration). (Reference: [draft-daboo-aggregated-service-discovery](https://datatracker.ietf.org/doc/draft-daboo-aggregated-service-discovery/).)
   </div>
 </div>
 
@@ -196,7 +196,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  See [Access Control](#AccessControl), [Access Control List](#ACL), [Delegate](#Delegate), and [Designate](#Designate).
+  See [Access Control](#access-control), [Access Control List](#access-control-list), [Delegate](#delegate), and [Designate](#designate).
   </div>
 </div>
 
@@ -240,7 +240,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  A data repository that may contain several calendars as well as properties and components of those calendars. A local calendar store is on the same device as the calendar user agent ([CUA](#CUA)). A remote calendar store is not on the same machine/device as the calendar user agent. (Reference: [RFC3283](https://tools.ietf.org/html/rfc3283).)
+  A data repository that may contain several calendars as well as properties and components of those calendars. A local calendar store is on the same device as the calendar user agent ([CUA](#calendar-user-agent)). A remote calendar store is not on the same machine/device as the calendar user agent. (Reference: [RFC3283](https://tools.ietf.org/html/rfc3283).)
   </div>
 </div>
 
@@ -251,7 +251,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  See [Subscribed Calendar](#SubscribedCalendar)
+  See [Subscribed Calendar](#subscribed-calendar)
   </div>
 </div>
 
@@ -362,7 +362,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  The process whereby a group comes to agreement on when and perhaps where to hold a meeting or carry out a task, by identifying the "best" time or location to help maximize participation and minimize inconvenience. For more information see 7 Things You Should Know About Consensus Scheduling. (See [VPOLL](#VPOLL).)
+  The process whereby a group comes to agreement on when and perhaps where to hold a meeting or carry out a task, by identifying the "best" time or location to help maximize participation and minimize inconvenience. For more information see 7 Things You Should Know About Consensus Scheduling. (See [VPOLL](#vpoll).)
   </div>
 </div>
 
@@ -384,7 +384,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  In common usage 'delegate' may mean either a person who acts for someone else (cp. [Designate](#Designate)) or refer to the act of appointing someone as a representative. The term has very specific meaning in the iCalendar and iTIP RFCs. In iCalendar, delegate means to specify that another individual, rather than oneself, should attend an event (cp. [Delegator](#Delegator) and [Delegatee](#Delegatee)). In iTIP, delegate means to assign ownership of a task to another individual. (Reference: [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.2.4) and [RFC5546](https://tools.ietf.org/html/rfc5546))
+  In common usage 'delegate' may mean either a person who acts for someone else (cp. [Designate](#designate)) or refer to the act of appointing someone as a representative. The term has very specific meaning in the iCalendar and iTIP RFCs. In iCalendar, delegate means to specify that another individual, rather than oneself, should attend an event (cp. [Delegator](#Delegator) and [Delegatee](#delegatee)). In iTIP, delegate means to assign ownership of a task to another individual. (Reference: [RFC5545](https://tools.ietf.org/html/rfc5545#section-3.2.4) and [RFC5546](https://tools.ietf.org/html/rfc5546))
   </div>
 </div>
 
@@ -459,7 +459,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  The process by which public event data is gathered, formatted and distributed to calendar users. Often this takes the form of public, unauthenticated clients and/or feeds. See [Public Event](#PublicEvent).
+  The process by which public event data is gathered, formatted and distributed to calendar users. Often this takes the form of public, unauthenticated clients and/or feeds. See [Public Event](#public-event).
   </div>
 </div>
 
@@ -536,7 +536,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  An IETF Standard ([RFC5546](https://tools.ietf.org/html/rfc5546)) that specifies a protocol that uses the iCalendar object specification to provide scheduling interoperability between different calendar systems without reference to a specific transport protocol so as to allow multiple methods of communication between systems (see [iMIP](#iMIP), [iSchedule](#iSchedule)).
+  An IETF Standard ([RFC5546](https://tools.ietf.org/html/rfc5546)) that specifies a protocol that uses the iCalendar object specification to provide scheduling interoperability between different calendar systems without reference to a specific transport protocol so as to allow multiple methods of communication between systems (see [iMIP](#imip), [iSchedule](#ischedule)).
   </div>
 </div>
 
@@ -579,7 +579,7 @@ Calendaring and scheduling implementers will be able to utilize the glossary to 
         <i class="material-icons">add</i>
     </a>
   <div class="data-expander-child" markdown="1">
-  A general term from common usage to convey a request for an attendee's participation in an event. In RFC documents the more specific term is request (cp. [Request](#Request)).
+  A general term from common usage to convey a request for an attendee's participation in an event. In RFC documents the more specific term is request (cp. [Request](#request)).
   </div>
 </div>
 
