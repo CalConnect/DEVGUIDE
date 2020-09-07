@@ -8,6 +8,6 @@ parents: "CalDAV:/CalDAV"
 childs: "CalDAV server implementations"
 ---
 
-For information on server see:
+For information on servers see:
 
 1. [server implementations](/CalDAV/Server-Implementations/)
