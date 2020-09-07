@@ -7,9 +7,9 @@ parents: "CalDAV:/CalDAV;Server:/CalDAV/Server/"
 order: 1
 ---
 
-# CalDAV server implementation
+# CalDAV server implementations
 
-## supported implementation
+## Supported implementations
 
 ### [Apple iCal Server](https://www.calendarserver.org/)
 **Commercial macOS Server, also Open source/cross-platform**
