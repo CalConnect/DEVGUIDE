@@ -10,9 +10,11 @@ published: true
 
 # Time Zone Distribution Service
 
-[TZDist][rfc7809] defines a time zone data distribution service that allows reliable, secure, and fast delivery of time zone data and leap-second rules to client systems such as calendaring and scheduling applications or operating systems.
+[TZDist] - RFC7808 - defines a time zone data distribution service that allows reliable, secure, and fast delivery of time zone data and leap-second rules to client systems such as calendaring and scheduling applications or operating systems.
 
 The intent is to try to move away from treating time zone data like system code and handle it in much the same way we handle other changing data.
+
+[TZif] - RFC8536 - defines the Time Zone Information Format (TZif) for representing and exchanging time zone information,  a binary format used by most UNIX systems to calculate local time. Some of the servers below can return this format.
 
 ## Implementations
 
@@ -26,5 +28,6 @@ The intent is to try to move away from treating time zone data like system code 
 [Darwin Calendar server](https://www.calendarserver.org/) implemented in python contains an old implementation of the specification.
 
 
-[rfc7809]: https://tools.ietf.org/html/rfc7809
+[TZDist]: https://tools.ietf.org/html/rfc7808
+[TZif]: https://tools.ietf.org/html/rfc8536
 [Bedework]: https://bedework.github.io/
