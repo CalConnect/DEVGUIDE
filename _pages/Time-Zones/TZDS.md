@@ -21,13 +21,18 @@ The intent is to try to move away from treating time zone data like system code 
 ### Bedework Calendar server
 [Bedework] provides as part of the project a java based implementation of the specification - available from [github](https://github.com/Bedework/bw-timezone-server).
 
+The [Bedework-util-tz] library provides some possibly useful code for both clients and servers.
+
 ### Cyrus iMap server
-[Cyrus IMAP](https://www.cyrusimap.org) is an email, contacts and calendar server. Cyrus is free and open source. Information on tzdist can be found [here](https://www.cyrusimap.org/imap/download/installation/http/caldav.html).
+[Cyrus IMAP] is an email, contacts and calendar server. Cyrus is free and open source. Information on tzdist can be found [here](https://www.cyrusimap.org/imap/download/installation/http/caldav.html).
 
 ### Darwin Calendar server
-[Darwin Calendar server](https://www.calendarserver.org/) implemented in python contains an old implementation of the specification.
+[Darwin Calendar server] implemented in python contains an old implementation of the specification.
 
 
 [TZDist]: https://tools.ietf.org/html/rfc7808
 [TZif]: https://tools.ietf.org/html/rfc8536
 [Bedework]: https://bedework.github.io/
+[Bedework-util-tz]: https://github.com/Bedework/bw-util-tz
+[Cyrus IMAP]: https://www.cyrusimap.org
+[Darwin Calendar server]: https://www.calendarserver.org/
