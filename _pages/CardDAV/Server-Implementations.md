@@ -9,6 +9,10 @@ order: 1
 
 # Server implementation
 
+#### Disclaimer:
+
+CalConnect only provides a list of known implementations of CardDAV servers. Any questions regarding installation instructions, configuration or usage need to be provided by the vendor and please visit the product web site to access them.
+
 ##  supported development
 
 ###  [Apple Contacts Server](https://www.calendarserver.org/)

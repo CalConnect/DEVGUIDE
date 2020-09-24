@@ -9,6 +9,10 @@ order: 1
 
 # CalDAV client implementations
 
+#### Disclaimer:
+
+CalConnect only provides a list of known implementations of CalDAV clients. Any questions regarding installation instructions, configuration or usage need to be provided by the vendor and please visit the product web site to access them.
+
 ## supported development
 
 ### [2Do](http://www.2doapp.com/)

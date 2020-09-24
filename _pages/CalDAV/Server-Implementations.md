@@ -9,6 +9,10 @@ order: 1
 
 # CalDAV server implementations
 
+#### Disclaimer:
+
+CalConnect only provides a list of known implementations of CalDAV servers. Any questions regarding installation instructions, configuration or usage need to be provided by the vendor and please visit the product web site to access them.
+
 ## Supported implementations
 
 ### [Apple iCal Server](https://www.calendarserver.org/)
