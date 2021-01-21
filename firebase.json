@@ -31,6 +31,10 @@
     "source" : "/CalDAV/introduction/implementations/librariestools.html",
     "destination" : "/CalDAV/libraries/",
     "type" : 301
+    }, {
+    "source" : "/charter/**",
+    "destination" : "https://public.calconnect.org/charter/",
+    "type" : 301
     }
     ]
   }
