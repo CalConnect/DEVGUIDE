@@ -19,6 +19,18 @@
     "source" : "/CardDAV/introduction/robots.txt",
     "destination" : "/robots.txt",
     "type" : 301
+    }, {
+    "source" : "/CalDAV/introduction/implementations.html",
+    "destination" : "/CalDAV/introduction/",
+    "type" : 301
+    }, {
+    "source" : "/CalDAV/introduction/implementations/clients.html",
+    "destination" : "/CalDAV/Client-Implementations/",
+    "type" : 301
+    }, {
+    "source" : "/CalDAV/introduction/implementations/librariestools.html",
+    "destination" : "/CalDAV/libraries/",
+    "type" : 301
     }
     ]
   }
