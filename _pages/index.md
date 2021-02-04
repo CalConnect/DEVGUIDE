@@ -3,7 +3,7 @@ title: Introduction
 layout: page
 permalink: /
 parent: "/"
-order: 1
+order: 100
 ---
 
 # Introduction #
@@ -20,7 +20,7 @@ The Table of Contents shows an outline of the various topics that have been iden
 
 The guide is currently structured as follows. It contains sections introducing iCalendar and vCard, which are standards for describing the data model of appointments and tasks (iCalendar) and contacts (vCard). For both data representation standards, there exists a corresponding protocol for manipulating data over HTTP. This is CalDAV in the case of iCalendar, and CardDAV in the case of vCard.
 
-## Links 
+## Links
 [Table of Contents](Table-of-Contents)
 
 [How to Contribute](Appendix/How-to-Contribute/)

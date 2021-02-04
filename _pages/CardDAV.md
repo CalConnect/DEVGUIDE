@@ -2,6 +2,6 @@
 layout: toc-type
 title: "CardDAV"
 parent: "/"
-order: 7
+order: 700
 mainParent: "CardDAV"
 ---
