@@ -5,7 +5,7 @@ parent: "/iCalendar-Topics"
 mainParent: "iCalendar Topics"
 parents: "iCalendar Topics:/iCalendar-Topics"
 childs: 'Creating Simple Events, UID, Detailed Data Model Description'
-order: 2
+order: 200
 ---
 
 # iCalendar Data Model

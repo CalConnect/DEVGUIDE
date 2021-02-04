@@ -1,13 +1,14 @@
 ---
 layout: toc-type
 title: VPOLL
+published: false
 ---
 
 # A place holder for describing vpoll (draft-york-vpoll...)s
 
 The currently existing approach to agreeing on meeting times using [iTip] and/or [iMip] have some significant failings. There is no useful bargaining or suggestion mechanism in iTip, only the ability for a potential attendee to accept or refuse or to counter with a time of their own choosing.
 
-Part of the problem is that for many potential attendees, their freebusy is not an accurate representation of their availability. In fact, when trying to schedule conference calls across different organizations, attendees may not be allowed to provide freebusy information or availability as this may reveal something of the organizations internal activities.
+Part of the problem is that for many potential attendees, their freebusy is not an accurate representation of their availability. In fact, when trying to schedule conference calls across different organizations, attendees may not be allowed to provide freebusy information as this may reveal something of the organizations internal activities.
 
 A number of studies have shown that large amounts of time are spent trying to come to an agreement - up to and beyond 20 working hours per meeting. Many organizers fall back on other approaches such as phone calls and email to determine a suitable time.
 

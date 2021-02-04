@@ -4,7 +4,7 @@ title: Handling Dates and Times
 parent: "/iCalendar-Topics"
 mainParent: "iCalendar Topics"
 parents: "iCalendar Topics:/iCalendar-Topics"
-order: 3
+order: 300
 ---
 
 # The importance of dates and times in calendar components

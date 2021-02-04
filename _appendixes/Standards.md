@@ -112,6 +112,9 @@ These systems often have a different approach to the "leap" issue, often involvi
 
 This specification changes the recurrence rules defined in RFC 5545 by adding an RSCALE. It also defines how CalDAV (RFC 4791) servers and clients can be extended to support these new recurrence rules.
 
+<h5 id="RFC7808">RFC 7808: Time Zone Data Distribution Service</h5>
+RFC 7808 defines a time zone data distribution service that allows reliable, secure, and fast delivery of time zone data and leap-second rules to client systems such as calendaring and scheduling applications or operating systems.
+
 ## Additional and Extensions
 
 [CalWS-Rest RESTful Web Services Protocol for Calendaring](http://calconnect.org/pubdocs/CD1011%20CalWS-Rest%20Restful%20Web%20Services%20Protocol%20for%20Calendaring.pdf)
