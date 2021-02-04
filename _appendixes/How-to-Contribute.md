@@ -29,9 +29,22 @@ Contributors who are familiar with Markdown and Git may also send a pull request
 
 Note that this Wiki uses custom templates and css that are not available on GitHub, which means that the presentation on GitHub will be different from the presentation on [https://devguide.calconnect.org](https://devguide.calconnect.org).
 
-To give the Wiki a consistent appearance, please follow the rules below:
+### Running locally
 
-#### Editorial conventions
+To check changes made to your local copy you can install and run jekyll.
+
+#### Mac
+Mixture between brew usage and rails (gem install)
+
+1. install plantuml for your local machine e.g. using 'brew install plantuml'
+2. install jekyll from https://jekyllrb.com/ for your local machine e.g 'gem install bundler jekyll'
+3. Install jekyll-plantuml using 'gem install jekyll-plantuml'
+4. Checkout DEVGUIDE from Github (https://github.com/CalConnect/DEVGUIDE/)
+5. Run local copy with 'jekyll serve' within the GIT directory and check content as shown in terminal window
+
+### Editorial conventions
+
+To give the Wiki a consistent appearance, please follow the rules below:
 
 * Use the blockquote character `>` when adding quotes from an RFC.
 * Always add references to the original RFC. Link the html version of the RFC at http://tools.ietf.org/html/rfcXXXX.
