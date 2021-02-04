@@ -11,7 +11,7 @@ order: 1
 
 iTIP is an extension to calendaring which describes how to invite attendees to meetings and how those attendees may respond to the requests. Additionally it describes how to publish events.
 
-While RFC 5545 (and it's subsequent extensions) describe all the calendaring properties, iTIP defines both a protocol and the usage of those properties. It does not define new properties but does place some restrictions on how the may be used for iTIP.
+While RFC 5545 (and it's subsequent extensions) describe all the calendaring properties, iTIP defines both a protocol and the usage of those properties. It does not define new properties but does place some restrictions on how they may be used for iTIP.
 
 iTIP DOES NOT describe HOW these messages are sent and received. That is described by other specifications. The most common approach is probably still [iMIP](/Scheduling/iMIP/) though CalDAV defines an approach for server based scheduling.
 
