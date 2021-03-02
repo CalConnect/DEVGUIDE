@@ -6,7 +6,7 @@ published: false
 
 # A place holder for describing vpoll (draft-york-vpoll...)s
 
-The currently existing approach to agreeing on meeting times using [iTip] and/or [iMip] have some significant failings. There is no useful bargaining or suggestion mechanism in iTip, only the ability for a potential attendee to accept or refuse or to counter with a time of their own choosing.
+The currently existing approach to agreeing on meeting times using [iTIP] and/or [iMIP] have some significant failings. There is no useful bargaining or suggestion mechanism in iTip, only the ability for a potential attendee to accept or refuse or to counter with a time of their own choosing.
 
 Part of the problem is that for many potential attendees, their freebusy is not an accurate representation of their availability. In fact, when trying to schedule conference calls across different organizations, attendees may not be allowed to provide freebusy information as this may reveal something of the organizations internal activities.
 

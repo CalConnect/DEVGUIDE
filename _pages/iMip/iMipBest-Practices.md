@@ -1,9 +1,9 @@
 ---
 layout: toc-type
 title: Best Practices
-parent: "/iMip"
-mainParent: "iMip"
-parents: "iMip:/iMip"
+parent: "/iMIP"
+mainParent: "iMIP"
+parents: "iMip:/iMIP"
 order: 400
 ---
 

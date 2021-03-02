@@ -1,7 +1,7 @@
 ---
 layout: toc-type
-title: "iMip"
+title: "iMIP"
 order: 300
 parent: "/"
-mainParent: "iMip"
+mainParent: "iMIP"
 ---

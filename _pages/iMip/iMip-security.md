@@ -1,17 +1,17 @@
 ---
 layout: toc-type
-title: Imip and Security
-parent: "/iMip"
-mainParent: "iMip"
-parents: "iMip:/iMip"
+title: iMIP and Security
+parent: "/iMIP"
+mainParent: "iMIP"
+parents: "iMip:/iMIP"
 order: 600
 ---
 
-# iMip and Security isssues
+# iMip and Security issues
 
 The normal sending and receiving of iMip should present no special issues.
 
-However, receivers of iMip (esepecially attendees) should carry out a
+However, receivers of iMip (especially attendees) should carry out a
 number of checks before adding an event to their calendar.
 
 There are a number of malevolent recurrence patterns that can fill up the users calendar - for example, overlapping short events with no limits.
@@ -48,7 +48,7 @@ the calendar data itself - if done correctly. The items are:
   * Organizer address
   * Attendee addresses
   * sent-by address
-  * delegated-to and delegated-from adresses.
+  * delegated-to and delegated-from addresses.
 
 Email client do not need to adjust headers to try to provide that
 information. They should hand over the event to a calendar client and

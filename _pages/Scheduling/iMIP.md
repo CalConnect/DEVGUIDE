@@ -9,4 +9,4 @@ order: 2
 
 # iMIP - RFC 6047
 
-See the sections on [iMip](/iMip).
+See the sections on [iMIP](/iMIP).
