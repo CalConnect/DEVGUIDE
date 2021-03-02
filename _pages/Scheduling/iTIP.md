@@ -13,7 +13,25 @@ iTIP is an extension to calendaring which describes how to invite attendees to m
 
 While RFC 5545 (and it's subsequent extensions) describe all the calendaring properties, iTIP defines both a protocol and the usage of those properties. It does not define new properties but does place some restrictions on how they may be used for iTIP.
 
-iTIP DOES NOT describe HOW these messages are sent and received. That is described by other specifications. The most common approach is probably still [iMIP](/Scheduling/iMIP/) though CalDAV defines an approach for server based scheduling.
+iTIP DOES NOT describe HOW these messages are sent and received. That is described by other specifications. The most common approach is probably still [iMIP](/iMip/iMip-Introduction/) though CalDAV defines an approach for server based scheduling.
+
+## iTip methods
+Each iTip message has an associated METHOD, these are:
+
+   *  PUBLISH - to publish an event. Used for events with an ORGANIZER but
+      no explicit list of ATTENDEEs.  These are for publishing events, but have no facility to track who is coming.
+   *  REQUEST - send a meeting or task request to attendees
+   *  REPLY - and attendee sending the participation status
+   *  ADD is used to add instances to an already scheduled event.
+   *  CANCEL used to send
+      a cancellation notice of an existing event request.
+   *  REFRESH used to an atendee to request a full refresh of the
+      event. The response should be a new REQUEST from the ORGANIZER.
+  *  COUNTER and DECLINECOUNTER  are defined to allow attendees to
+     suggest a new time for a meeting and for the organizer to reject
+     the suggestion. These methods are often not implemented and
+     generally impractical.
+
 
 ## How to handle meetings
 The process involves a number of steps - some not covered by this specification. These steps are:
