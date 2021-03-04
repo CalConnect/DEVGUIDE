@@ -3,15 +3,15 @@ layout: toc-type
 title: iMIP and Security
 parent: "/iMIP"
 mainParent: "iMIP"
-parents: "iMip:/iMIP"
+parents: "iMIP:/iMIP"
 order: 600
 ---
 
-# iMip and Security issues
+# iMIP and Security issues
 
-The normal sending and receiving of iMip should present no special issues.
+The normal sending and receiving of iMIP should present no special issues.
 
-However, receivers of iMip (especially attendees) should carry out a
+However, receivers of iMIP (especially attendees) should carry out a
 number of checks before adding an event to their calendar.
 
 There are a number of malevolent recurrence patterns that can fill up the users calendar - for example, overlapping short events with no limits.

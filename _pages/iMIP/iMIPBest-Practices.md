@@ -3,7 +3,7 @@ layout: toc-type
 title: Best Practices
 parent: "/iMIP"
 mainParent: "iMIP"
-parents: "iMip:/iMIP"
+parents: "iMIP:/iMIP"
 order: 400
 ---
 
@@ -39,7 +39,7 @@ updates the ORGANIZER's copy of the event based on the link clicked.
 Note that email clients taking short-cuts may lead to significant
 issues regarding spam and other attacks.
 
-An example of the whole RFC message is provided on [GitHub](https://github.com/CalConnect/DEVGUIDE-EXAMPLES/blob/master/imip/imip_example.txt).
+An example of the whole RFC message is provided on [GitHub](https://github.com/CalConnect/DEVGUIDE-EXAMPLES/blob/master/iMIP/iMIP_example.txt).
 
 One useful practice is to set the ORGANIZER address to a per-event or
 per-calendar agent email address rather than the personal address of a

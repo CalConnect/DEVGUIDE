@@ -65,7 +65,7 @@ CalConnect has given this approach a name - Consensus Scheduling. This approach 
    *  Does not require the participants to reveal anything beyond acceptance or rejection
    *  Peer pressure often leads to a quick solution - participants can see what others are moving towards
 
-The end result of most of these services is an iTip request sent via iMip which now has a high acceptance rate.
+The end result of most of these services is an iTIP request sent via iMIP which now has a high acceptance rate.
 
 <h4 id="Aggregator">The Boeing/CalConnect FreeBusy aggregator</h4>
 
