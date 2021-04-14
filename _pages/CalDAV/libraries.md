@@ -59,6 +59,11 @@ The library used by [CalendarServer](https://www.calendarserver.org) as part of 
 
 The SOPE iCal package (sope-ical) contains a SaxObjC driver for processing iCalendar files using libical (iCalSaxDriver) and a library which contains model classes for iCalendar/vCard objects.
 
+## [Swift-iCal](https://github.com/tbartelmess/swift-ical)
+**Open source/Swift**
+
+Library to generate iCalendar objects using Swift based on libical
+
 ### [vdirsyncer](https://github.com/pimutils/vdirsyncer)
 **Open Source Command-Line Tool**
 
