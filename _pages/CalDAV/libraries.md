@@ -74,6 +74,15 @@ vdirsyncer is a command-line tool to synchronize a CalDAV/CardDAV server with a 
 
 A Python library used to read and write iCalendar data streams as defined in RFC2445. Also does vCards. Now maintained by eventable.
 
+### [icalendar](https://github.com/collective/icalendar)
+**Open source/Python**
+
+A Python library to parse and generate iCalendar files.
+
+### [icalendar](https://github.com/icalendar/icalendar)
+**Open source/Ruby**
+A Ruby library to parse and generate iCalendar files.
+
 ##  unsupported implementations
 
 ### [kcaldav](https://code.google.com/archive/p/kcaldav/)
