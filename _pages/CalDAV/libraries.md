@@ -31,12 +31,17 @@ This project is a CalDAV (RFC4791) client library for Python.
 
 iCal4j is a Java library used to read and write iCalendar data streams as defined in RFC2445.
 
-### [icalendar](https://github.com/collective/icalendar)
+### [iCalEvents](https://github.com/irgangla/icalevents)
+**Open Source/Python**
+
+Simple Python 3 library to download, parse and query iCal sources.
+
+### [icalendar (Python)](https://icalendar.readthedocs.io/)
 **Open source/Python**
 
 A Python library to parse and generate iCalendar files.
 
-### [icalendar](https://github.com/icalendar/icalendar)
+### [icalendar (Ruby)](https://github.com/icalendar/icalendar)
 **Open source/Ruby**
 A Ruby library to parse and generate iCalendar files.
 
