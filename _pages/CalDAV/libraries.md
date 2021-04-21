@@ -31,6 +31,15 @@ This project is a CalDAV (RFC4791) client library for Python.
 
 iCal4j is a Java library used to read and write iCalendar data streams as defined in RFC2445.
 
+### [icalendar](https://github.com/collective/icalendar)
+**Open source/Python**
+
+A Python library to parse and generate iCalendar files.
+
+### [icalendar](https://github.com/icalendar/icalendar)
+**Open source/Ruby**
+A Ruby library to parse and generate iCalendar files.
+
 ### [ical.js](http://mozilla-comm.github.io/ical.js/)
 jsical - Javascript parser for rfc5545
 
@@ -73,15 +82,6 @@ vdirsyncer is a command-line tool to synchronize a CalDAV/CardDAV server with a 
 **Open source/Python**
 
 A Python library used to read and write iCalendar data streams as defined in RFC2445. Also does vCards. Now maintained by eventable.
-
-### [icalendar](https://github.com/collective/icalendar)
-**Open source/Python**
-
-A Python library to parse and generate iCalendar files.
-
-### [icalendar](https://github.com/icalendar/icalendar)
-**Open source/Ruby**
-A Ruby library to parse and generate iCalendar files.
 
 ##  unsupported implementations
 
