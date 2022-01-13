@@ -10,8 +10,7 @@ order: 100
 # Introduction
 
 JsCalendar is a new JSON based representation of calendar data. The
-specification is currently working it's way through the IETF. Progress
-may be monitored via the [IETF Datatracker for jsCalendar](https://datatracker.ietf.org/doc/draft-ietf-calext-jscalendar/).
+specification is available as [RFC 8984](https://www.rfc-editor.org/rfc/rfc8984.html).
 
 Along with the specification a mapping document is being created. This
 will describe how to map from jsCalendar to iCalendar and vice-versa.
