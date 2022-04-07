@@ -9,7 +9,7 @@ order: 400
 
 ## Best Practices
 
-Email messages may have more than a single iCalendar file attached, particular
+Email messages may have more than a single iCalendar file attached, particularly
 in the case of PUBLISH/REFRESH/ADD where a calendar file is being broadcast.
 As a processor of iMIP messages you may care about these things, but as a
 generator the best practice is to only attach a single iMIP file to each email.
@@ -26,7 +26,7 @@ The recommended structure the email is as follows:
 This structure is based on interoperability testing with various existing
 implementations.  Some clients will only see the part with the standard
 text/calendar content-type and the method header.  Other clients are only
-able to attached parts with application/ics (which is non-standard)
+able to attach parts with application/ics (which is non-standard)
 
 It is also recommended that the filename of the application/ics part end
 with `.ics`.
@@ -60,7 +60,7 @@ accepted this event.
 # Gotchas and things to be aware of
 
 If you're writing a client which is talking CalDAV to a server there isn't
-much to think about other than the being aware that if there is a
+much to think about other than being aware that if there is a
 SCHEDULE-AGENT attribute on your ATTENDEE and it's not "SERVER" then the
 server won't send out iMIP messages on your behalf.
 
