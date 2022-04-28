@@ -9,7 +9,7 @@ order: 100
 
 # Introduction
 
-JsCalendar is a new JSON based representation of calendar data. The
+JsCalendar is a JSON based representation of calendar data. The
 specification is available as [RFC 8984](https://www.rfc-editor.org/rfc/rfc8984.html).
 
 Along with the specification a mapping document is being created. This

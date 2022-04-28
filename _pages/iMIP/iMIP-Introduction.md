@@ -13,7 +13,7 @@ iMIP is defined by [RFC 6047][rfc6047] which defines how [iTIP] messages are sen
 Given that email is a major vector for spam and other attacks, senders and
 receivers must take care over the handling of iMIP.
 
-However, iMIP is still tost interoperable way to ensure that an
+However, iMIP is still the most interoperable way to ensure that an
 [iTIP](/Scheduling/iTIP/) request reaches the owner of an email address.
 
 Note that iMIP is also used to resolve the "identity crisis" as it's called
