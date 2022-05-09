@@ -25,7 +25,7 @@ CalConnect only provides a list of known implementations of CalDAV clients. Any 
 
 aCal is a CalDAV client for Android which requires a CalDAV server to function.
 
-### [AgenDAV](http://agendav.org/)
+### [AgenDAV](https://agendav.github.io/agendav/)
 **Open Source/multilanguage**
 
 AgenDAV is an open source multilanguage CalDAV web client which features a rich AJAX interface with shared calendars support.
