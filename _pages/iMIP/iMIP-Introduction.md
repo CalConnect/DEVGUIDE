@@ -7,7 +7,7 @@ parents: "iMIP:/iMIP"
 order: 200
 ---
 
-# iMIP - introduction
+# iMIP - Introduction
 iMIP is defined by [RFC 6047][rfc6047] which defines how [iTIP] messages are sent and received via email.
 
 Given that email is a major vector for spam and other attacks, senders and
