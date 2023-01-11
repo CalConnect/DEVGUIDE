@@ -82,10 +82,11 @@ industries. The VCARD technical committee works closely with IETF for
 publishing CalConnect vCard standards through the RFC process.
 
 
-% ## Where the vCard is used
+<!-- ## Where the vCard is used
 %
 % Servers, clients
 % [TODO]
+-->
 
 
 ## The vCard standard
