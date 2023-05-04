@@ -3,7 +3,7 @@
 <script src="{{ "js/materialize.min.js" | relative_url }}"></script>
 <script src="{{ "js/init.js" | relative_url }}"></script>
 
-<!-- Google Analytics -->
+<!-- Google Analytics old 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -12,4 +12,15 @@
   ga('create', 'UA-22761082-2', 'auto');
   ga('send', 'pageview');
 </script>
-<!-- /Analytics -->
+ /Analytics -->
+
+// new Google Analytics Version 4
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PCRP59Q7L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9PCRP59Q7L');
+</script>
