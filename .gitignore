@@ -5,3 +5,5 @@
 *.scssc
 /uml
 .jekyll-cache
+js/jquery.min.2.1.js
+js/jquery.min.3.7.js
