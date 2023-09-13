@@ -10,6 +10,6 @@ order: 600
 For information on Scheduling implementations see:
 
 1. [iTIP](/Scheduling/iTIP/)
-1. [iMIP](/iMIP/iMIP-introduction)
+1. [iMIP](/iMIP/iMIP-Introduction/)
 1. [FreeBusy and Availability](/Scheduling/FreeBusyAvailability/)
 
