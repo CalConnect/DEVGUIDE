@@ -1,7 +1,7 @@
 ---
 layout: toc-type
 title: "iTIP"
-order: 350
+order: 300
 parent: "/"
 mainParent: "iTIP"
 published: true
