@@ -30,3 +30,6 @@ The guide is currently structured as follows. It contains sections introducing i
 This site is maintained by people involved in the development of calendaring and scheduling standards and/or implementations. Although the content contributors are employed by a range of commercial and non-profit organizations, this site does not represent the views or opinions of those organizations.
 
 Please note that the authors of this site have not made any attempt to confirm support for any of the implementations, products or services listed on this site.
+
+[rfc6047]: https://tools.ietf.org/html/rfc6047
+[rfc9253]: https://tools.ietf.org/html/rfc9253
