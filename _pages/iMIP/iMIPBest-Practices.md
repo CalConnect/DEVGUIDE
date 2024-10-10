@@ -41,6 +41,8 @@ issues regarding spam and other attacks.
 
 An example of the whole RFC message is provided on [GitHub](https://github.com/CalConnect/DEVGUIDE-EXAMPLES/blob/master/imip/imip_example.txt).
 
+A java mail example can also be found on [GitHub](https://github.com/CalConnect/DEVGUIDE-EXAMPLES/blob/master/imip/java/MailUtil.java).
+
 One useful practice is to set the ORGANIZER address to a per-event or
 per-calendar agent email address rather than the personal address of a
 human, while still adding the personal address of the ORGANIZER as one
@@ -61,7 +63,7 @@ accepted this event.
 
 If you're writing a client which is talking CalDAV to a server there isn't
 much to think about other than being aware that if there is a
-SCHEDULE-AGENT attribute on your ATTENDEE and it's not "SERVER" then the
+SCHEDULE-AGENT attribute on your ATTENDEE, and it's not "SERVER" then the
 server won't send out iMIP messages on your behalf.
 
 You also need to read enough of RFC6638 to know how you are legally allowed
@@ -95,6 +97,6 @@ Handling these "naked" recurrences is a frequent source of bugs in implementatio
 # No negotiation
 
 iMIP via email provides no return channel other than sending a new iMIP back,
-so there's no protocol negotiation.  All VEVENTs need to be lowest common
+so there's no protocol negotiation.  All VEVENTs need to be the lowest common
 denominator VERSION:2.0 ICALENDAR files complete with VTIMEZONEs for all
 mentioned timezone names.
