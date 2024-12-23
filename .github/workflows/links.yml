@@ -1,0 +1,39 @@
+name: links
+
+on:
+  push:
+    branches:
+    - main
+    - staging
+  pull_request:
+
+jobs:
+  link_checker:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+        bundler-cache: true
+
+    - name: Build site
+      env:
+        JEKYLL_ENV: production
+      run: bundle exec jekyll build
+
+    - name: Link Checker
+      uses: lycheeverse/lychee-action@v2
+      with:
+        args: --verbose --no-progress -- _site/**/*.html
+        fail: true
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      # - name: Create Issue From File
+      #   uses: peter-evans/create-issue-from-file@v2
+      #   with:
+      #     title: Link Checker Report
+      #     content-filepath: ./lychee/out.md
+      #     labels: report, automated issue
