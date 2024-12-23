@@ -3,7 +3,7 @@ name: build_deploy
 on:
   push:
     branches:
-    - main
+    - master
     # - staging
   pull_request:
   repository_dispatch:
