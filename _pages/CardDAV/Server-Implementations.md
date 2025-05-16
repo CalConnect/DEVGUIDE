@@ -30,6 +30,11 @@ Baïkal is an open-source, lightweight PHP+SQLite CALDAV+CARDDAV server based on
 
 Implementation of CardDAV. Java-based.
 
+### [Contactzilla](https://contactzilla.com)
+**Commercial**
+
+Cloud based CardDAV solution aimed at simplifying contact management for enterprises. Import contacts from external systems such as Google or Salesforce, connect devices with CardDAV and easily role out with existing MDM solutions.
+
 ### [DAVical](http://www.davical.org/)
 **Open Source/PHP/PostgreSQL**
 
