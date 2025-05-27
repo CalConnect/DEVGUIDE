@@ -50,11 +50,6 @@ CalDAV and CardDAV support.
 
 Enables storage of custom attributes in Active Directory, such as instant messengers, birth dates, multiple addresses, etc. without modifying Active Directory schema and a two-way synchronization of Active Directory contacts via CardDAV protocol.
 
-### [Kerio Connect](http://www.kerio.com/products/kerio-connect/server)
-**Unified messaging server**
-
-Implementation of CardDAV. Available as part of the Kerio Connect server software.
-
 ### [mailfence](https://mailfence.com)
 **Commercial**
 
