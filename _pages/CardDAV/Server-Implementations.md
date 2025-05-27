@@ -90,9 +90,4 @@ SabreDAV is a free WebDAV server and includes support for CardDAV.
 
 ScalableOGo (SOGo) is a free groupware server and includes support for CardDAV.
 
-### [Xandikos](https://www.xandikos.org/)
-**Open source/cross-platform**
-
-Xandikos is a lightweight free WebDAV server that includes support for CardDAV.
-
 ##  unsupported development
