@@ -43,11 +43,6 @@ ASynK is a flexible Contacts synchronization program that works with a variety o
 PHP/Zend Email Server with jQuery browser based WebClient
 Supports CardDAV to list, view, edit contacts directly on the server. Server contacts and CalDAV calendar syncing with ActiveSync to iOS and downloadable Outlook Add-in. Free Trial Available.
 
-### [Bynari WebDAV Collaborator](https://www.bynari.net/product/bynari-webdav-collaborator/)
-**Commercial/Outlook plug-in**
-
-The WebDAV Collaborator is a powerful plug-in for synchronizing your CalDAV calendar and/or CardDAV contact data to Outlook.
-
 ### [CardDav-Sync](http://dmfs.org/carddav/)
 **Android sync adapter**
 
@@ -58,11 +53,6 @@ Available in free and purchased editions
 **Open Source CardDAV client**
 
 Desktop open source client (Javascript+jQuery) for CardDAV.
-
-### [ContactSync](http://ntbab.dyndns.org/apache2-default/seite/contactsync.html)
-**Android sync adapter**
-
-ContactSync is an Android app which syncs your Android contacts with FTP, HTTP, WebDAV, CardDAV servers and plain vCard files. It also provides a lot of additional features.
 
 ### [Contactzilla](https://contactzilla.com/)
 **Commercial Cloud-based Contact Manager with CardDAV support**
@@ -79,7 +69,7 @@ DAVx⁵ (formerly DAVdroid) is a professional open-source synchronization adapte
 
 Desktop client for Windows (.NET) supports CardDAV.
 
-### [EVO Collaborator for Outlook (ECO)](http://www.evomailserver.com/support.php?path=Configuring%20EVO/EVO%20Collaborator%20for%20Outlook)
+### [EVO Collaborator for Outlook (ECO)](https://www.evomailserver.com/google-calendar-sync-outlook.php)
 **Commercial/Windows**
 
 EVO Collaborator for Outlook (ECO) enables users to take advantage of CardDAV for Contacts and CalDAV for Calendars and Tasks. Synchronization of both Contacts, Calendars and Tasks occurs whenever changes are made. By supporting iCloud, Gmail, fruux, Yahoo! (read-only) and AOL (read-only), users easily import what they have on cloud. Yet, C2C (Cloud to Cloud) feature facilitates duplicating your contacts and calendars from one place to another; O2C (Outlook to Cloud) feature gives you an option saving your data elsewhere on the Cloud.
@@ -89,7 +79,7 @@ EVO Collaborator for Outlook (ECO) enables users to take advantage of CardDAV fo
 
 Evolution is an e-mail program which supports CardDAV.
 
-### [gSyncit](http://www.fieldstonsoftware.com/software/gsyncit4/index.shtml)
+### [gSyncit](https://www.fieldstonsoftware.com/software/gsyncit5/)
 **Commercial Outlook CalDAV/CardDAV Sync**
 
 gSyncit V4.2 offers CalDAV calendar/task sync and CardDAV sync for Outlook, in addition to a number of other features.
@@ -113,21 +103,6 @@ PHP CardDAV Client.
 **Open Source CardDAV plug-in**
 
 Open source CardDAV plug-in for Roundcube Webmail.
-
-### [SOGO Connector](http://www.scalableogo.com/)
-**Free/Thunderbird Plugin**
-
-Plugin for Thunderbird address books which allows CardDAV subscriptions.
-
-### [SurGATE Outlook Sync Client](http://www.outlookdav.com/)
-**Commercial Outlook/CalDAV and CardDAV Sync**
-
-SurGATE Outlook Sync Client provides two-way calendar and contacts sync between Outlook and CalDAV/CardDAV Servers.
-
-### [Sync2Cloud Contacts Sync](https://play.google.com/store/apps/details?id=com.sturnus.sync2cloud.contacts.sync)
-**Android Sync Adapter**
-
-An Android app that is more powerful than a simple sync adaptor: it allows linking any local device contacts account (including 3rd-party accounts) with any CardDAV address book.
 
 # unsupported development
 
