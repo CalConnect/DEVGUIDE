@@ -48,6 +48,11 @@ A Ruby library to parse and generate iCalendar files.
 ### [ical.js](http://mozilla-comm.github.io/ical.js/)
 jsical - Javascript parser for rfc5545
 
+### [iCalDAV](https://github.com/iCalDAV/iCalDAV)
+**Open source/Kotlin**
+
+A Kotlin CalDAV client library with offline sync and conflict resolution. Features include RFC 5545 compliant iCalendar parsing (VEVENT, VTODO, VJOURNAL), CalDAV client with automatic server discovery, WebDAV ACL support (RFC 3744), recurring events with RRULE/RDATE/EXDATE expansion, and a sync engine with offline support. Includes an Android module for CalendarContract integration. Available on [Maven Central](https://central.sonatype.com/namespace/org.onekash).
+
 ### [IT Hit WebDAV Server Engine for .NET](https://www.webdavsystem.com/server/)
 **Commercial License**
 
