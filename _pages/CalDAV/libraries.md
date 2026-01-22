@@ -43,6 +43,7 @@ A Python library to parse and generate iCalendar files.
 
 ### [icalendar (Ruby)](https://github.com/icalendar/icalendar)
 **Open source/Ruby**
+
 A Ruby library to parse and generate iCalendar files.
 
 ### [ical.js](http://mozilla-comm.github.io/ical.js/)
