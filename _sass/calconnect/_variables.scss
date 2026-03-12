@@ -1,0 +1,9 @@
+// DEVGUIDE-specific Sass overrides
+// Override design tokens here to customize the theme
+
+// Keep existing DEVGUIDE colors
+$color-brand-primary: #7c3aed;  // purple-600
+$color-brand-secondary: #a78bfa;  // purple-400
+
+// Use existing fonts
+$font-sans: 'Ek Mukta', 'Hind', system-ui, sans-serif;

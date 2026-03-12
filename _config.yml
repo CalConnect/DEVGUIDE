@@ -1,14 +1,16 @@
 title: CalConnect DEVGUIDE
 author: Thomas Schäfer
 email: thomas.schaefer@1und1.de
-description: > # this means to ignore newlines until "baseurl:"
-  My modified template for CalConnect
+description: >
+  CalConnect Developer's Guide - Documentation for calendaring and scheduling
+  standards (iCalendar, CalDAV, CardDAV, vCard).
 
 twitter_username: wsdwl
 
-sass:
-    style: compressed
+# Use the jekyll-calconnect theme
+theme: jekyll-calconnect
 
+# Collections
 collections:
   pages:
     output: true
@@ -18,11 +20,58 @@ collections:
     output: true
     permalink: /Appendix/:path/
 
-plantuml:
-  plantuml_jar: _bin/plantuml.jar     # path to plantuml jar
-  tmp_folder: _plantuml               # tmp folder to put generated image files
-  dot_exe: /usr/bin/dot               # [optional] path to Graphviz dot execution
-  background_color: white             # [optional] UML image background color
+# Theme configuration
+calconnect:
+  logo: /assets/images/logo-purple.svg
+  logo_dark: /assets/images/logo-white.svg
+  organization_name: CalConnect
+  dark_mode: true
+  use_vite: false
+  navigation:
+    header_links:
+      - title: "How to Contribute"
+        url: "/Appendix/How-to-Contribute/"
 
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# AsciiDoc settings
+asciidoc: {}
+asciidoc_ext: 'adoc,ad,asciidoc'
+asciidoctor:
+  attributes:
+    - source-highlighter=rouge
+    - toc=left
+    - icons=font
+  safe: unsafe
+
+# Sass settings
+sass:
+  style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - ../jekyll-calconnect/_sass
+
+# PlantUML configuration
+plantuml:
+  plantuml_jar: _bin/plantuml.jar
+  tmp_folder: _plantuml
+  dot_exe: /usr/bin/dot
+  background_color: white
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-asciidoc
+
+# Exclude from build
 exclude:
   - app.yaml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
