@@ -1,13 +1,12 @@
 title: CalConnect DEVGUIDE
 author: Thomas Schäfer
 email: thomas.schaefer@1und1.de
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until `baseurl:`
   My modified template for CalConnect
 
 twitter_username: wsdwl
 
-sass:
-    style: compressed
+theme: calconnect-theme
 
 collections:
   pages:
@@ -26,3 +25,10 @@ plantuml:
 
 exclude:
   - app.yaml
+  - config
+  - vite.config.ts
+  - package.json
+  - package-lock.json
+  - node_modules/
+  - vendor/
+  - firebase.json

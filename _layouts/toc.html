@@ -1,26 +1,26 @@
 ---
 layout: default
 ---
-<div class="container">
+<div class="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
    <h1>Table of Contents</h1>
 
     {{ content }}
 
 </div>
 
-<div class="container">
-  <ol>
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+  <ol class="list-decimal pl-6 space-y-2">
   {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
   {% include toc-entry.html pages=pages level=false %}
   </ol>
 </div>
-<div class="container">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
   <h2>Appendixes</h2>
-  <ol>
+  <ol class="list-decimal pl-6 space-y-2">
     {% assign appendixes = site.appendixes | sort: "order" %}
     {% for appendix in appendixes %}
         {% if appendix.title != 'Appendixes' %}
-            <li><a href="{{ appendix.url }}">{{ appendix.title }}</a></li>
+            <li><a href="{{ appendix.url }}" class="text-indigo-500 hover:text-indigo-600 underline">{{ appendix.title }}</a></li>
         {% endif %}
     {% endfor %}
   </ol>

@@ -9,3 +9,9 @@ js/jquery.min.2.1.js
 js/jquery.min.3.7.js
 /firebase-debug.log
 Gemfile.lock
+
+# Vite / Node
+node_modules/
+public/vite*
+config/
+vendor/

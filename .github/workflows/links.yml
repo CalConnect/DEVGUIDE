@@ -11,11 +11,26 @@ jobs:
   link_checker:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
+
+    - name: Checkout calconnect-theme
+      uses: actions/checkout@v4
+      with:
+        repository: calconnect/calconnect-theme
+        path: ../calconnect-theme
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v6
+      with:
+        node-version: '24'
+        cache: 'npm'
+
+    - name: Install npm dependencies
+      run: npm ci
 
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.1'
+        ruby-version: '3.2'
         bundler-cache: true
 
     - name: Build site
@@ -30,10 +45,3 @@ jobs:
         fail: true
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-      # - name: Create Issue From File
-      #   uses: peter-evans/create-issue-from-file@v2
-      #   with:
-      #     title: Link Checker Report
-      #     content-filepath: ./lychee/out.md
-      #     labels: report, automated issue

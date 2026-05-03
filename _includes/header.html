@@ -1,20 +1,36 @@
-<nav class="deep-purple lighten-1" role="navigation">
-    <div class="nav-wrapper container">
-        <a id="logo-container" class="brand-logo" href="https://www.calconnect.org/">CALCONNECT</a><a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}"><span class="hidden-xs">Developer's Guide</span></a>
-        {% assign default_paths = site.pages | map: "path" %}
-        {% assign page_paths = site.header_pages | default: default_paths %}
-
-        <ul class="hide-on-med-and-down">
-            <li><a href="{{ "/" | relative_url }}">Home</a></li>
-            <li><a href="/Table-of-Contents/">Table of Contents</a></li>
-            <li><a href="/Appendix/How-to-Contribute/">How to Contribute</a></li>
-        </ul>
-
-        <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="/Table-of-Contents/">Table of Contents</a></li>
-            <li><a href="/Appendix/How-to-Contribute/">How to Contribute</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+<header id="nav-header" class="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-950 backdrop-blur-md border-b border-gray-200 dark:border-white/10 transition-colors">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <div class="flex items-center gap-4">
+        <a href="https://www.calconnect.org" class="flex items-center">
+          <img src="{{ '/assets/images/logo-purple.svg' | relative_url }}" alt="CalConnect" class="h-8 block dark:hidden">
+          <img src="{{ '/assets/images/logo-white.svg' | relative_url }}" alt="CalConnect" class="h-8 hidden dark:block">
+        </a>
+        <a href="{{ '/' | relative_url }}" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+          Developer's Guide
+        </a>
+      </div>
+      <nav class="hidden lg:flex items-center gap-1">
+        <a href="{{ '/' | relative_url }}" class="px-4 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">Home</a>
+        <a href="/Table-of-Contents/" class="px-4 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">Table of Contents</a>
+        <a href="/Appendix/How-to-Contribute/" class="px-4 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">How to Contribute</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
+          <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+          <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+        </button>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-expanded="false" aria-label="Toggle menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
     </div>
-</nav>
+  </div>
+  <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-200 dark:border-gray-800">
+    <div class="px-4 py-3 space-y-1">
+      <a href="{{ '/' | relative_url }}" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Home</a>
+      <a href="/Table-of-Contents/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Table of Contents</a>
+      <a href="/Appendix/How-to-Contribute/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">How to Contribute</a>
+    </div>
+  </div>
+</header>

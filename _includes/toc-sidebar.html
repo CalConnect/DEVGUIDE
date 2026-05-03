@@ -22,24 +22,24 @@
         {% endfor %}
 
         {% assign subpages = site.pages | where: "parent", page.id | sort: "order" %}
-        <li class="{% if subpages.size > 0 %}expandable{% endif %} {% if currentPageUrl contains page.url %}active{% endif %} {% if activeParent %}active{% endif %}">
+        <li class="{% if subpages.size > 0 %}has-subitems{% endif %} {% if currentPageUrl contains page.url %}active{% endif %} {% if activeParent %}active{% endif %}">
             {% if include.level %}
                 {% if content_size == 0 %}
-                    <div><span>{{ page.title }}</span></div>
+                    <span class="block px-3 py-2 text-sm text-gray-400 dark:text-gray-500">{{ page.title }}</span>
                 {% else %}
-                    <a href="{{ page.url }}" class="{% if currentPageUrl contains page.url %}active{% endif %}">{{ page.title }}</a>
+                    <a href="{{ page.url }}" class="block px-3 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors {% if currentPageUrl contains page.url %}active{% endif %}">{{ page.title }}</a>
                 {% endif %}
             {% endif %}
 
             {% if page.path contains '_appendixes' %}
                 {% if content_size != 0 %}
-                    <a href="{{ page.url }}" class="{% if currentPageUrl contains page.url %}active{% endif %}">{{ page.title }}</a>
+                    <a href="{{ page.url }}" class="block px-3 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors {% if currentPageUrl contains page.url %}active{% endif %}">{{ page.title }}</a>
                 {% endif %}
-                
+
             {% endif %}
 
             {% if subpages.size > 0 %}
-                <ul class="menu nav">
+                <ul class="nav-subsection ml-3 border-l-2 border-gray-200 dark:border-gray-700 pl-3 mt-1 space-y-0.5">
                     {% include toc-sidebar.html pages=subpages currentMainParent=page.mainParent level="secondary" %}
                 </ul>
             {% endif %}
