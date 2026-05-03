@@ -1,51 +1,38 @@
-<footer class="page-footer">
-    <div id="sitemap">
-        <div id="sitemap-inner" class="container">
-            <div class="region region-sitemap">
-                <section id="block-menu-block-1" class="block block-menu-block ">
-                    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
-                        <ul class="menu nav">
-                            <li class="sub-list">
-                                <a href="/Table-of-Contents/">Table of Contents</a>
-                                <ul class="menu nav">
-                                    {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
-                                    {% for page in pages %}
-                                    {% assign content_size = page.content | strip | size %}
-                                        <li>
-                                            {% if content_size == 0 %}
-                                                <a href="/Table-of-Contents#{{ page.title | replace:' ', '_' | downcase }}">{{ page.title }}</a>
-                                            {% else %}
-                                                <a href="{{ page.url }}">{{ page.title }}</a>
-                                            {% endif %}
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                            <li class="sub-list">
-                                <a href="/Appendix/Appendixes/">Appendixes</a>
-                                <ul class="menu nav">
-                                    {% assign appendixes = site.appendixes | sort: "order" %}
-                                    {% for appendix in appendixes %}
-                                    <li><a href="{{ appendix.url }}">{{ appendix.title }}</a></li>
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                          <!--
-                            <li class="sub-list">
-                                <a href="https://goo.gl/forms/NqKna6d4lsqUtlgD3" target="_blank">Feedback</a>
-                            </li>
-                          -->
-                        </ul>
-                    </div>
-                </section>
-            </div>
-        </div>
+<footer class="bg-gray-50 dark:bg-gray-950 border-t border-gray-200 dark:border-white/10 transition-colors">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">Table of Contents</h4>
+        <ul class="space-y-2">
+          {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
+          {% for page in pages %}
+          {% assign content_size = page.content | strip | size %}
+          <li>
+            {% if content_size == 0 %}
+              <a href="/Table-of-Contents#{{ page.title | replace:' ', '_' | downcase }}" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">{{ page.title }}</a>
+            {% else %}
+              <a href="{{ page.url }}" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">{{ page.title }}</a>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">Appendixes</h4>
+        <ul class="space-y-2">
+          {% assign appendixes = site.appendixes | sort: "order" %}
+          {% for appendix in appendixes %}
+          <li><a href="{{ appendix.url }}" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">{{ appendix.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-   <div class="footer-copyright">
-        <div class="container">
-          <div id="footer-left">
-            Copyright &copy; <a href="https://www.calconnect.org/">CalConnect</a><sup>SM</sup>. <a href="https://www.calconnect.org/contact">Contact Us</a> | <a href="https://www.calconnect.org/about/policies/copyright-and-licensing">Copyright & Licensing</a>
-          </div>
-        </div>
+    <div class="mt-8 pt-8 border-t border-gray-200 dark:border-white/10">
+      <p class="text-sm text-gray-500 dark:text-gray-400">
+        Copyright &copy; {{ site.time | date: '%Y' }} <a href="https://www.calconnect.org/" class="hover:text-gray-700 dark:hover:text-gray-300">CalConnect</a><sup>SM</sup>.
+        <a href="https://www.calconnect.org/contact" class="hover:text-gray-700 dark:hover:text-gray-300">Contact Us</a> |
+        <a href="https://www.calconnect.org/about/policies/copyright-and-licensing" class="hover:text-gray-700 dark:hover:text-gray-300">Copyright &amp; Licensing</a>
+      </p>
     </div>
+  </div>
 </footer>

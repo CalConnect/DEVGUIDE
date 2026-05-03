@@ -1,26 +1,32 @@
 ---
 layout: default
 ---
-<div class="container container-columns">
-    <div class="container-content">
-        <ol class="breadcrumb">
-            <li><a href="{{ "/" | relative_url }}">Home</a></li>
-            {% if page.path contains '_appendixes' %}
-                <!-- Do Nothing -->
-            {% else %}
-                <li><a href="/Table-of-Contents">Table of Contents</a></li>
-            {% endif %}
-            {% assign pageParents = page.parents | split:';' %}
-            {% for parent in pageParents %}
-                {% assign pageParentsDetails = parent| split:':' %}
-                <li><a href="{{pageParentsDetails[1]}}">{{pageParentsDetails[0]}}</a></li>
-            {% endfor %}
-        </ol>
+<section class="documentation">
+    <article>
+        <nav class="hidden lg:flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-4" aria-label="Breadcrumb">
+            <ol class="flex items-center flex-wrap gap-2 list-none p-0 m-0">
+                <li><a href="{{ '/' | relative_url }}" class="hover:text-gray-700 dark:hover:text-gray-300">Home</a></li>
+                {% if page.path contains '_appendixes' %}
+                {% else %}
+                <li>/ <a href="/Table-of-Contents/" class="hover:text-gray-700 dark:hover:text-gray-300">Table of Contents</a></li>
+                {% endif %}
+                {% assign pageParents = page.parents | split:';' %}
+                {% for parent in pageParents %}
+                    {% assign pageParentsDetails = parent| split:':' %}
+                    <li>/ <a href="{{pageParentsDetails[1]}}" class="hover:text-gray-700 dark:hover:text-gray-300">{{pageParentsDetails[0]}}</a></li>
+                {% endfor %}
+            </ol>
+        </nav>
 
         {% if content.size != 1 %}
-            {{ content }}
+            <div class="body">
+                {{ content }}
+            </div>
         {% else %}
-            For information on {{page.title}} see:
+            <header>
+                <h1>{{ page.title }}</h1>
+            </header>
+            <p>For information on {{ page.title }} see:</p>
             {% assign currentMainParent = page.mainParent %}
 
             {% if page.path contains '_appendixes' %}
@@ -32,19 +38,21 @@ layout: default
             {% include toc-mainPage-placeholder.html loopPages=loopPages currentMainParent=currentMainParent %}
         {% endif %}
 
-    </div>
-    <div class="container-sidebar">
-        {% if page.path contains '_appendixes' %}
-            <span class="mobile-title">Appendixes</span>
-        {% else %}
-            <span class="mobile-title">Table of Contents</span>
-        {% endif %}
+    </article>
+    <nav class="docs-nav" aria-label="Section navigation">
+        <div class="docs-nav-content">
+            <div class="nav-section">
+                <div class="nav-section-title">
+                    {% if page.path contains '_appendixes' %}Appendixes{% else %}Table of Contents{% endif %}
+                </div>
 
-        <ul class="menu-sidebar">
-            {% assign currentPageUrl = page.url %}
-            {% assign currentPageTitle = page.title %}
-            {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
-            {% include toc-sidebar.html pages=pages currentPageUrl=currentPageUrl currentMainParent=page.mainParent currentPageTitle=currentPageTitle%}
-        </ul>
-    </div>
-</div>
+                <ul class="nav-items">
+                {% assign currentPageUrl = page.url %}
+                {% assign currentPageTitle = page.title %}
+                {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
+                {% include toc-sidebar.html pages=pages currentPageUrl=currentPageUrl currentMainParent=page.mainParent currentPageTitle=currentPageTitle %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>

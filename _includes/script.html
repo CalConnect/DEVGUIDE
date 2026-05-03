@@ -1,15 +1,10 @@
-<!--  Scripts-->
-<script src="{{ "js/jquery.min.js" | relative_url }}"></script>
-<script src="{{ "js/materialize.min.js" | relative_url }}"></script>
-<script src="{{ "js/init.js" | relative_url }}"></script>
-
-<!-- new Google Analytics Version 4 -->
-<!-- Google tag (gtag.js) -->
+<!-- Google Analytics -->
+{% if jekyll.environment == 'production' %}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9PCRP59Q7L"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PCRP59Q7L');
 </script>
+{% endif %}
