@@ -11,7 +11,7 @@
                 {% assign content_size = subpage.content | strip | size %}
                     {% if content_size > 0 %}
                         <li>
-                            <a href="{{ subpage.url }}" class="{% if currentPageUrl contains subpage.url %}active{% endif %}">{{ subpage.title }}</a>
+                            <a href="{{ subpage.url }}" class="{% if currentPageUrl contains subpage.url %}text-indigo-600 dark:text-indigo-400 font-medium{% endif %}">{{ subpage.title }}</a>
                         </li>
                     {% endif %}
             {% endfor %}
