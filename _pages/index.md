@@ -1,6 +1,6 @@
 ---
 title: Introduction
-layout: page
+layout: home
 permalink: /
 parent: "/"
 order: 100
