@@ -8,6 +8,9 @@ twitter_username: wsdwl
 
 theme: calconnect-theme
 
+plugins:
+  - jekyll/vite
+
 collections:
   pages:
     output: true

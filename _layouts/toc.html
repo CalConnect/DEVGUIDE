@@ -2,9 +2,13 @@
 layout: default
 ---
 <div class="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-   <h1>Table of Contents</h1>
+    <header class="mb-8 pb-6 border-b border-gray-200 dark:border-gray-700">
+      <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Table of Contents</h1>
+    </header>
 
-    {{ content }}
+    <div class="body">
+      {{ content }}
+    </div>
 
 </div>
 
@@ -20,7 +24,7 @@ layout: default
     {% assign appendixes = site.appendixes | sort: "order" %}
     {% for appendix in appendixes %}
         {% if appendix.title != 'Appendixes' %}
-            <li><a href="{{ appendix.url }}" class="text-indigo-500 hover:text-indigo-600 underline">{{ appendix.title }}</a></li>
+            <li><a href="{{ appendix.url }}">{{ appendix.title }}</a></li>
         {% endif %}
     {% endfor %}
   </ol>

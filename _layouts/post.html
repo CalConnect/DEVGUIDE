@@ -4,19 +4,19 @@ layout: default
 <div class="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
   <article itemscope itemtype="http://schema.org/BlogPosting">
 
-    <header class="mb-8">
+    <header class="mb-8 pb-6 border-b border-gray-200 dark:border-gray-700">
       <h1 class="text-3xl font-bold text-gray-900 dark:text-white" itemprop="name headline">{{ page.title | escape }}</h1>
       <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {{ page.date | date: "%b %-d, %Y" }}
         </time>
         {% if page.author %}
-          &bull; <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+          &bull; <span itemprop="author" itemscope itemtype="http://Schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
         {% endif %}
       </p>
     </header>
 
-    <div class="body" itemprop="articleBody">
+    <div class="post-content body" itemprop="articleBody">
       {{ content }}
     </div>
 

@@ -11,13 +11,13 @@
         </a>
       </div>
       <nav class="hidden lg:flex items-center gap-1">
-        <a href="{{ '/' | relative_url }}" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">Home</a>
         <a href="/iCalendar-Topics/" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">iCalendar</a>
         <a href="/CalDAV/" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">CalDAV</a>
         <a href="/CardDAV/" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">CardDAV</a>
         <a href="/Scheduling/" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">Scheduling</a>
-        <a href="/Table-of-Contents/" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">All Topics</a>
-        <a href="/Appendix/How-to-Contribute/" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">Contribute</a>
+        <a href="/Table-of-Contents/" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">Contents</a>
+        <span class="w-px h-5 bg-gray-300 dark:bg-gray-700 mx-1"></span>
+        <a href="https://www.calconnect.org/about/" class="px-3 py-2 text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">About</a>
       </nav>
       <div class="flex items-center gap-2">
         <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
@@ -32,23 +32,25 @@
   </div>
   <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-200 dark:border-gray-800">
     <div class="px-4 py-3 space-y-1">
-      <a href="{{ '/' | relative_url }}" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Home</a>
-      <div class="px-3 pt-2 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Data Formats</div>
+      <div class="px-3 pt-2 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Standards</div>
       <a href="/iCalendar-Topics/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">iCalendar</a>
-      <a href="/vCard/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">vCard</a>
-      <a href="/jsCalendar-Topics/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">jsCalendar</a>
-      <div class="px-3 pt-2 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Protocols</div>
       <a href="/CalDAV/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">CalDAV</a>
       <a href="/CardDAV/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">CardDAV</a>
       <a href="/Scheduling/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Scheduling</a>
-      <a href="/iMIP/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">iMIP</a>
-      <a href="/iTIP/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">iTIP</a>
-      <div class="px-3 pt-2 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">More</div>
-      <a href="/Time-Zones/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Time Zones</a>
+      <div class="px-3 pt-2 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Formats</div>
+      <a href="/vCard/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">vCard</a>
+      <a href="/jsCalendar-Topics/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">jsCalendar</a>
       <a href="/Data-Model/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Data Model</a>
       <a href="/Tasks/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Tasks</a>
-      <a href="/Table-of-Contents/" class="block px-3 py-2 text-sm font-medium text-gray-900 dark:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">All Topics</a>
-      <a href="/Appendix/How-to-Contribute/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Contribute</a>
+      <div class="px-3 pt-2 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Protocols</div>
+      <a href="/iMIP/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">iMIP</a>
+      <a href="/iTIP/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">iTIP</a>
+      <a href="/Time-Zones/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Time Zones</a>
+      <div class="mt-2 pt-2 border-t border-gray-200 dark:border-gray-700 space-y-1">
+        <a href="/Table-of-Contents/" class="block px-3 py-2 text-sm font-medium text-gray-900 dark:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Full Table of Contents</a>
+        <a href="https://www.calconnect.org/about/" class="block px-3 py-2 text-sm text-gray-500 dark:text-gray-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">About CalConnect</a>
+        <a href="https://www.calconnect.org/" class="block px-3 py-2 text-sm text-gray-500 dark:text-gray-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">calconnect.org</a>
+      </div>
     </div>
   </div>
 </header>

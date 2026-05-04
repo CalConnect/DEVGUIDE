@@ -19,17 +19,17 @@ layout: default
         </div>
     </nav>
     <article>
-        <nav class="hidden lg:flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-4" aria-label="Breadcrumb">
+        <nav class="hidden lg:flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-4" aria-label="Breadcrumb" style="text-decoration:none">
             <ol class="flex items-center flex-wrap gap-2 list-none p-0 m-0">
-                <li><a href="{{ '/' | relative_url }}" class="hover:text-gray-700 dark:hover:text-gray-300">Home</a></li>
+                <li><a href="{{ '/' | relative_url }}" class="hover:text-gray-700 dark:hover:text-gray-300 no-underline">{{ 'Home' }}</a></li>
                 {% if page.path contains '_appendixes' %}
                 {% else %}
-                <li>/ <a href="/Table-of-Contents/" class="hover:text-gray-700 dark:hover:text-gray-300">Table of Contents</a></li>
+                <li><span class="mx-1">/</span> <a href="/Table-of-Contents/" class="hover:text-gray-700 dark:hover:text-gray-300 no-underline">{{ 'Table of Contents' }}</a></li>
                 {% endif %}
                 {% assign pageParents = page.parents | split:';' %}
                 {% for parent in pageParents %}
                     {% assign pageParentsDetails = parent| split:':' %}
-                    <li>/ <a href="{{pageParentsDetails[1]}}" class="hover:text-gray-700 dark:hover:text-gray-300">{{pageParentsDetails[0]}}</a></li>
+                    <li><span class="mx-1">/</span> <a href="{{pageParentsDetails[1]}}" class="hover:text-gray-700 dark:hover:text-gray-300 no-underline">{{pageParentsDetails[0]}}</a></li>
                 {% endfor %}
             </ol>
         </nav>
@@ -39,19 +39,19 @@ layout: default
                 {{ content }}
             </div>
         {% else %}
-            <header>
+            <div class="body">
                 <h1>{{ page.title }}</h1>
-            </header>
-            <p>For information on {{ page.title }} see:</p>
-            {% assign currentMainParent = page.mainParent %}
+                <p>For information on {{ page.title }} see:</p>
+                {% assign currentMainParent = page.mainParent %}
 
-            {% if page.path contains '_appendixes' %}
-                {% assign loopPages = site.appendixes | where: "parent", "/" | sort: "order" %}
-            {% else %}
-                {% assign loopPages = site.pages | where: "parent", "/" | sort: "order" %}
-            {% endif %}
+                {% if page.path contains '_appendixes' %}
+                    {% assign loopPages = site.appendixes | where: "parent", "/" | sort: "order" %}
+                {% else %}
+                    {% assign loopPages = site.pages | where: "parent", "/" | sort: "order" %}
+                {% endif %}
 
-            {% include toc-mainPage-placeholder.html loopPages=loopPages currentMainParent=currentMainParent %}
+                {% include toc-mainPage-placeholder.html loopPages=loopPages currentMainParent=currentMainParent %}
+            </div>
         {% endif %}
 
     </article>
