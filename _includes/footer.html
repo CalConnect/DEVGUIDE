@@ -1,38 +1,55 @@
 <footer class="bg-gray-50 dark:bg-gray-950 border-t border-gray-200 dark:border-white/10 transition-colors">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
       <div>
-        <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">Table of Contents</h4>
+        <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">Standards &amp; Protocols</h4>
         <ul class="space-y-2">
-          {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
-          {% for page in pages %}
-          {% assign content_size = page.content | strip | size %}
-          <li>
-            {% if content_size == 0 %}
-              <a href="/Table-of-Contents#{{ page.title | replace:' ', '_' | downcase }}" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">{{ page.title }}</a>
-            {% else %}
-              <a href="{{ page.url }}" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">{{ page.title }}</a>
-            {% endif %}
+          <li><a href="/icalendar/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">iCalendar</a></li>
+          <li><a href="/caldav/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">CalDAV</a></li>
+          <li><a href="/carddav/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">CardDAV</a></li>
+          <li><a href="/vcard/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">vCard</a></li>
+          <li><a href="/jscalendar/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">jsCalendar</a></li>
+          <li><a href="/scheduling/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Scheduling</a>
+            <ul class="mt-1 ml-3 space-y-1">
+              <li><a href="/itip/" class="text-sm text-gray-500 dark:text-gray-500 hover:text-indigo-500 dark:hover:text-indigo-400">iTIP</a></li>
+              <li><a href="/imip/" class="text-sm text-gray-500 dark:text-gray-500 hover:text-indigo-500 dark:hover:text-indigo-400">iMIP</a></li>
+              <li><a href="/scheduling/free-busy/" class="text-sm text-gray-500 dark:text-gray-500 hover:text-indigo-500 dark:hover:text-indigo-400">Free/Busy</a></li>
+            </ul>
           </li>
-          {% endfor %}
         </ul>
       </div>
       <div>
-        <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">Appendixes</h4>
+        <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">Topics</h4>
         <ul class="space-y-2">
-          {% assign appendixes = site.appendixes | sort: "order" %}
-          {% for appendix in appendixes %}
-          <li><a href="{{ appendix.url }}" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">{{ appendix.title }}</a></li>
-          {% endfor %}
+          <li><a href="/time-zones/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Time Zones</a>
+            <ul class="mt-1 ml-3 space-y-1">
+              <li><a href="/time-zones/best-practices/" class="text-sm text-gray-500 dark:text-gray-500 hover:text-indigo-500 dark:hover:text-indigo-400">Best Practices</a></li>
+              <li><a href="/time-zones/sources/" class="text-sm text-gray-500 dark:text-gray-500 hover:text-indigo-500 dark:hover:text-indigo-400">Sources</a></li>
+              <li><a href="/time-zones/tzds/" class="text-sm text-gray-500 dark:text-gray-500 hover:text-indigo-500 dark:hover:text-indigo-400">TZDS</a></li>
+            </ul>
+          </li>
+          <li><a href="/tasks/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Tasks</a></li>
+          <li><a href="/publishing/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Publishing</a></li>
+          <li><a href="/calendar-spam/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Calendar Spam</a></li>
         </ul>
       </div>
       <div>
-        <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">CalConnect</h4>
+        <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">Resources</h4>
         <ul class="space-y-2">
+          <li><a href="/resources/glossary/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Glossary of Terms</a></li>
+          <li><a href="/resources/standards/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Standards Reference</a></li>
+          <li><a href="/resources/examples/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Examples</a></li>
+          <li><a href="/resources/links/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Links</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">About</h4>
+        <ul class="space-y-2">
+          <li><a href="/about/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">About This Guide</a></li>
+          <li><a href="/about/contribute/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">How to Contribute</a></li>
           <li><a href="https://www.calconnect.org/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">calconnect.org</a></li>
           <li><a href="https://www.calconnect.org/about/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">About CalConnect</a></li>
           <li><a href="https://standards.calconnect.org/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">Standards Registry</a></li>
-          <li><a href="/Appendix/How-to-Contribute/" class="text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400">How to Contribute</a></li>
         </ul>
       </div>
     </div>
@@ -40,7 +57,7 @@
       <p class="text-sm text-gray-500 dark:text-gray-400">
         Copyright &copy; {{ site.time | date: '%Y' }} <a href="https://www.calconnect.org/" class="hover:text-gray-700 dark:hover:text-gray-300">CalConnect</a><sup>SM</sup>.
         <a href="https://www.calconnect.org/contact" class="hover:text-gray-700 dark:hover:text-gray-300">Contact Us</a> |
-        <a href="https://www.calconnect.org/about/policies/copyright-and-licensing" class="hover:text-gray-700 dark:hover:text-gray-300">Copyright &amp; Licensing</a>
+        <a href="https://www.calconnect.org/about/policies/copyright-and-licensing" class="hover:text-gray-700 dark:hover-gray-300">Copyright &amp; Licensing</a>
       </p>
     </div>
   </div>
