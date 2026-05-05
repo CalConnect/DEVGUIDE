@@ -6,7 +6,7 @@ layout: default
       <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Table of Contents</h1>
     </header>
 
-    <div class="body">
+    <div class="doc-content">
       {{ content }}
     </div>
 
@@ -14,18 +14,21 @@ layout: default
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
   <ol class="list-decimal pl-6 space-y-2">
-  {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
-  {% include toc-entry.html pages=pages level=false %}
-  </ol>
-</div>
-<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
-  <h2>Appendixes</h2>
-  <ol class="list-decimal pl-6 space-y-2">
-    {% assign appendixes = site.appendixes | sort: "order" %}
-    {% for appendix in appendixes %}
-        {% if appendix.title != 'Appendixes' %}
-            <li><a href="{{ appendix.url }}">{{ appendix.title }}</a></li>
+  {% for section in site.data.navigation_sidebar.sections %}
+    <li>
+      <strong><a href="{{ section.items[0].url | default: section.match }}">{{ section.title }}</a></strong>
+      <ol class="list-disc pl-6 space-y-1 mt-1">
+      {% for item in section.items %}
+        {% if item.children %}
+          {% for child in item.children %}
+          <li><a href="{{ child.url }}">{{ child.label }}</a></li>
+          {% endfor %}
+        {% elsif item.url %}
+          <li><a href="{{ item.url }}">{{ item.label }}</a></li>
         {% endif %}
-    {% endfor %}
+      {% endfor %}
+      </ol>
+    </li>
+  {% endfor %}
   </ol>
 </div>

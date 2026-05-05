@@ -1,0 +1,219 @@
+sections:
+  - id: icalendar
+    match: "/icalendar"
+    title: iCalendar
+    items:
+      - type: collapsible
+        label: Overview
+        url: /icalendar/
+        url_filter: /icalendar/
+        children:
+          - type: link
+            label: A History of iCalendar
+            url: /icalendar/history/
+          - type: link
+            label: Handling Dates and Times
+            url: /icalendar/dates-and-times/
+          - type: link
+            label: Recurrences
+            url: /icalendar/recurrences/
+          - type: link
+            label: Best Practices
+            url: /icalendar/best-practices/
+          - type: link
+            label: Putting it all together
+            url: /icalendar/putting-it-all-together/
+          - type: link
+            label: Validation
+            url: /icalendar/validation/
+      - type: collapsible
+        label: iCalendar Data Model
+        url: /icalendar/data-model/
+        url_filter: /icalendar/data-model/
+        children:
+          - type: link
+            label: Simple Event
+            url: /icalendar/data-model/simple-event/
+          - type: link
+            label: UID
+            url: /icalendar/data-model/uid/
+          - type: link
+            label: Detailed Data Model
+            url: /icalendar/data-model/detailed/
+
+  - id: jscalendar
+    match: "/jscalendar"
+    title: jsCalendar
+    items:
+      - type: collapsible
+        label: Overview
+        url: /jscalendar/
+        url_filter: /jscalendar/
+        children:
+          - type: link
+            label: Implementations
+            url: /jscalendar/implementations/
+
+  - id: caldav
+    match: "/caldav"
+    title: CalDAV
+    items:
+      - type: collapsible
+        label: Overview
+        url: /caldav/
+        url_filter: /caldav/
+        children:
+          - type: link
+            label: Building a CalDAV client
+            url: /caldav/building-a-client/
+          - type: link
+            label: Client
+            url: /caldav/client/
+          - type: link
+            label: Server
+            url: /caldav/server/
+          - type: link
+            label: CalDAV libraries
+            url: /caldav/libraries/
+          - type: link
+            label: CalDAV services
+            url: /caldav/services/
+          - type: link
+            label: FAQs
+            url: /caldav/faq/
+
+  - id: carddav
+    match: "/carddav"
+    title: CardDAV
+    items:
+      - type: collapsible
+        label: Overview
+        url: /carddav/
+        url_filter: /carddav/
+        children:
+          - type: link
+            label: Building a CardDAV client
+            url: /carddav/building-a-client/
+          - type: link
+            label: Client
+            url: /carddav/client/
+          - type: link
+            label: Server
+            url: /carddav/server/
+          - type: link
+            label: CardDAV libraries
+            url: /carddav/libraries/
+          - type: link
+            label: CardDAV services
+            url: /carddav/services/
+
+  - id: scheduling
+    match_list:
+      - "/scheduling"
+      - "/itip"
+      - "/imip"
+    title: Scheduling
+    items:
+      - type: collapsible
+        label: Overview
+        url: /scheduling/
+        url_filter: /scheduling/
+        children:
+          - type: link
+            label: FreeBusy and Availability
+            url: /scheduling/free-busy/
+          - type: link
+            label: VAVAILABILITY
+            url: /scheduling/vavailability/
+          - type: link
+            label: VPOLL
+            url: /scheduling/vpoll/
+      - type: collapsible
+        label: iTIP
+        url: /itip/
+        url_filter: /itip/
+        children:
+          - type: link
+            label: iTIP introduction
+            url: /itip/introduction/
+          - type: link
+            label: iTIP - Complex Topics
+            url: /itip/complex-cases/
+      - type: collapsible
+        label: iMIP
+        url: /imip/
+        url_filter: /imip/
+        children:
+          - type: link
+            label: Introduction
+            url: /imip/introduction/
+          - type: link
+            label: Best Practices
+            url: /imip/best-practices/
+          - type: link
+            label: iMIP and Security
+            url: /imip/security/
+
+  - id: tasks
+    match: "/tasks"
+    title: Tasks
+    items:
+      - type: collapsible
+        label: Overview
+        url: /tasks/
+        url_filter: /tasks/
+        children:
+          - type: link
+            label: Component
+            url: /tasks/component/
+
+  - id: time-zones
+    match: "/time-zones"
+    title: Time Zones
+    items:
+      - type: collapsible
+        label: Overview
+        url: /time-zones/
+        url_filter: /time-zones/
+        children:
+          - type: link
+            label: Best Practices
+            url: /time-zones/best-practices/
+          - type: link
+            label: Sources
+            url: /time-zones/sources/
+          - type: link
+            label: TZDS
+            url: /time-zones/tzds/
+
+  - id: vcard
+    match: "/vcard"
+    title: vCard
+    items:
+      - type: collapsible
+        label: Overview
+        url: /vcard/
+        url_filter: /vcard/
+        children:
+          - type: link
+            label: vCard 4.0
+            url: /vcard/vcard-4/
+          - type: link
+            label: vCard 5.0
+            url: /vcard/vcard-5/
+
+  - id: publishing
+    match: "/publishing"
+    title: Publishing Events
+    items:
+      - type: link
+        label: Overview
+        url: /publishing/
+
+  - id: calendar-spam
+    match: "/calendar-spam"
+    title: Calendar Spam
+    items:
+      - type: link
+        label: Overview
+        url: /calendar-spam/

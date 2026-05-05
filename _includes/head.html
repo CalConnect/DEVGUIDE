@@ -5,7 +5,11 @@
   <meta name="description"
     content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
 
-  <link rel="icon" type="image/png" href="https://www.calconnect.org/sites/default/files/calconnect.ico" type="image/vnd.microsoft.icon" />
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon-96x96.png' | relative_url }}" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}" />
+  <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/vnd.microsoft.icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}" />
+  <link rel="manifest" href="{{ '/assets/site.webmanifest' | relative_url }}" />
 
   <!-- Google Fonts - Inter + JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

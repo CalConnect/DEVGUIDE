@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 CalConnect DEVGUIDE is a Jekyll-based static site providing a developer's guide for calendaring and scheduling standards (iCalendar, CalDAV, CardDAV, vCard, jsCalendar, iTIP, iMIP). The live site is at https://devguide.calconnect.org.
 
-Uses the shared `calconnect-theme` gem for layouts, includes, and design tokens. The theme provides Tailwind CSS v4 via Vite, dark mode support, and documentation sidebar styling.
+Uses the shared `jekyll-calconnect-theme` gem for layouts, includes, and design tokens. The theme provides Tailwind CSS v4 via Vite, dark mode support, and documentation sidebar styling.
 
 ## Build & Serve Commands
 
@@ -19,7 +19,7 @@ Ruby 3.2, Node.js 24. Jekyll 4.3 with jekyll-vite plugin.
 
 ## Deployment
 
-- **GitHub Actions** builds and deploys to GitHub Pages on push to `master`
+- **GitHub Actions** builds and deploys to GitHub Pages on push to `main`
 - **Firebase** hosting config exists in `firebase.json` (redirect rules)
 - The `_site/` directory is the build output (gitignored)
 
@@ -27,7 +27,7 @@ Ruby 3.2, Node.js 24. Jekyll 4.3 with jekyll-vite plugin.
 
 ### Theme
 
-Uses `calconnect-theme` gem (at `../calconnect-theme/`). The theme provides:
+Uses `jekyll-calconnect-theme` gem (at `../jekyll-calconnect-theme/`). The theme provides:
 - **Layouts**: `base` (HTML shell), `default` (documentation sidebar), `page` (simple wrapper)
 - **Includes**: `head.html` (fonts, critical CSS, Vite), `header.html`/`footer.html` (stubs), `breadcrumbs.html`, `feedback.html`, `google-analytics.html`
 - **SCSS**: `_sass/calconnect/` partials for documentation layout, sidebar nav, typography, dark mode
@@ -105,7 +105,7 @@ Top-level sections (each is a `_pages/*.md` index + subdirectory):
 
 ## CI Workflows
 
-- **`build_deploy`** — Builds with Jekyll + Vite and deploys to GitHub Pages on push to `master`
+- **`build_deploy`** — Builds with Jekyll + Vite and deploys to GitHub Pages on push to `main`
 - **`links`** — Runs lychee link checker on built `_site/` HTML
 
 ## Conventions
