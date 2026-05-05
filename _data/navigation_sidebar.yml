@@ -18,12 +18,6 @@ sections:
             label: Recurrences
             url: /icalendar/recurrences/
           - type: link
-            label: Best Practices
-            url: /icalendar/best-practices/
-          - type: link
-            label: Putting it all together
-            url: /icalendar/putting-it-all-together/
-          - type: link
             label: Validation
             url: /icalendar/validation/
       - type: collapsible
@@ -37,9 +31,6 @@ sections:
           - type: link
             label: UID
             url: /icalendar/data-model/uid/
-          - type: link
-            label: Detailed Data Model
-            url: /icalendar/data-model/detailed/
 
   - id: jscalendar
     match: "/jscalendar"
@@ -78,9 +69,6 @@ sections:
           - type: link
             label: CalDAV services
             url: /caldav/services/
-          - type: link
-            label: FAQs
-            url: /caldav/faq/
 
   - id: carddav
     match: "/carddav"
@@ -122,12 +110,6 @@ sections:
           - type: link
             label: FreeBusy and Availability
             url: /scheduling/free-busy/
-          - type: link
-            label: VAVAILABILITY
-            url: /scheduling/vavailability/
-          - type: link
-            label: VPOLL
-            url: /scheduling/vpoll/
       - type: collapsible
         label: iTIP
         url: /itip/
