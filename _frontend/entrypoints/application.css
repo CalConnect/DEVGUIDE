@@ -125,12 +125,6 @@
   margin: 0;
 }
 
-@media (max-width: 1023px) {
-  .docs-nav {
-    display: none;
-  }
-}
-
 /* ===== Sidebar navigation ===== */
 .docs-nav .nav-section {
   margin-bottom: 1.5rem;
@@ -286,7 +280,7 @@
 
 /* ===== Mobile sidebar toggle ===== */
 .mobile-sidebar-toggle {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0.75rem;
@@ -315,9 +309,12 @@
   background: #3730a3;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1023px) {
+  .documentation {
+    flex-direction: column;
+  }
   .mobile-sidebar-toggle {
-    display: none;
+    display: flex;
   }
 }
 
