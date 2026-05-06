@@ -107,6 +107,10 @@
   max-width: 75ch;
 }
 
+.documentation.no-sidebar > article {
+  max-width: none;
+}
+
 .documentation > article > header {
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;

@@ -1,22 +1,27 @@
 ---
 layout: default
 ---
-<section class="documentation">
+{% comment %}Determine if a sidebar section matches the current page{% endcomment %}
+{% assign current_section = nil %}
+{% for section in site.data.navigation_sidebar.sections %}
+  {% assign _matched = false %}
+  {% if section.match_list %}
+    {% for m in section.match_list %}
+      {% if page.url contains m %}{% assign _matched = true %}{% break %}{% endif %}
+    {% endfor %}
+  {% elsif section.match %}
+    {% if page.url contains section.match %}{% assign _matched = true %}{% endif %}
+  {% endif %}
+  {% if _matched %}{% assign current_section = section %}{% break %}{% endif %}
+{% endfor %}
+{% assign _has_sidebar = true %}
+{% unless current_section %}{% assign _has_sidebar = false %}{% endunless %}
+
+<section class="documentation{% unless _has_sidebar %} no-sidebar{% endunless %}">
+    {% if _has_sidebar %}
     <div class="docs-nav-backdrop"></div>
     <button id="mobile-sidebar-toggle" class="mobile-sidebar-toggle" aria-label="Toggle section navigation">
       <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-      {% assign current_section = nil %}
-      {% for section in site.data.navigation_sidebar.sections %}
-        {% assign _matched = false %}
-        {% if section.match_list %}
-          {% for m in section.match_list %}
-            {% if page.url contains m %}{% assign _matched = true %}{% break %}{% endif %}
-          {% endfor %}
-        {% elsif section.match %}
-          {% if page.url contains section.match %}{% assign _matched = true %}{% endif %}
-        {% endif %}
-        {% if _matched %}{% assign current_section = section %}{% break %}{% endif %}
-      {% endfor %}
       {{ current_section.title }}
     </button>
     <nav class="docs-nav" aria-label="Section navigation">
@@ -24,6 +29,7 @@ layout: default
             {% include sidebar-nav.html %}
         </div>
     </nav>
+    {% endif %}
     <article>
         <nav class="hidden lg:flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-4" aria-label="Breadcrumb" style="text-decoration:none">
             <ol class="flex items-center flex-wrap gap-2 list-none p-0 m-0">
