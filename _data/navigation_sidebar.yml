@@ -199,3 +199,20 @@ sections:
       - type: link
         label: Overview
         url: /calendar-spam/
+
+  - id: resources
+    match: "/resources"
+    title: Resources
+    items:
+      - type: link
+        label: Glossary
+        url: /resources/glossary/
+      - type: link
+        label: Standards
+        url: /resources/standards/
+      - type: link
+        label: Examples
+        url: /resources/examples/
+      - type: link
+        label: Links
+        url: /resources/links/
